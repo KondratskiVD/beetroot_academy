@@ -36,7 +36,7 @@ body {
  display: inline-block;
  position: relative;
  text-align: center;
- margin-left: 340px;
+ margin-left: 354px;
  margin-top: 53px;
 }
 
@@ -44,7 +44,7 @@ body {
   display: inline-block;
   position: relative;
   text-align: center;
-  margin-left: 85px;
+  margin-left: 107px;
   margin-top: 53px;
  }
 
@@ -83,19 +83,7 @@ padding-right: 32px;
   padding-right: 20px;
 }
 
-.p-one {
-font-family: 'Times New Roman', Times, serif;
-font-size: 15px;
-color: #9D9D9D;
-}
-
-.p-two {
-font-family: 'Proxima Nova Light';
-font-size: 15px;
-color: #9D9D9D;
-}
-
-.p-three {
+p {
 font-family: 'Proxima Nova Light';
 font-size: 15px;
 color: #9D9D9D;
@@ -103,7 +91,7 @@ color: #9D9D9D;
 
 .shape-one {
   display: flex;
-  margin-left: 113px;
+  margin-left: 99px;
   margin-top: -50px;
 }
 
@@ -122,3 +110,4 @@ color: #9D9D9D;
 .rollover:hover {
 background: url(images/Shape\ 189.png);
 }
+
