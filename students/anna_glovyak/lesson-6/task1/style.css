@@ -14,7 +14,7 @@ body {
 .services li {
     float: left;
     width: 220px;
-    padding: 55px 50px;
+    padding: 0 50px;
 }
 p.description {
     line-height: 20px;
@@ -44,6 +44,7 @@ i.fas {
     margin: auto;
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 55px;
 }
 li div.round:hover {
     width: 60px;
@@ -53,7 +54,8 @@ li div.round:hover {
     background-color: white;
     margin: auto;
     text-align: center;
-    margin-bottom: 21px;
+    margin-bottom: 23px;
+    margin-top: 53px;
 }
 li div.round:hover i.fas {
     color: #1275b9;
