@@ -1,0 +1,33 @@
+.top {
+  background: #4a4f55;
+  height: 120px;
+  color: #c06a63;
+  text-align: center;
+  font-family: arial;
+}
+body {
+  background: #3b3e45;
+  width: 1200px;
+}
+main,
+footer {
+  width: 850px;
+  margin-left: 195px;
+  margin-right: 195px;
+  padding-top: 40px;
+  font-family: Arial;
+}
+footer {
+  text-align: center;
+  color: #c06a63;
+  background: #4a4f55;
+}
+p {
+  font-size: x-large;
+  line-height: 10px;
+}
+ul li {
+  list-style: none;
+  background: url(http://flukeout.github.io/favicon.png) no-repeat left 50%;
+  padding-left: 65px;
+}

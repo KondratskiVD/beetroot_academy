@@ -1,0 +1,30 @@
+.fond {
+  background: linear-gradient(to right, #ffe5e6 75%, #ffffff 0);
+  background-size: 100px;
+}
+.text {
+  float: left;
+  width: 245px;
+  margin-right: 120px;
+  margin-left: 120px;
+  padding: 5px;
+  margin-top: 135px;
+}
+p {
+  font-family: arial;
+  text-align: center;
+}
+.cont {
+  text-align: justify;
+  text-indent: 1px;
+  color: gray;
+}
+.image {
+  border: 1px solid blue;
+  border-radius: 50%;
+  padding: 1.5px;
+  width: 70px;
+  margin-left: 80px;
+}
+.image:hover {
+  background:#2a69a6;
