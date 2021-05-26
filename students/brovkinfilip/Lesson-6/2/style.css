@@ -1,0 +1,87 @@
+* {
+    transition: all .1s ease-in;
+}
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.wrapper {
+    background-color: #3B3F45;
+}
+.header {
+    background-color: #4A4F56;
+    text-align: center;
+    padding: 15px 0;
+    color: #E87B7B;
+}
+h1 + p {
+    font-size: 22px;
+}
+main {
+    margin: 0;
+    padding-bottom: 100px;
+}
+main>ul, p {
+    margin: 0;
+}
+.bonappetit  {
+    margin: 0 auto;
+    background-color: #4A4F56;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #E87B7B;
+    width: 800px;
+    font-size: 22px;
+}
+.list {
+    width: 800px;
+    list-style: none;
+    margin: 40px auto;
+    padding: 0;
+
+}
+.row {
+    background-color: #88839e;
+    padding: 25px;
+    color: #fff;
+    position: relative;
+}
+label>span {
+    font-size: 10px;
+    color: #c8b9c1;
+}
+.row:hover {
+    background-color: #625e77;
+}
+.row::before {
+    position: absolute;
+    content:"";
+    background-color: #fff;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.row::after {
+    position: absolute;
+    content:"";
+    background-color: #fff;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    opacity: 0;
+    bottom: 0;
+}
+.row:hover::before, .row:hover::after  {
+    opacity: 1;
+} 
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+  }
+.row:nth-child(even) {
+    background-color: #7a7593;
+}
+.row:active {
+    background-color: greenyellow;
+}
