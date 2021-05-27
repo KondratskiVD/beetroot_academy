@@ -109,4 +109,5 @@ p {
 
 .rollover:hover {
   background: url(images/Shape\ 189.png);
+  opacity: 0.2;
 }
