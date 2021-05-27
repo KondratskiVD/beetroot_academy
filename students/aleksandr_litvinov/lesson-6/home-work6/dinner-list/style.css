@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Trebuchet', sans-serif;
+    src: url("fonts/Trebuchet.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial', sans-serif;
+    src: url("fonts/ArialBlack.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-container{
+    width: 1195px;
+    margin: 25px auto;
+    background-color: #3b3f45;
+}
+
+.header{
+    font-family: 'Arial', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-color: #4a4f56;
+    color: #eb7e7f;
+    text-align: center;
+}
+
+header p{
+    font-family: 'Arial', sans-serif;
+}
+
+.header__subtitle{
+    font-size: 18px;
+}
+
+.list__item{
+    margin-left: 195px;
+    margin-top: 40px;
+    width: 805px;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+label{
+    cursor: pointer;
+}
+
+.button{
+    font-size: 18px;
+    margin-left: 195px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 805px;
+    height: 75px;
+    text-align: center;
+    color: #eb7e7f;
+    background-color: #4a4f56;
+    border: none;
+}
+
+.list__input{
+    height: 64px;
+    background-color: #88839e;
+    color: #fff;
+}
+
+
+.list__input:nth-child(2n){
+    background-color: #7a7593;
+}
+
+input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+}
+
+.list__input:hover{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: #544d76;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:40px;
+    height:40px;
+    margin-top: 19px;
+    margin-left: 10px;
+    vertical-align:middle;
+    background:url(images/favicon.png) left top no-repeat;
+    cursor:pointer;
+}	
