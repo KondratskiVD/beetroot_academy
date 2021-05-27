@@ -1,0 +1,45 @@
+.wrapper {
+    padding-top: 57px;
+    display: flex;
+    height: 289px;
+    justify-content: center;
+    gap: 100px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a69a6;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: #1275b9 solid 2px;
+}
+.icon_full {
+    display: none;
+}
+.container {
+    text-align: center;
+}
+.icon:hover {
+    background-color: #fff;
+}
+.icon:hover>.icon_full {
+    display: block;
+}
+.icon:hover>.icon_blank {
+    display: none;
+}
+.container_title {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+.container_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: #9d9d9d;
+}
