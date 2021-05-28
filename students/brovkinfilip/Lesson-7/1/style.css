@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 143px 0 140px 0;
+}
+
+.small_header {
+    text-align: center;
+    color: #898f99;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.main_header {
+    text-align: center;
+    color: #0ec8cb;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 35px;
+    letter-spacing: 4.8px;
+}
+
+.slogan {
+    text-align: center;
+    margin: 0 auto;
+    color: #999999;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 54%;
+    text-transform: uppercase;
+    margin-top: 44px;
+    line-height: 30px;
+}
+
+.cards_block {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 108px;
+}
+
+.card {
+    width: 25%;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+    margin: 0 auto;
+    text-align: center;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 22px;
+}
+
+.card_header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-top: 60px;
+}
+
+.unique_header {
+    margin-top: 49px;
+}
+
+.card_text {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    line-height: 22px;
+}
+
+.card:hover {
+    background-color: #0ec8cb;
+    color: #fff;
+}
+
+.card:hover .card_text {
+    color: #fff;
+}
+
+.card:hover svg {
+    fill: #fff;
+}
