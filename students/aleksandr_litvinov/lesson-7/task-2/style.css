@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2b81ac;
+}
+@font-face {
+    font-family: 'Lucida grande', sans-serif;
+    src: url(fonts/Lucida-grande.ttf);
+}
+@font-face {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    src: url(fonts/Lucida-sans-unicode.ttf);
+}
+
+.main-container{
+    background-color: #3399cc;
+    margin: 25px;
+}
+
+.container{
+    width: 988px;
+    margin-left: 216px;
+}
+
+.header{
+    padding-top: 40px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+ul.cities{
+    border: 3px solid #fff;
+    font-size: 0;
+    margin-top: 35px;
+}
+
+ul.cities::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.cities li{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    width: 25%;
+    height: 148px;
+    font-family: 'Lucida grande', sans-serif;
+    color: #fff;
+    border: 3px solid #fff;
+    padding-top: 38px;
+}
+
+.cities__temperature{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cities li:first-child{
+    width: 50%;
+}
+
+.cities li:last-child{
+    width: 100%;
+}
+
+.cities li:nth-child(9){
+    width: 50%;
+}
+
+.cities__lisbon{
+    background-color: #3399cc;
+   
+}
+.cities__paris{
+    background-color: #33cccc;
+}
+.cities__belgrade{
+    background-color: #996699;
+}
+
+.cities__moscow{
+    background-color: #c24747;
+}
+
+.cities__tel-aviv{
+    background-color: #e2674a;
+}
+
+.cities__cair{
+    background-color: #ffcc66;
+}
+
+.cities__new-york{
+    background-color: #99cc99;
+}
+
+.cities__new-delhi{
+    background-color: #669999;
+}
+
+.cities__san-francisco{
+    background-color: #cc6699;
+}
+
+.cities__tokyo{
+    background-color: #339966;
+}
+
+.cities__sydney{
+    background-color: #666699;
+}
+
+i{
+    margin-top: 26px;
+    font-size: 30px;
+}
+
+.footer{
+    font-family: 'Lucida grande', sans-serif;
+    color: #fff;
+    margin-top: 34px;
+    padding-bottom: 141px;
+}
+
+.cities:hover li{
+    opacity: 0.5;
+}
+
+.cities li:hover{
+    opacity: 1;
+    outline: none;
+}
