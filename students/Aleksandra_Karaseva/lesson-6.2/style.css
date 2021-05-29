@@ -1,0 +1,93 @@
+* {
+  transition: all 0.1s ease-in;
+}
+.top {
+  background: #4a4f55;
+  height: 120px;
+  color: #c06a63;
+  text-align: center;
+  font-family: arial;
+}
+.up.top {
+  margin: 0px;
+  padding: 20px;
+}
+.down {
+  margin-top: 40px;
+  padding-bottom: 1.5%;
+}
+
+body {
+  background: #3b3e45;
+  width: 1200px;
+}
+main,
+footer {
+  width: 850px;
+  margin-left: 195px;
+  margin-right: 195px;
+  padding-top: 40px;
+  font-family: Arial;
+}
+footer {
+  text-align: center;
+  color: #c06a63;
+  background: #4a4f55;
+}
+p {
+  font-size: x-large;
+  line-height: 10px;
+}
+.list {
+  list-style: none;
+  border-left: 10px solid 3b3e45;
+  padding: 0px;
+  /*list-style-image: url("http://flukeout.github.io/favicon.png");
+  list-style-position: outside;*/
+}
+.list li {
+  padding: 20px;
+}
+.list li:nth-child(odd) {
+  background: #88849f;
+}
+.list li:nth-child(even) {
+  background: #7a7593;
+}
+li.hov:hover {
+  background-color: #5e6172;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+li.hov:active {
+  background-color: red;
+}
+.ab:after {
+  content: "  (for the next lessons about CSS)";
+  color: rgb(231, 226, 226);
+  font-size: smaller;
+}
+.bc:after {
+  content: "  (for more CSS manipulations)";
+  color: rgb(231, 226, 226);
+  font-size: smaller;
+}
+.de:after {
+  content: "  (hm...they always disappear)";
+  color: rgb(231, 226, 226);
+  font-size: smaller;
+}
+
+.cd:after {
+  content: "  (because they are disappear)";
+  color: rgb(231, 226, 226);
+  font-size: smaller;
+}
+.fg:after {
+  content: "  (for my friends)";
+  color: rgb(231, 226, 226);
+  font-size: smaller;
+}
+input:checked + label {
+  text-decoration: line-through;
+}

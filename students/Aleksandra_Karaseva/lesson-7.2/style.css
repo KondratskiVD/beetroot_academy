@@ -1,0 +1,112 @@
+* {
+  transition: all 0.1s ease-in;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #3398cc;
+  margin: 0;
+  padding: 0;
+}
+header h1,
+footer {
+  color: white;
+  padding-left: 245px;
+}
+.list {
+  font-size: 0;
+  width: 100%;
+  padding-left: 245px;
+  padding-right: 245px;
+  box-sizing: border-box;
+}
+.list li {
+  list-style: none;
+  font-size: 24px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  border: 3px solid white;
+  height: 25%;
+}
+.list li p {
+  opacity: 0.7;
+}
+.Lisbon {
+  background-color: #3398cc;
+  width: 47%;
+}
+.Lisbon:hover {
+  opacity: 0.7;
+}
+.Paris {
+  background-color: #33cbcc;
+  width: 22%;
+}
+.Paris:hover {
+  opacity: 0.7;
+}
+.Belgrade {
+  background-color: #986699;
+  width: 22%;
+}
+.Belgrade:hover {
+  opacity: 0.7;
+}
+.Moscow {
+  background-color: #c34747;
+  width: 23.5%;
+}
+.Moscow:hover {
+  opacity: 0.7;
+}
+.Tel {
+  background-color: #df674e;
+  width: 23.5%;
+}
+.Tel:hover {
+  opacity: 0.7;
+}
+.Cair {
+  background-color: #ffcc66;
+  width: 22%;
+}
+.Cair:hover {
+  opacity: 0.7;
+}
+.New {
+  background-color: #9acc99;
+  width: 22%;
+}
+.New:hover {
+  opacity: 0.7;
+}
+.Del {
+  background-color: #67999a;
+  width: 23.5%;
+}
+.Del:hover {
+  opacity: 0.7;
+}
+.San {
+  background-color: #cc6698;
+  width: 45.5%;
+}
+.San:hover {
+  opacity: 0.7;
+}
+.Tokyo {
+  background-color: #339967;
+  width: 22%;
+}
+.Tokyo:hover {
+  opacity: 0.7;
+}
+.Sydney {
+  background-color: #66669a;
+  width: 91%;
+}
+.Sydney:hover {
+  opacity: 0.7;
+}
