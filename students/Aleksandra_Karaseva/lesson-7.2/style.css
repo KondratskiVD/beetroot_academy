@@ -1,5 +1,6 @@
 * {
   transition: all 0.1s ease-in;
+  box-sizing: border-box;
 }
 body {
   height: 100%;
@@ -26,7 +27,7 @@ footer {
   text-align: center;
   display: inline-block;
   color: white;
-  border: 3px solid;
+  border: 3px solid white;
   height: 25%;
 }
 .list li p {
@@ -55,14 +56,14 @@ footer {
 }
 .Moscow {
   background-color: #c34747;
-  width: 23.18%;
+  width: 23.5%;
 }
 .Moscow:hover {
   opacity: 0.7;
 }
 .Tel {
   background-color: #df674e;
-  width: 23.18%;
+  width: 23.5%;
 }
 .Tel:hover {
   opacity: 0.7;
@@ -83,14 +84,14 @@ footer {
 }
 .Del {
   background-color: #67999a;
-  width: 23.18%;
+  width: 23.5%;
 }
 .Del:hover {
   opacity: 0.7;
 }
 .San {
   background-color: #cc6698;
-  width: 46%;
+  width: 45.5%;
 }
 .San:hover {
   opacity: 0.7;
@@ -104,7 +105,7 @@ footer {
 }
 .Sydney {
   background-color: #66669a;
-  width: 92.6%;
+  width: 91%;
 }
 .Sydney:hover {
   opacity: 0.7;
