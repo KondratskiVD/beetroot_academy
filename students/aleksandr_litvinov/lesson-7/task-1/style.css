@@ -50,7 +50,7 @@ body{
 .services__item{
     text-align: center;
     width: 220px;
-    margin-right: 20px;
+    background-color: #f7f7f7;
 }
 
 .services__content{
