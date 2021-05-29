@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 1200px;
+    padding: 50px;
+
+}
+li {
+    background: chartreuse;
+    margin: 5px;
+    width: calc(33.3% - 10px);
+    float: left;
+    display: block;
+    list-style: none;
+    box-sizing: border-box;
+}
+ul.box {
+    width: 700px;
+    margin: 0 auto ;
+    border: 1px solid black;
+    padding: 5px;
+}
+li:last-child {
+    width: calc(100% - 10px);
+}
+ul.box::after {
+    content: '';
+    display: block;
+    clear: both;
+}

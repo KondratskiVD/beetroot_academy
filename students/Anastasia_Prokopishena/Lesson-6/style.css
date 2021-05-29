@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding:0;
+}
+body {
+    padding: 50px;
+}    
+
+tr:nth-last-of-type(even)>td:nth-last-of-type(odd)  {
+    background: purple ;
+}
+tr:nth-last-of-type(odd)>td:nth-last-of-type(even)  {
+    background: purple ;
+}
+input[type="checkbox"]:checked+label , input[type="checkbox"]:checked {
+    display: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+    width: 100px;
+}
+
+button+ul {
+    display: none;
+}
+button:hover+ul,
+ ul:hover {
+    display: block;
+}
+li:hover {
+    background: purple;
+}
+input:focus {
+    background: blueviolet;
+}
