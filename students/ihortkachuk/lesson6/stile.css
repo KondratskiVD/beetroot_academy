@@ -27,7 +27,7 @@ h1 {
 form label:nth-child(2n) {
     background-color: #88839e;
 }
-form label:nth-child(2n+1) {
+ form label:nth-child(2n+1) {
     background-color: #7a7593;
 }
 p span {
@@ -80,3 +80,4 @@ form.buying-list label:active {
     text-align: center;
     color: #eb7e7f;
 }
+
