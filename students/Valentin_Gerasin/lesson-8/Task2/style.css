@@ -69,6 +69,8 @@ p.social_links {
 
 div.member_image:hover {
     background-color: #2ca8c6;
+    width: 269px;
+    height: 270px;
 }
 
 div.member_image:hover>img {
