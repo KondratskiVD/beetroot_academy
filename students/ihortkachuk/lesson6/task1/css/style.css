@@ -1,0 +1,46 @@
+.container>article {
+    float: left;
+    width: 33%;
+}
+
+.container>article>p {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+p.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article>div {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+
+}
+
+article>div>div {
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #1275b9;
+    background-color: #1275b9;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+article>div>div:hover>svg>path {
+    fill: #1275b9;
+}
+
+article>div>div:hover {
+    background: #fff;
+}

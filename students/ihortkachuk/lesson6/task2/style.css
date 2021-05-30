@@ -24,10 +24,10 @@ h1 {
     width: 800px;
     margin: 0 auto;
 }
-form label:nth-child(2n) {
+div label:nth-child(2n) {
     background-color: #88839e;
 }
- form label:nth-child(2n+1) {
+ div label:nth-child(2n+1) {
     background-color: #7a7593;
 }
 p span {
@@ -48,12 +48,12 @@ p span::after {
     padding-left: 5px;
     padding-right: 10px;
 }
-form.buying-list label:hover {
+div.buying-list label:hover {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     background-color: #625e77;
 }
-form.buying-list label {
+div.buying-list label {
     display: block;
     padding: 20px 20px;
     padding-right: 50px;
@@ -68,7 +68,7 @@ input+p {
 input[type="checkbox"]:checked+p {
     text-decoration: line-through;
 }
-form.buying-list label:active {
+div.buying-list label:active {
     background-color: tomato;
 }
 .bottom-div {
