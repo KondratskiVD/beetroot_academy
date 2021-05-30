@@ -1,0 +1,143 @@
+html {
+   width: 100%;
+}
+body {
+    background: url(images/Composite\ Path.svg);
+    background-position: center;
+    background-repeat: repeat-y;
+}
+section {
+    text-align: center;
+}
+.who_we_are {
+    position: relative;
+    top: 109px;
+}
+hr {
+    position: relative;
+    top: 120px;
+    opacity: .5;
+}
+p.text {
+    position: relative;
+    top: 172px;
+}
+div.image {
+    position: relative;
+    display: -webkit-box;
+    width: 83%;
+    margin: 0 auto;
+    top: 247px;
+}
+article {
+    margin: 15px;
+}
+h1, p.who_we_are {
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+}
+p.text  {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+p.name1 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+p.position1 {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+p.name2 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+p.position2 {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+p.name3 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+p.position3 {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+p.name4 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+p.position4 {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+div.box:hover {
+    background: #2ca8c6;
+}
+div:hover>a {
+    opacity: 0;
+    transition: all .3s ease;
+}
+div.box {
+    position: relative;
+}
+ul.links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    width: 53%;
+}
+ul.links li {
+    float: left;
+    width: 43px;
+    height: 43px;
+    background-color: #6bbccf;
+    margin-right: 4px;
+    position: relative;
+}
+ul.links::after {
+    content: '';
+    clear: both;
+    display: block;
+} 
+ul.links li img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.box:hover>ul.links {
+    opacity: 1;
+    transition: all .3s ease;
+}
