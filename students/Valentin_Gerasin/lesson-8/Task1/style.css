@@ -1,0 +1,147 @@
+body {
+    width: 1170px;
+    background-color: #997EBA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 102px;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+}
+
+.p-header {
+    display: block;
+    width: 563px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    margin-top: 49px;
+    margin-bottom: 51px;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+h1, p {
+    color: #FFFFFF;
+}
+
+.img-res {
+    width: 370px;
+    height: 310px;
+}
+
+main {
+    width: 1170px;
+    height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: inline-block;
+}
+
+.section-first {
+    width: 370px;
+    height: 310px;
+    margin-right: 13px;
+    background-image: url(images/img1.png);
+}
+
+.section-second {
+    width: 370px;
+    height: 310px;
+    margin-left: 13px;
+    margin-right: 13px;
+    background-image: url(images/img2.png);
+}
+
+.section-third {
+    width: 370px;
+    height: 310px;
+    margin-left: 13px;
+    background-image: url(images/img2.png);
+}
+
+.p-date {
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 113px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-image: url(images/bg.png);
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.p-info {
+    width: 306px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 26px;
+}
+
+.p-author {
+    font-size: 13px;
+    text-align: left;
+    margin-left: 21px;
+    margin-bottom: 26px;
+}
+
+span {
+    font-size: 26px;
+}
+
+.back {
+    background: linear-gradient(0deg, rgba(0,0,0,1),  rgba(255,255,255,0) );
+    height: 107px;
+}
+
+.div-bottom {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-button {
+    background-color: #F72B3B;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 55px;
+    margin-top: 50px;
+}
+
+.section-first:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5);
+}
+
+.section-second:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5);
+}
+
+.section-third:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5);
+}
+
+.div-button:hover {
+    box-shadow: 0px 8px 18px 0 rgba(0,0,0,0.5);
+}
+
