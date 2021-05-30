@@ -17,6 +17,7 @@ section {
     width: 1280px;
     height: 420px;
     text-align: center;
+    font-size: 0;
 }
 
 section div {
@@ -70,6 +71,7 @@ h1 {
 
 .main-divs {
     padding-top: 56px;
+    width: 230px;
 }
 
 .main-divs-second {
@@ -79,7 +81,7 @@ h1 {
 h2 {
     padding-top: 56px;
     color: #1B1B1B;
-    font-size: 21px;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -88,15 +90,26 @@ p {
     font-family: 'PT Sans', sans-serif;
     color: #979797;
     line-height: 24px;
+    font-size: 15px;
+}
+
+.h2-second {
+    padding-top: 43px;
 }
 
 .h2-third {
-    padding-top: 65px;
+    padding-top: 55px;
 }
 
 .h2-fourth {
     padding-top: 69px;
 }
+
+.p-second {
+    padding-top: 21px; 
+}
+
+
 
 
 
