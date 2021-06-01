@@ -1,0 +1,57 @@
+.body {
+    height: 420px;
+    width: 1172px;
+    align-content: center;
+    background: repeating-linear-gradient(
+      to right,
+      #2A252B,
+      #2A252B 70px,
+      #121116 30px,
+      #121116 100px
+    );
+}
+hr {
+    width: 350px;
+}
+.header {
+    text-align: center;
+    margin-top: 100px;
+}
+.header-img {
+    height: 39px ;
+    width: 113px;
+    margin-bottom: ;
+    }
+.header-text {
+    text-align: center;
+    color: white;
+}
+.images {
+    size: px 17px;
+    float: inline-end;
+    margin-left: 515px ;
+    margin-top: 100px;
+}
+.facebook {
+    margin-right: 30px;
+}
+.twitter {
+    margin-right: 30px;
+}
+.google {
+    margin-right: 30px;
+}
+.dribble {
+    margin-right: 30px;
+}
+.footer {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px 0;
+    margin-top: 200px;
+    
+}
+.color_text {
+    color: cornflowerblue;
+}
