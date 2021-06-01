@@ -1,0 +1,124 @@
+.blog {
+    font-family: 'Raleway', sans-serif;
+    background-color: #b07cf7;
+    color: #ffffff;
+    padding: 100px 0 140px 0;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.section_header {
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.section_description {
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    max-width: 48.5% ;
+}
+
+.posts_block {
+    margin-top: 47px;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 30px;
+}
+
+.post {
+    position: relative;
+    width: 31.62%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.post_image {
+    width: 100%;
+}
+
+.post_date {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, .5);
+    line-height: 0.8;
+    transition: all .2s ease-in;
+}
+
+.post_month {
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.post_info {
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(255, 255, 255, 0.0) 100%);
+    transition: all .3s ease-in;
+}
+
+.post_topic, .post_author {
+    margin-left: 20px;
+}
+
+.post_author {
+    margin-bottom: 23px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.more_btn {
+    margin-top: 50px;
+    background-color: #f72b3b;
+    display: block;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px 43px;
+    border: 1px solid #f72b3b;
+    cursor: pointer;
+}
+
+.more_btn:hover {
+    background-color: #fff;
+    color: #f72b3b;
+}
+
+.more_btn:active {
+    background-color: #fafafa;
+    color: #f72b3b;
+}
+
+.post:hover>.post_info {
+    top: 0;
+}
+
+.post:active>.post_info {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.post:hover>.post_date {
+    opacity: 0;
+}
