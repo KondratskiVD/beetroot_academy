@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <header class="header">
+                <div class="header__title">
+                    <h1>Blog</h1>
+                </div>
+                <div class="header__subtitle">
+                    <p>
+                        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                    </p>
+                </div>
+            </header>
+            <div class="recipes">
+                <div class="recipe recipe-first">
+                    <img class="background" src="images/first.png" alt="background">
+                    <div class="wraper">
+                        <div class="recipes__date">20 <span class="month">NOV</span></div>
+                        <div class="recipes__name">Green Smoothies: Too Much of a Good Thing?</div>
+                        <div class="recipes__author">By Auskteez - 2 hours ago</div>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img class="background" src="images/second.png" alt="background">
+                    <div class="wraper">
+                        <div class="recipes__date">14 <span class="month">NOV</span></div>
+                        <div class="recipes__name">Growing Food and a “Thirst” for Innovation</div>
+                        <div class="recipes__author">By Auskteez - 3 hours ago</div>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img class="background" src="images/third.png" alt="background">
+                    <div class="wraper">
+                        <div class="recipes__date">10 <span class="month">NOV</span> </div>
+                        <div class="recipes__name">Pesticides & Food: What You Need to Know</div>
+                        <div class="recipes__author">By Auskteez - 6 hours ago</div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn"><a class="btn-link" href="#popup">view more</a></button>
+        </div>
+    </section>
+    <div id="popup" class="popup">
+        <div class="popup__content">
+            <form class="popup__form">
+                <h3 class="popup__title">If you want to watch more, please <span class="popup__text">Sign Up</span>
+                </h3>
+                <div class="popup__data">
+                    <input type="email" id="email" placeholder="Your e-mail">
+                    <input type="password" id="password" placeholder="Create your password">
+                    <button class="popup__confirm"><a class="popup__link" href="#">Confirm</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
