@@ -50,12 +50,9 @@ li {
 }
 
 li:hover {
-  background: #5F6174;
-  box-shadow: inset 0px 4px 0px 0px #FFFFFF;
-}
-
-li:checked {
-  color: #9A99AD;
+  background: #625E77;
+  border-top: solid 4px white;
+  border-bottom: solid 4px white;
 }
 
 h1, p {
@@ -91,3 +88,23 @@ p.foottext {
   color: #FFFFFF;
   font-size: 28px;
 }
+
+span:after {
+  content: ')';
+}
+
+span:before {
+  content: '(';
+}
+
+:checked+.list .span-grey {
+  text-decoration: line-through;
+  color:  #9E9DB3;
+}
+
+:checked+.list {
+  text-decoration: line-through;
+  color: #9E9DB3;
+}
+
+

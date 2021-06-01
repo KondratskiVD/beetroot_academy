@@ -92,22 +92,40 @@ p {
 .shape-one {
   display: flex;
   margin-left: 99px;
-  margin-top: -50px;
+  margin-top: 18px;
 }
 
 .shape-two {
   display: flex;
   margin-left: 98px;
-  margin-top: -50px;
+  margin-top: 18px;
 }
 
 .shape-three {
   display: flex;
   margin-left: 98px;
-  margin-top: -50px;
+  margin-top: 18px;
 }
 
-.rollover:hover {
-  background: url(images/Shape\ 189.png);
-  opacity: 0.2;
+
+.rollover {
+  margin-left: 78px;
+  display: flex;
+  position: absolute;
+  opacity: 0;
 }
+
+.rollover-second {
+  margin-left: 78px;
+  display: flex;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.div-anim:hover .rollover {
+  opacity: 1;
+}
+.div-anim:hover .rollover-second {
+  opacity: 0;
+}
+
