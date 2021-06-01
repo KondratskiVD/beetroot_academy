@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+h1, p.member-name {
+    font-weight: 900;
+}
+p:not(.meber-name) {
+    font-weight: 300;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-top: 110px;
+}
+section h1::after {
+    content: ' ';
+    display: block;
+    margin: 20px auto;
+    width: 45px;
+    border-bottom: 4px solid #dddbdb;
+}
+p.description {
+    font-size: 16px;
+    width: 570px;
+    margin: 0 auto;
+    margin-bottom: 62px;
+    line-height: 24px;
+}
+p.member-name {
+    font-weight: 900;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+p.member-position {
+    text-align: left;
+    font-size: 14px;
+}
+.box-image .article {
+    display: inline-block;
+    width: calc(25% - 33px);
+    margin: 0 15px;
+}
+section {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;   
+}
+.box-image {
+    margin: 0 -15px;
+}
+.box-image div.article .member-image>img {
+    width: 100%;
+    height: auto;
+}
+p.social-links {
+    display: none;
+}
+div.member-image:hover {
+    background-color: #2ca8c6;
+}
+div.member-image:hover>img {
+    background-color: #2ca8c6;
+    opacity: 0;
+}
+.member-image {
+    position: relative;
+}
+div.member-image ul.social-links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+div.member-image:hover>ul.social-links {
+    display: block;
+}
+ul.social-links li {
+    width: 42px;
+    height: 42px;
+    background-color: #5ecbe7;
+    display: table-cell;
+    vertical-align: middle;
+    border: 2px solid #2ca8c6; /* kostul dlya otstupov megdu li */
+
+}
+

@@ -1,0 +1,104 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #b07cf7;
+}
+section {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 102px;
+    margin-bottom: 50px;
+}
+p.description {
+    font-size: 17px;
+    font-weight: 300;
+    width: 570px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+}
+.blog {
+    margin: 0 -30px;
+    margin-top: 50px;
+}
+.blog .article {
+    display: inline-block;
+    position: relative;
+    width: calc(33.3% - 90px);
+    margin: 0 30px;    
+}
+.article img {
+    position: absolute;
+    z-index: -1;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.article-image::before {
+    content: '';
+    display: block;    
+    width: 378px; 
+    height: 318px;  
+    position: absolute;
+    top: 0;      
+    left: 0;   
+    background: transparent;
+    background-image: linear-gradient(to top, black 0%, black 10%, transparent 50%, transparent 100%);
+    opacity: 0.8;      
+}
+.article .article-date {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    background-color: rgba(38, 38, 38, 50%);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.article .article-date .data-month {
+    font-size: 21px;
+}
+.article .article-date .data-day {
+    font-size: 32px;
+}
+.article .article-info {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+}
+.article .article-info .article-name {
+    font-style: 20px;
+    font-weight: bold;
+}
+.article .article-info .article-author, .article .article-info .article-time {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+div.button button {
+    position: absolute;
+    top: 750px;
+    left: calc(50% - 115px);
+    width: 200px;
+    height: 56px;
+    background-color: #f72b3b;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+}
+div.article-image:hover {
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+
+
