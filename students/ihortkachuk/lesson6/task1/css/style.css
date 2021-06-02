@@ -5,6 +5,9 @@
 
 .container>article>p {
     text-align: center;
+    opacity: .8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .container {
@@ -44,3 +47,13 @@ article>div>div:hover>svg>path {
 article>div>div:hover {
     background: #fff;
 }
+article div {
+margin-top: 55px;
+margin-bottom: 18px;
+}
+.container>article>p:last-child {
+    padding: 25px 50px;
+    opacity: .5;
+    font-size: 15px;
+}
+
