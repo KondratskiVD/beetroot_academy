@@ -1,0 +1,1 @@
+https://ihor-tkachuk.github.io/beetroot_academy/students/ihortkachuk/lesson6/task2/index.html#

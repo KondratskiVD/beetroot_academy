@@ -1,0 +1,83 @@
+* {
+    transition: all .1s ease-in;
+}
+body {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    background-color: #3b3f45;
+}
+.header {
+    background-color: #4a4f56;
+    padding: 25px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+	padding: 0;
+    color: #eb7e7f;
+}
+.header p {
+    margin-top: 15px;
+    color: #eb7e7f; 
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+div label:nth-child(2n) {
+    background-color: #88839e;
+}
+ div label:nth-child(2n+1) {
+    background-color: #7a7593;
+}
+p span {
+    color: #cdcbd0;;
+    font-size: 14px;
+}
+p span::before {
+    content: ' (';
+    display: inline-block;
+    color: #cdcbd0;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+p span::after {
+    content: ' )';
+    display: inline-block;
+    color: #cdcbd0;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+div.buying-list label:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: #625e77;
+}
+div.buying-list label {
+    display: block;
+    padding: 20px 20px;
+    padding-right: 50px;
+    color: white;
+}
+input+p {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+input[type="checkbox"]:checked+p {
+    text-decoration: line-through;
+}
+div.buying-list label:active {
+    background-color: tomato;
+}
+.bottom-div {
+    background-color: #4a4f56;
+    padding: 25px 0;
+    margin-top: 40px;
+}
+.bonap {
+    text-align: center;
+    color: #eb7e7f;
+}
+

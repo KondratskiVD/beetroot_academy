@@ -1,0 +1,96 @@
+body {
+    width: 100%x;
+    background:white;
+}
+div.header {
+    width: 532px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+p {
+    text-align: center;   
+}
+div.header p:first-child {
+    font-size: 10px;
+    font-family: "Arial";
+    color: rgb(137, 143, 153);
+    font-weight: bold;
+    text-align: center;
+}
+div.header p:nth-child(2) {
+    font-size: 34px;
+    font-family: "Arial";
+    color: rgb(14, 200, 203);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 44px;
+    font-weight: bold;
+}
+div.header p:last-child {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+}
+.container>article {
+    float: left;
+    width: 25%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    margin-top: 100px;
+}
+article>div {
+    
+    width: 235px;
+    height: 423px;
+    margin: 0 auto;
+
+}
+article>div>p {
+    text-align: center;
+}
+article>div>div:first-child {
+    text-align: center;
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.text>p {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(27, 27, 27); 
+    padding-bottom: 33px;
+    font-weight: bold;
+}
+article>div {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+article>div>div:last-child {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 85px;
+}     
+article>div:hover {
+    background: rgb(14, 200, 203);
+    
+}
+article>div:hover>div>svg>path {
+    fill: white;   
+}
+article>div:hover>.text>p {
+    color:white
+}
+article>div:hover>.text1>p {
+    color:white
+}
+.text1>p {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(137, 143, 153);
+}
+           
+      
+
+      
