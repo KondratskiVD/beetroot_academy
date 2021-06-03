@@ -1,0 +1,136 @@
+.blog {
+    font-family: 'Raleway', sans-serif;
+    background-color: #b07cf7;
+    color: #ffffff;
+    padding: 100px 0 140px 0;
+}
+
+.wrapper {
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.text {
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    max-width: 48% ;
+    line-height: 1.5;
+}
+.blocks {
+    font-size: 0;
+    margin-top: 47px;
+    margin-bottom: 50px;
+}
+.blocks li {
+   display: inline-block;
+   list-style: none; 
+}
+.blocks li:nth-child(2) {
+       margin: 0 30px;
+}
+
+.post {
+    position: relative;
+    width: 31.5%;
+    box-shadow: 7px 7px 5px rgba(53, 18, 59, 0.4);
+}
+
+.image {
+    width: 100%;
+}
+
+.date {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.575);
+    line-height: 0.8;
+    transition: all .5s ease-in;
+}
+
+.month {
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.anonce {
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(255, 255, 255, 0.0) 100%);
+    transition: all .3s ease-in;
+}
+
+.article-name, .author {
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.author {
+    margin-bottom: 23px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.article-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.botton {
+    background-color: #f72b3b;
+    display: block;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px 43px;
+    border: 1px solid rgb(87, 31, 87);
+    cursor: pointer;
+    transition: width;
+}
+
+.botton:hover {
+    background-color: rgb(87, 31, 87);
+    color: #ccadcc;
+    width: 220px;
+}
+
+.botton:active {
+    background-color: #fafafa;
+    color: #f72b3b;
+}
+
+.post:hover>.anonce {
+    top: 10px;
+}
+
+.post:active>.anonce {
+    background-color: black;
+    opacity: 0.7;
+}
+
+.post:hover>.date {
+    opacity: 0;
+}
+
+
