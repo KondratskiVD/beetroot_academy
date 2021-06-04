@@ -1,0 +1,122 @@
+@font-face {
+  font-family: FuturaPTHeavy;
+  src: url(fonts/FuturaPTHeavy.otf);
+}
+@font-face {
+  font-family: proxima-nova-regular;
+  src: url(fonts/proxima-nova-regular.ttf);
+}
+body {
+  background-color: #464f54;
+  max-width: 1060px;
+}
+.vertline {
+  width: 2px;
+  background-color: #e8eced;
+  height: 100%;
+  left: 70px;
+  position: absolute;
+  z-index: 1;
+}
+.content {
+  position: relative;
+  top: 150px;
+  left: 70px;
+  width: 1060px;
+  background-color: white;
+  height: 750px;
+  box-shadow: 0 0 15px 10px #303a3f;
+}
+.proxima {
+  font-family: proxima-nova-regular;
+  text-transform: uppercase;
+  font-size: 19.84px;
+  color: #b5b5b5;
+  padding-top: 200px;
+  letter-spacing: 1.5px;
+  padding-left: 125px;
+}
+.futura {
+  font-family: FuturaPTHeavy;
+  font-size: 77.93px;
+  padding-left: 125px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.georg {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 30px;
+  padding-left: 125px;
+  padding-top: 2px;
+  color: #b9b9b9;
+}
+.text {
+  font-family: Georgia;
+  font-size: 22px;
+  padding-top: 50px;
+  padding-left: 125px;
+  width: 780px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.ital {
+  font-style: italic;
+}
+.title {
+  width: 875px;
+  height: 185px;
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  left: 325px;
+  top: 45px;
+}
+.text1 {
+  color: #777777;
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  letter-spacing: 7px;
+  padding-left: 62px;
+  padding-top: 50px;
+}
+.text2 {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  color: white;
+  padding-left: 62px;
+  padding-top: 15px;
+}
+hr {
+  border: none;
+  background-color: #303030;
+  height: 3.5px;
+  width: 817px;
+  margin-left: 60px;
+  margin-top: 22px;
+}
+.vertline2 {
+  width: 2px;
+  background-color: #afb1b3;
+  height: 43px;
+  top: 83px;
+  left: 450px;
+  position: absolute;
+  z-index: 1;
+}
+.icons {
+  position: absolute;
+  z-index: 1;
+  width: 814px;
+  height: 75px;
+  left: 385px;
+  top: 230px;
+  background-color: #f5bb2c;
+}
+.iconspic {
+  padding-top: 22px;
+  padding-left: 40px;
+}
