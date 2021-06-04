@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "miso";
+    src: url(fonts/miso-bold.woff);
+}
+@font-face {
+    font-family: "miso";
+    src: url(fonts/miso-light.woff);
+}
+body {
+    background-color: #fdde7e;
+    font-family: "miso";
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main>div {
+    background-color: white;
+}
+main div:first-child,
+main div:last-child {
+    width: 360px;
+    height: 442px;
+    margin-top: 78px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+main div:nth-child(2) {
+    width: 360px;
+    height: 500px;
+    margin-top: 50px;
+}
+main>div p:first-child {
+    color: #02995b;
+    font-weight: 600;
+    font-size: 70px;
+}
+main>div p:nth-child(2) {
+    font-size: 56px;
+}
+main>div p:last-child {
+    font-size: 20px;
+}
+main>div p:nth-child(2),
+main>div p:last-child {
+    font-weight: 300;
+}
