@@ -1,0 +1,140 @@
+@font-face {font-family:"Miso Bold";src:url("fonts/miso-bold.eot") format("eot"),url("fonts/miso-bold.woff") format("woff"),url("fonts/miso-bold.ttf") format("truetype"),url("miso-bold.svg#Miso-Bold") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+    font-family: 'fontd708848509e926f56e21e6a2595c23ef';
+        
+        src:    url('https://nomail.com.ua/files/eot/d708848509e926f56e21e6a2595c23ef.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/d708848509e926f56e21e6a2595c23ef.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/d708848509e926f56e21e6a2595c23ef.woff2') format('woff2');
+    }
+
+body {
+    background-color: #FDDE7E;
+}
+
+h2 {
+    font-family:"Miso Bold";
+    font-size: 70px;
+    color: #02995B;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: "fontd708848509e926f56e21e6a2595c23ef";
+    font-size: 56px;
+    color: #333333;
+    margin-top: 27px;
+    margin-bottom: 13px;
+}
+
+.h3-gold {
+    margin: 0;
+    margin-top: 46px;
+}
+
+p {
+    text-align: center;
+    width: 140px;
+    font-family: "fontd708848509e926f56e21e6a2595c23ef";
+    font-size: 24px;
+    font-weight: 600;
+    color: #A0A0A0;
+}
+
+.p-gold {
+    margin-top: 23px;
+}
+
+section {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    display: block;
+}
+
+.fire {
+    margin-right: 20px;
+}
+
+.fire-g {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.cup-bean-br {
+    width: 135px;
+    height: 77px;
+    background-image: url(images/cup-br.png);
+    margin-top: 11px;
+}
+
+div.cup-bean-br>img {
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.cup-bean-g {
+    width: 135px;
+    height: 77px;
+    background-image: url(images/cup-g.png);
+    margin-top: 11px;
+}
+
+div.cup-bean-g>img {
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.cup-bean-s {
+    width: 135px;
+    height: 77px;
+    background-image: url(images/cup-s.png);
+    margin-top: 11px;
+}
+
+div.cup-bean-s>img {
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+section>div:nth-child(1n) {
+    width: 360px;
+    height: 441px;
+    background-color: #FFFFFF ;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 3px 5px 1px grey;
+}
+
+section>div:nth-child(2n) {
+    width: 360px;
+    height: 500px;
+    background-color: #FFFFFF ;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+section>div:nth-child(3n) {
+    width: 360px;
+    height: 441px;
+    background-color: #FFFFFF ;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
