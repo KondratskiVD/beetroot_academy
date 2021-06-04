@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: url(./fonts/Proxima\ Nova\ Regular.otf);
+}
+
+@font-face {
+    font-family: "Futura PT";
+    src: url(./fonts/FuturaPTHeavy.otf);
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(./fonts/PlayfairDisplay-Regular.ttf);
+}
+
+.wrapper {
+    background-color: #464f54;
+    position: relative;
+    margin: 0 auto;
+    padding: 150px 70px 0 70px;
+    max-height: 840px;
+    overflow: hidden;
+}
+
+.article {
+    box-sizing: border-box;
+    max-width: 1060px;
+    height: 100vw;
+    margin: 0 auto;
+    padding: 202px 125px 0 130px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+    background-color: #ffffff;
+    position: relative;
+    text-align: left;
+}
+
+.article-content::before {
+    position: absolute;
+    content:"";
+    width: 2px;
+    height: 100%;
+    background-color: #e8eced;
+    left: 67px;
+    top: 0;
+
+}
+
+.article-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.article-author, .searchbar_header {
+    font-family: "Proxima Nova Regular";
+    text-transform: uppercase;
+}
+
+.article-author {
+    color: #b4b4b4;
+    font-size: 20px;
+    letter-spacing: 6.72px;
+}
+
+.article-title {
+    color: #2a2a2a;
+    font-family: "Futura PT";
+    font-size: 78px;
+    line-height: 78px;
+    text-transform: uppercase;
+    letter-spacing: 5.28px;
+    white-space: nowrap;
+    margin: 47px 0 21px 0;
+}
+
+.article-subtitle {
+    color: #8f8f8f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 62.44px;
+    margin-bottom: 55px;
+}
+
+.article-text {
+    color: #000000;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.38px;
+    letter-spacing: -0.2px;
+}
+
+.italic-text {
+    font-family: "Georgia - Italic";
+    font-style: italic;
+}
+
+.searchbar {
+    position: absolute;
+    top: 47px;
+    right: 0;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    padding: 50px 463px 74px 64px;
+    z-index: 3;
+}
+
+.searchbar_header {
+    margin: 0 0 10px 0;
+    color: #767676;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 4.8px;
+}
+
+.searchbar_text {
+    margin: 0;
+    color: #fefefe;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    text-align: left;
+}
+
+.searchbar-content {
+position: relative;
+}
+
+.searchbar_text::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 43px;
+    background-color: #edeff2;
+    opacity: 0.71;
+    bottom: 2px;
+    right: -5px;
+}
+
+.stylebar {
+    position: absolute;
+    top: 217px;
+    right: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    z-index: 1;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;
+    padding: 42px 200px 22px 42px;
+}
+
+.stylebar-item {
+    opacity: 0.7;
+}
+
+.stylebar-item:hover {
+    opacity: 1;
+}
