@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'MISO-BOL';
+	src: url('font/MISO-BOL.eot');
+	src: local('☺'), url('font/MISO-BOL.woff') format('woff'), url('font/MISO-BOL.ttf') format('truetype'), url('/font/MISO-BOL.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'MISO-LIG';
+    src: url('font/MISO-LIG.eot');
+    src: local('☺'), url('font/MISO-LIG.woff') format('woff'), url('font/MISO-LIG.ttf') format('truetype'), url('font/MISO-LIG.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: #fdde7e;
+} 
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1200px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: #fdde7e;
+    width: 100%;
+}
+.card {
+    width: 362px;
+    background: white;
+    height: 440px;
+    margin: 14.25px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 5px gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container>div:nth-child(2) {
+    height: 500px;
+}
+p {
+    text-align: center;
+
+}
+.text p{
+    width: 156px;
+}
+    .price>p {
+    color: #02995b;
+    font-size:70px ;
+    font-family: 'MISO-BOL';
+    margin-top: 35px;
+}
+.color>p {
+    font-family: 'MISO-LIG';
+    color: rgb(51, 51, 51);
+    font-size: 56px;
+}
+.text {
+    color: #414141;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 45px;
+}
+
+
+  
+  
