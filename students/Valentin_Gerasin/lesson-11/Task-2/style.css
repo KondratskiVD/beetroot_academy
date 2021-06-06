@@ -84,3 +84,82 @@ html, body {
 .slider__slides {
     padding-left: 15px;
 }
+
+.article__title {
+    font-size: 24px;
+    font-weight: 100;
+    color: #DCDDDD;
+    width: 160px;
+    line-height: 26px;
+}
+
+.article__description {
+    font-size: 14px;
+    font-weight: 100;
+    color: #787D86;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.order {
+    margin-top: 25px;
+}
+
+.product {
+    margin-left: 80px;
+}
+
+.order__select-size {
+    font-family: "MuseoSansRounded";
+    width: 69px;
+    height: 32px;
+    background-color: #152335;
+    color: #A4A6AB;
+    padding-left: 10px;
+    border: 1px solid #616873;
+}
+
+.order__select-qty {
+    font-family: "MuseoSansRounded";
+    width: 69px;
+    height: 32px;
+    background-color: #152335;
+    color: #A4A6AB;
+    padding-left: 15px;
+    border: 1px solid #616873;
+}
+
+.order__button {
+    margin-top: 29px;
+    font-family: "MuseoSansRounded";
+    width: 184px;
+    height: 40px;
+    background-color: #152335;
+    color: #BEC0C3;
+    border: 1px solid #616873;
+}
+
+.order__button_hover:hover {
+    background-color: #2A3545;
+    color: #BEC0C3;
+    border: 1px solid #616873;
+}
+
+.order__button_active:active {
+    opacity: 0.8;
+}
+
+.review__star {
+    display: inline-flex;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+}
+
+.review__star:hover {
+    background-image: url(images/star-y.png);
+}
+
+
+
+
