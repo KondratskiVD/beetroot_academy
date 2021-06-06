@@ -1,0 +1,65 @@
+@font-face {
+    font-family:  'MuseoSansRounded';
+    src: url(/fonts/MuseoSansRounded300.otf)
+}
+html, body {
+    height: 100%;
+}
+.page {
+    background-image: url('images/bg.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card {
+    width: 686px;
+    height: 391px;
+    background: #111a28;
+    border-radius: 8px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+}
+.page__card {
+    padding: 20px;
+}
+.dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+}
+.slider {
+    display: flex;
+    flex-direction: column;
+}
+.dots_elem {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+.dots__elem--color-red {
+    background: #ed3333;
+}
+.dots__elem--color-blue {
+    background: #29e3ea;
+}
+.dots__elem--color-gray {
+    background: gray;
+}
+.dots__elem--active {
+    width: 16px;
+    height: 16px;
+    border: solid 2px #7e828b;
+}
+.card__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+.slider__slides {
+    
+}
