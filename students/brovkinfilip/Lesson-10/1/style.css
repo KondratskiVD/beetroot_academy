@@ -29,12 +29,14 @@
     display: flex;
     padding: 42px 0 36px 0;
     flex-direction: column;
-    gap: 50px;
+    max-height: 441px;
+    justify-content: space-between;
     width: 33.333%;
     align-items: center;
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
     border-radius: 2px;
     transition: all ease-in .5s;
+    gap: 30px;
 }
 
 .card_price {
