@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "MuseoSans";
+    src: url("./fonts/museosansrounded-100-webfont.ttf");
+}
+
 html{
     width: 100%;
     height: 100%;
     background-image: url(./../img/background.png);
-    /* background:no-repeat; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,6 +28,8 @@ main {
     justify-content: center;
 }
 .content {
+    min-width: 775px;
+    min-height: 510px;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
@@ -36,8 +42,7 @@ main {
 
 .content__header {
     width: 100%;
-    height: 10%; 
-    border: 1px solid red;
+    height: 10%;
 }
 
 
@@ -52,7 +57,7 @@ main {
     justify-content: center;
     flex-grow: 1;
     height: 90%;
-    border: 1px solid red;
+
 }
 
 
@@ -60,10 +65,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     width: 33%;
     height: 90%;
-    border: 1px solid red;
+    padding-left: 3%;
 }
 
 .slider__dots {
@@ -74,13 +78,11 @@ main {
     height: 20px;
     margin-top: auto;
     margin-bottom: 2%;
-    border: 1px solid white;
 }
 
 .slider__slide{
     width: 80%;
     margin-top: auto;
-    border: 1px solid burlywood;
 }
 
 .slide__img {
@@ -88,7 +90,6 @@ main {
 }
 
 .dots__dot{
-
     display: flex;
     width: 10px;
     height: 10px;
@@ -99,5 +100,83 @@ main {
 .dots__dot:hover{
  width: 15px;
  height: 15px;
- border: 2px solid white;
+ border: 2px solid #7e838b;
+}
+
+.bg-red{
+    background: #ed3333;
+}
+
+.bg-white{
+    background: white;
+}
+
+.bg-green{
+    background: #29e3ea;
+}
+
+.description__title{
+    margin-top: 30%;
+    font-family: 'MuseoSans';
+    color: #e1e1e1;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+.description__main{
+    font-family: 'MuseoSans';
+    font-size: 1rem;
+    color: #8d9094;
+    margin-bottom: 5%;
+}
+
+.description__stars{
+    display: flex;
+    list-style: none;
+}
+
+.gold{
+    display: inline-block;
+    filter: brightness(0) saturate(100%) invert(94%) sepia(71%) saturate(972%) hue-rotate(319deg) brightness(102%) contrast(95%);
+}
+
+.order{
+    margin-top: 20%;
+    justify-content: flex-start;
+    align-self: flex-start;
+    /*border: 1px solid chartreuse;*/
+}
+
+.order_select{
+    /*border: none;*/
+    padding: 10px;
+    font-family: MuseoSans;
+    font-size: 1.5em;
+    background: #0e1f33;
+    color: #a0a3a7;
+    border: 1px solid #4f5560;
+}
+
+.order_select:hover{
+    background: #202835;
+}
+
+.order_button{
+    padding: 5%;
+    color: #a4a7ab;
+    font-family: MuseoSans;
+    font-size: 24px;
+    width: 110%;
+    border: 1px solid #4f5560;
+    background: #0e1f33;
+    margin-top: 20%;
+    display: block;
+}
+
+.order_button:hover{
+    background: #202835;
+}
+.select_option{
+    background: #0e1f33;
+    color: #a0a3a7;
 }
