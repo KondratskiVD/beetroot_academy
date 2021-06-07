@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Neue Hans Kendrick", Arial;
+    src: url(fonts/NeueHansKendrick-Regular.ttf) format(ttf);
+}
+html, body {
+    width: 100%;
+}
+body {
+    font-family: "Neue Hans Kendrick", Arial;
+    background-color: #e2e7ec;
+}
+.section {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+.item {
+    background-color: white;
+    width: 360px;
+    height: 540px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item:first-child {
+    position: relative;
+    width: 740px;
+    background-image: url("img/car.png");
+    justify-content: flex-end;
+    color: white;
+}
+.item:first-child::after {
+    content: "";    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background-image: linear-gradient(to top, black, rgba(255, 255, 255, 0));
+	opacity: 0.8; 
+    z-index: 1;   
+}
+.item.item:first-child .description {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    z-index: 2;
+}
+.item .description {
+    margin-left: 28px;
+}
+.item .description .date {
+    font-size: 13px;
+    color: #818181;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.item .description .title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.item .author {
+    margin-bottom: 24px;
+    margin-left: 28px;
+    margin-top: 40px;
+}

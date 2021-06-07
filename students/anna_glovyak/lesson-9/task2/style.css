@@ -4,11 +4,11 @@
    }
 @font-face {
     font-family: "Playfair Display";
-    src: url("/fonts/PlayfairDisplay-Regular.ttf") format("ttf");
+    src: url("fonts/PlayfairDisplay-Regular.ttf") format("ttf");
 }
 @font-face {
     font-family: "Proxima Nova";
-    src: url("/fonts/Proxima Nova/ProximaNova-Regular.otf") format("otf");
+    src: url("fonts/Proxima Nova/ProximaNova-Regular.otf") format("otf");
 }
 body {
     font-size: 18px;
@@ -81,7 +81,7 @@ body {
     box-sizing: border-box;
 }
 .article h2.article-title {
-    font-family: "FuturaPTHeavy";
+    font-family: "Futura", Arial;
     font-size: 78px;
     font-weight: bold;
 }
