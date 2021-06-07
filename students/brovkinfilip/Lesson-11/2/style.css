@@ -1,0 +1,146 @@
+@font-face {
+    font-family: MuseoSans;
+    src: url(fonts/MuseoSansRounded300.otf);
+}
+
+html, body {
+    height: 100%;
+}
+.page {
+    background-image: url(img/main_bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MuseoSans;
+}
+
+.card {
+    width: 686px;
+    height: 391px;
+    background-color: #111a28;
+    border-radius: 10px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+}
+
+.page_card {
+    padding: 20px;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 70px;
+
+}
+
+.dots__elem {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.dots__elem--color-red{
+    background-color: #ed3333;
+}
+
+.dots__elem--color-grey {
+    background-color: #29e3ea;
+}
+
+.dots__elem--color-blue {
+    background-color: #1f273f;
+}
+
+.dots__elem--active {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #7e838b;
+}
+
+.card__main {
+    display: flex;
+    height: 356px;
+}
+
+.main__slider {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.slider__slides {
+    padding-left: 15px;
+}
+
+.article__title {
+    margin: 0;
+    color: #e1e1e1;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 0.48px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 79px;
+    padding-bottom: 55px;
+}
+
+.article__description {
+    margin: 0;
+    opacity: 0.54;
+    color: #e1e1e1;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 0.28px;
+}
+
+.review__star {
+    color: #9da1a7;
+    font-size: 12px;
+}
+
+.review__star--marked {
+    color: #f7bf16;
+}
+
+
+.order__options {
+    text-align-last: center;
+    width: 69px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    background-color: #111a28;
+    opacity: 0.26;
+    color: #e1e1e1;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.28px;
+}
+
+.order__button {
+    margin-top: 29px;
+    width: 184px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: #4c525a;
+    opacity: 0.26;
+    color: #e1e1e1;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.28px;
+    cursor: pointer;
+}
