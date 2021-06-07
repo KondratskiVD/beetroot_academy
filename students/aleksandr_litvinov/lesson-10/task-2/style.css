@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HansKendrick';
+    src: url(fonts/NeueHansKendrick-Regular.ttf);
+}
+
+body{
+    background-color: #e2e7ec;
+}
+
+.container{
+    max-width: 1120px;
+    margin: 50px auto;
+    width: 100%;
+}
+
+.gallery__items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.gallery__item-first{
+    max-width: 740px;
+    height: 540px;
+    position: relative;
+    margin: 10px 10px;  
+}
+
+.gallery__item-about-first{
+    position: absolute;
+    max-width: 438px;
+    left: 43px;
+    bottom: 40px;
+}
+
+.gallery__item-date-first{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "HansKendrick";
+    color: #999690;
+    line-height: 2.308;
+}
+
+.gallery__item-description-first{
+    font-family: "HansKendrick", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.gallery__item{
+    max-width: 360px;
+    background-color: #fff;
+    margin: 10px 10px;
+}
+
+.gallery__item-about{
+    padding: 30px 26px 25px 28px;
+    background-color: #fff;
+}
+
+.gallery__item-date{
+    font-family: "HansKendrick", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 21px;
+    color: #999690;
+    text-transform: uppercase;
+}
+
+.gallery__item-description{
+    font-family: "HansKendrick", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(29, 29, 29);
+    text-transform: uppercase;
+    margin-bottom: 70px;
+
+}
+
+.gallery__item-img-third{
+    margin-bottom: 33px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 78px;
+    padding-bottom: 101px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__content-img{
+    margin-right: 10px;
+}
+
+.footer__content-text{
+    font-family: "HansKendrick", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 2.308;
+    color: #99a5b0;
+}
