@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'HansKendrick';
+	src: url('fonts/HansKendrick-Regular.eot');
+	src: local('☺'), url('fonts/HansKendrick-Regular.woff') format('woff'), url('fonts/HansKendrick-Regular.ttf') format('truetype'), url('fonts/HansKendrick-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: #e2e7ec;
+} 
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1141px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.article-red-car {
+    width: 740px;
+    height: 540px;
+    position: relative;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.text-red-car {
+    position: absolute;
+    left: 43px;
+    top: 405px;
+    font-family: 'HansKendrick';
+    font-weight: 900;
+}
+.text-red-car>p:first-child {
+    font-size: 13px;
+    color: #fdfdfc;
+}
+.text-red-car>p:last-child {
+    font-size: 30px;
+    color:white;
+    margin-top: 26px;
+}
+.text>p:first-child {
+    font-size: 13px;
+    margin-top: 29px;
+    margin-bottom: 23px;
+}
+.text p {
+    margin-left: 29px;
+    font-family: 'HansKendrick';
+}
+.text>p:last-child {
+    margin-bottom: 70px;
+    font-size: 22px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+.article {
+    width: 360px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-sizing: border-box;
+    margin:10px;
+}
+.image>img, .image {
+    width: 360px;
+    height: 253px;
+    margin: 0;
+}
+.avatar {
+    width: 360px;
+    height: 54px;
+    margin-left: 28px;
+}
+.after-image {
+    height: 100%;
+    width: 100%;
+}
+footer {
+    height: 209px;
+    text-align: center;
+}
+.footer {
+    padding-top: 73px;
+    font-size: 13px;
+    color: gray;
+    font-family: 'HansKendrick';
+    font-weight: 900;
+}
+.footer>img {
+    margin-right: 10px;
+}
+
+    
