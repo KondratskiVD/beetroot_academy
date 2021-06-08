@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "MuseoSansRounded";
+    src: url(fonts/MuseoSansRounded300.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page {
+    font-family: "MuseoSansRounded";
+    background-image: url(images/main-bg.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 686px;
+    height: 391px;
+    background: #152335;
+    border-radius: 8px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+}
+
+.page__card {
+    padding: 20px;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    align-items: center;
+}
+
+.dots__elem {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.dots__elem--color-dark {
+    background: #2A3450;
+}
+
+.dots__elem--color-white {
+    background: #FFFEFF;
+}
+
+.dots__elem--color-red {
+    background: #F54A43;
+}
+
+.dots__elem--color-blue {
+    background: #27E5EF;
+}
+
+.dots-elem--active {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #91939D;
+}
+
+.card__main {
+    display: flex;
+    height: 316px;
+}
+
+.main__slider {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider__slides {
+    padding-left: 15px;
+}
+
+.article__title {
+    font-size: 24px;
+    font-weight: 100;
+    color: #DCDDDD;
+    width: 160px;
+    line-height: 26px;
+}
+
+.article__description {
+    font-size: 14px;
+    font-weight: 100;
+    color: #6A7079;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.order {
+    margin-top: 25px;
+}
+
+.product {
+    margin-left: 80px;
+}
+
+.order__select-size {
+    font-family: "MuseoSansRounded";
+    width: 69px;
+    height: 32px;
+    background-color: #152335;
+    color: #A4A6AB;
+    padding-left: 10px;
+    border: 1px solid #616873;
+}
+
+.order__select-qty {
+    font-family: "MuseoSansRounded";
+    width: 69px;
+    height: 32px;
+    background-color: #152335;
+    color: #A4A6AB;
+    padding-left: 15px;
+    border: 1px solid #616873;
+}
+
+.order__button {
+    margin-top: 29px;
+    font-family: "MuseoSansRounded";
+    width: 184px;
+    height: 40px;
+    background-color: #152335;
+    color: #BEC0C3;
+    border: 1px solid #616873;
+}
+
+.order__button_hover:hover {
+    background-color: #2A3545;
+    color: #BEC0C3;
+    border: 1px solid #616873;
+}
+
+.order__button_active:active {
+    opacity: 0.8;
+}
+
+.review__star {
+    display: inline-flex;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+}
+
+.review__star:hover {
+    background-image: url(images/star-y.png);
+}
+
+
+
+
