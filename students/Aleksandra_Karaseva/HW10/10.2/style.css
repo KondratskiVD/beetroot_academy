@@ -1,0 +1,94 @@
+@font-face {
+  font-family: HansKendrick;
+  src: url(HansKendrick.otf);
+}
+body {
+  background-color: #e2e7ec;
+  font-family: HansKendrick;
+  text-transform: uppercase;
+}
+.content {
+  width: 1120px;
+  height: 1100px;
+  padding-top: 90px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 80px;
+}
+.part1 {
+  display: flex;
+  justify-content: space-around;
+}
+.big_car {
+  padding-right: 10px;
+  position: relative;
+}
+.date_fst {
+  position: absolute;
+  z-index: 1;
+  top: 405px;
+  left: 45px;
+  font-size: 11px;
+  color: white;
+}
+.shadow {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  bottom: 0px;
+}
+.descr {
+  position: absolute;
+  z-index: 2;
+  font-size: 24px;
+  color: white;
+  top: 440px;
+  left: 40px;
+  width: 430px;
+}
+.find,
+.photos,
+.freelance,
+.sale {
+  width: 360px;
+  height: 540px;
+  background-color: white;
+  position: relative;
+}
+.date {
+  position: absolute;
+  z-index: 1;
+  font-size: 11px;
+  color: #929292;
+  bottom: 20px;
+  top: 275px;
+  left: 25px;
+}
+.descr_item {
+  position: absolute;
+  z-index: 2;
+  font-size: 19px;
+  color: black;
+  top: 315px;
+  left: 25px;
+  width: 305px;
+}
+.autor {
+  position: absolute;
+  z-index: 1;
+  top: 460px;
+  left: 28px;
+}
+.part2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.loading {
+  margin-top: 75px;
+  text-align: center;
+  opacity: 0.5;
+}
+.load {
+  padding-left: 10px;
+}
