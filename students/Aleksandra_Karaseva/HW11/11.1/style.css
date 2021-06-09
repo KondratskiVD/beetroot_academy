@@ -5,12 +5,9 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: #00bbbb;
 }
-
 .description {
   background-image: url(img/img.png);
-  width: 100%;
   height: 58.82%;
   background-size: cover;
   position: relative;
@@ -67,14 +64,42 @@ body {
   background-color: #ff6033;
   border: none;
   box-shadow: 0 5px 7px #aeadaf;
-}
-.scroll {
-  display: flex;
-  justify-content: center;
+  transition: 0.5s;
 }
 .scroll_center {
-  padding-top: 20%;
+  position: absolute;
+  left: 735px;
+  top: 940px;
 }
 .about {
-  height: 41.18%;
+  position: relative;
+  top: 530px;
+  background-color: #00bbbb;
+}
+.about__text_img {
+  padding-left: 165px;
+  padding-top: 70px;
+}
+.about__text {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 180px;
+  left: 835px;
+  width: 34%;
+}
+.about__text_title {
+  font-weight: 700;
+  font-size: 70px;
+  padding-bottom: 35px;
+}
+.about__text_subtitle {
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+p:last-child {
+  padding-top: 25px;
 }
