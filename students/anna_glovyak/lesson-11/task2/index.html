@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="card">
+            <div class="card__picture">
+                <img class="card__logo" src="img/logo.png" alt="logo">
+                <img class="cad__image" src="img/Nike-SB-Stefan-Janoski-Max.png" alt="nike-stefan">
+                <div class="bullets card__bullets">
+                    <div class="bullets__bullet bullets__bullet--active"></div>
+                    <div class="bullets__bullet bullets__bullet--white"></div>
+                    <div class="bullets__bullet bullets__bullet--red"></div>
+                    <div class="bullets__bullet bullets__bullet--blue"></div>
+                </div>
+            </div>
+            <div class="card__description">
+                <div class="card__title">Nike SB Stefan Janoski Max
+                    <div class="card__subtitle">Unisex Skateboarding Shoe (Men's Sizing)</div>
+                </div>
+                <div class="rating card__rating">
+                    <div class="rating__star rating__star--success"></div>
+                    <div class="rating__star rating__star--success"></div>
+                    <div class="rating__star rating__star--success"></div>
+                    <div class="rating__star"></div>
+                    <div class="rating__star"></div>
+                </div>
+                <div class="option card__option">
+                    <select class="select option__size" name="size" id="size">
+                        <option class="option"  hidden>Size</option>
+                        <option class="option" value="38">38</option>
+                        <option class="option" value="39">39</option>
+                        <option class="option" value="40">40</option>
+                    </select>
+                    <select class="select option__qty" name="qty" id="qty">
+                        <option class="option"  hidden>Qty</option>
+                        <option class="option" value="1">1</option>
+                        <option class="option" value="2">2</option>
+                        <option class="option" value="3">3</option>
+                    </select>
+                </div>
+                <button class="btn card__btn">Add to cart</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

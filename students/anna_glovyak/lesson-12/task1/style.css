@@ -1,0 +1,41 @@
+/* .select {
+    background-color: blueviolet;
+    color: cornsilk;
+    font-size: 14px;
+    height: 32px;
+    width: 70px;
+    padding-left: 10px;
+    appearance: none; /*скрыли стрелку*/
+    /* background-image: url(#);вставляем изображение новой стрелки */
+    /* background-position-x: 50px;
+    background-position-y: 13px;
+    text-align-last: center; */
+/* } */ */
+/* beetroot
+.select-group {
+    background: #111a28;
+    color: #e1e1e1;
+    font-size: 14px;
+    padding-left: 15px;
+    height: 32px;
+    width: 70px;
+    appearance: none;
+    background: url(Rectangle_2.png) no-repeat;
+    background-position-x: 50px;
+    background-position-y: 13px;
+}*/
+.form_label {
+    font-size: 30px;
+
+}
+input[type=radio] {
+    display: none;
+}
+input[type=radio]:checked + .form_label {
+
+    border: 1px solid green;
+}
+
+/*(input[type="checkbox"]#radio$+lalbe[for="radio$"]{size $})*4
+(input[type="checkbox"]#radio$+label[for="radio$"]{size $})*4
+*/
