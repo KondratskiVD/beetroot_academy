@@ -27,13 +27,13 @@
                         </li>
                         <li class="menu__item"><a href="" class="menu__link">BLOG</a>
                         </li>
-                        <li class="menu__item"><a href="" class="menu__link">CONTACT</a>
+                        <li class="menu__item"><a href="#contact" class="menu__link">CONTACT</a>
                         </li>
                     </ul>
             </nav>
             <article class="header-article">
                 <h2 class="header-article__title">Fresh Life</h2>
-                <p class="header-article__content">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p class="simple-text header-article__text header-article__text--width header-article__text--color">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                 <button class="header-article__button">GET FREE NOW</button>
             </article>
             <div class="scroll">
@@ -45,12 +45,49 @@
         <div class="about__content">
             <img src="./img/raspberries.png" alt="cup with raspberries" class="about__image">
             <div class="about__info" id="about">
-                <h2 class="about__title">About Us</h2>
-                <p class="about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                <h2 class="section-title about__title">About Us</h2>
+                <p class="simple-text about__text about__text--white-space">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
                     
 Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
             </div>
         </div>
     </article>
+    <article class="contact">
+        <div class="contact__content">
+            <div class="contact-header" id="contact">
+                <h2 class="section-title contact-header__title contact-header__title--margin-bottom">Contact</h2>
+                <p class="simple-text contact-header__text--lineheight contact-header__text--color contact-header__text--width contact-header__text--position">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+            </div>
+            <div class="contact-main">
+                <form method="GET" class="contact-form">
+                <input class="contact-form__input" type="text" name="fullname" placeholder="Your Name...">
+                <input class="contact-form__input" type="email" name="email" placeholder="Your email...">
+                <input class="contact-form__input" type="tel" name="phonenumber" placeholder="Your phone number...">
+                <textarea class="contact-form__input textarea--width" name="" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
+                </form>
+                <ul class="contact__our-info">
+                    <li class="contact__our-address">
+                        <h4 class="contact__title">ADDRESS</h4>
+                        <p class="contact__info"><a class="contact__link" href="">123 City name, Street, City, Country</a></p>
+                    </li>
+                    <li class="contact__our-email">
+                        <h4 class="contact__title">EMAIL</h4>
+                        <p class="contact__info"><a class="contact__link" href="mailto:cahee@domain.com">cahee@domain.com</a></p>
+                    </li>
+                    <li class="contact__our-phone">
+                        <h4 class="contact__title">PHONE</h4>
+                        <p class="contact__info"><a class="contact__link" href="tel:+012 345 6789">+012 345 6789</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__info">&copy; 2015 Company. All right reserved.</p>
+            <a href="#top" class="logo logo__link logo__link--footer">Cahee</a>
+            <p class="footer__info"> Made with <span class="footer__info--color .footer__info--bold">love</span> by Auskteez</p>
+        </div>
+    </footer>
 </body>
 </html>

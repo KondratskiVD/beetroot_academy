@@ -131,6 +131,10 @@ html, body {
     letter-spacing: 0.28px;
 }
 
+.order__options:focus-visible {
+    outline: none;
+}
+
 .order__button {
     margin-top: 29px;
     width: 184px;
