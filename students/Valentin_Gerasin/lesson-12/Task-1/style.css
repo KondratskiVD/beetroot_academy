@@ -163,6 +163,7 @@ body {
 }
 
 .footer__text-logo {
+    width: 120px;
     font-family: 'Pacifico', cursive;
     font-size: 25px;
     font-weight: 400;
