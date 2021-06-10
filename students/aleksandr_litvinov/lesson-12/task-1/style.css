@@ -58,6 +58,7 @@
     border: none;
     padding: 18px 20px;
     outline: none;
+    border-left: 5px solid transparent;
 }
 
 .form__input::-webkit-input-placeholder  {
@@ -84,6 +85,7 @@
     padding: 18px 20px;
     resize: none;
     outline: none;
+    border-left: 5px solid transparent;
 }
 
 .form__message::-webkit-input-placeholder {
