@@ -4,28 +4,30 @@
 }
 html,
 body {
-  height: 100%;
   background-image: url("img/main\ bg.png");
-  background-size: 800px 600px;
   background-repeat: no-repeat;
-  background-position: center;
+ position: relative;
+  left: 0px;
+  top: 0px;
+  width: 800px;
+  height: 600px;
 }
-
 .card__main {
-  width: 686px;
-  height: 391px;
   background: #111a28;
   border-radius: 8px;
   box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
-  position: relative;
-  top: 150px;
-  left: 425px;
+  position: absolute;
+  left: 63px;
+  top: 109px;
+  width: 686px;
+  height: 391px;
+  z-index: 1;
 }
 .logo {
   position: absolute;
-  z-index: 1;
-  top: 170px;
-  left: 445px;
+  z-index: 2;
+  top: 130px;
+  left: 80px;
 }
 .slides {
   position: absolute;
@@ -36,8 +38,8 @@ body {
 .product__order {
   position: absolute;
   z-index: 1;
-  left: 865px;
-  top: 225px;
+  left: 509px;
+  top: 185px;
   width: 185px;
   font-family: MuseoSansRounded300;
   color: #e7e7e7;
@@ -89,4 +91,23 @@ body {
   border: 2px solid #7e828b;
   border-radius: 50%;
   background-color: #293550;
+}
+/*.bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 800px;
+  height: 600px;
+  z-index: 9;
+}
+.Rounded_Rectangle_1 {
+  border-radius: 10px;
+  background-color: rgb(21, 35, 53);
+  box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+  position: absolute;
+  left: 63px;
+  top: 109px;
+  width: 686px;
+  height: 391px;
+  z-index: 8;
 }
