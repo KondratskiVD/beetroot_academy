@@ -18,14 +18,14 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
   position: relative;
-  top: 109px;
-  left: 310px;
+  top: 150px;
+  left: 425px;
 }
 .logo {
   position: absolute;
   z-index: 1;
-  top: 130px;
-  left: 330px;
+  top: 170px;
+  left: 445px;
 }
 .slides {
   position: absolute;
@@ -36,8 +36,8 @@ body {
 .product__order {
   position: absolute;
   z-index: 1;
-  left: 750px;
-  top: 185px;
+  left: 865px;
+  top: 225px;
   width: 185px;
   font-family: MuseoSansRounded300;
   color: #e7e7e7;
