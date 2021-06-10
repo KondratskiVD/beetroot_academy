@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "MuseoSansRounded300";
+  src: url(font/MuseoSansRounded300.otf);
+}
+html,
+body {
+  height: 100%;
+  background-image: url("img/main\ bg.png");
+  background-size: 800px 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card__main {
+  width: 686px;
+  height: 391px;
+  background: #111a28;
+  border-radius: 8px;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+  position: relative;
+  top: 109px;
+  left: 310px;
+}
+.logo {
+  position: absolute;
+  z-index: 1;
+  top: 130px;
+  left: 330px;
+}
+.slides {
+  position: absolute;
+  z-index: 1;
+  top: 123px;
+  left: 30px;
+}
+.product__order {
+  position: absolute;
+  z-index: 1;
+  left: 750px;
+  top: 185px;
+  width: 185px;
+  font-family: MuseoSansRounded300;
+  color: #e7e7e7;
+}
+.article_title {
+  font-size: 24px;
+  opacity: 0.8;
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+.article_discription {
+  font-size: 14px;
+  opacity: 0.3;
+  padding-bottom: 25px;
+}
+.order__details {
+  padding-top: 25px;
+  color: #152335;
+}
+.order__select-size,
+.order__select-qty {
+  width: 70px;
+  height: 30px;
+  border: 2px solid #525c69;
+  background-color: #152335;
+  color: white;
+  opacity: 0.3;
+}
+.order_button {
+  margin-top: 35px;
+  border: 2px solid #525c69;
+  background-color: #283443;
+  width: 185px;
+  height: 40px;
+  color: white;
+  opacity: 0.3;
+}
+.slider__dots {
+  display: flex;
+  padding-top: 350px;
+  padding-left: 175px;
+}
+.dots__elem {
+  margin: 0 7px;
+}
+.dots__elem_active {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #7e828b;
+  border-radius: 50%;
+  background-color: #293550;
+}
