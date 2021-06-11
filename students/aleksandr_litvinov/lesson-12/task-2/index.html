@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="popup">
+        <div class="container">
+            <div class="popup__content">
+                <div class="user-nav">
+                    <a class="user-nav__link user-nav__link--active" href="#">Sign In</a>
+                    <a class="user-nav__link" href="#">Sign Up</a>
+                </div>
+                <form method="GET">
+                    <div class="form__inner">
+                        <div class="form__input">
+                            <p class="form__input-label">Username</p>
+                            <input class="form__input-item" type="text">
+                        </div>
+                        <div class="form__input">
+                            <p class="form__input-label">Password</p>
+                            <input class="form__input-item" type="password">
+                        </div>
+                        <div class="form__save">
+                            <input class="form__save-checkbox" checked type="checkbox" id="choice">
+                            <label class="form__save-label" for="choice">Keep me signed in </label>
+                        </div>
+                        <div class="form__button">
+                            <input type="submit" class="form__button-btn" value="Sign in">
+                        </div>
+                    </div>
+                </form>
+                <div class="user-account">
+                    <a class="user-account-link" href="#">Forgot password</a>
+                    <a class="user-account-link" href="#">Create an account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
