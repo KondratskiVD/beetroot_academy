@@ -1,0 +1,33 @@
+body {
+    background: #464f54;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+header {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+main {
+    margin-top: 149px;
+    width: 1060px;
+    height: 750px;
+    background: white;
+}
+.text {
+    margin-top: 204px;
+    margin-left: 127px;
+    margin-right: 127px;
+}
+.text>div {
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+.text>div p:last-child {
+    margin-top: 30px;
+}
+main p:last-child {
+    margin-top: 40px;
+}

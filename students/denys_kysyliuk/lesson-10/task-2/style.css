@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "NeueHansKendrick-Regular";
+    src: url(fonts/NeueHansKendrick-Regular.ttf);
+}
+body {
+    background: #e2e7ec;
+    font-family: "NeueHansKendrick-Regular";
+}
+.top-card {
+    width: 1120px;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-card {
+    width: 1120px;
+    height: 540px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.section {
+    width: 1120px;
+    height: 1100px;
+    margin: 0 auto;
+    margin-top: 91px;
+    margin-bottom: 91px;
+    display: flex;
+    flex-direction: column;
+}
+.card-big {
+    width: 740px;
+    height: 547px;
+    background-image: url(img/Layer_8.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    font-size: 30px;
+}
+.card-sm1 {
+    width: 360px;
+    height: 540px;
+    background-image: url(img/Layer_2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 22px;
+}
+.card-sm2 {
+    width: 360px;
+    height: 540px;
+    background-image: url(img/Layer_3.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 22px;
+}
+.card-sm3 {
+    width: 360px;
+    height: 540px;
+    background-image: url(img/Layer_4.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 22px;
+}
+.card-sm4 {
+    width: 360px;
+    height: 540px;
+    background-image: url(img/Layer_5.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 22px;
+}
+.top-card>div p:first-child,
+:not(.card-big) {
+    margin-top: 10px;
+}
+.ava {
+    width: 54px;
+    height: 54px;
+    margin-left: 28px;
+    margin-bottom: 25px;
+}
+div p:first-child {
+    color: #9c9991;
+    font-size: 13px;
+}
