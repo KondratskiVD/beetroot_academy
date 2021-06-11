@@ -101,7 +101,7 @@ body {
 }
 
 .section-first__form-group__input:focus{
-    border-left: 5px solid #355B82; 
+    border-left: 5px solid #00C4C4; 
     background-color: #00C4C4;
     opacity: 1;
     font-weight: 700;
