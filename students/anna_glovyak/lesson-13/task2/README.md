@@ -1,1 +1,1 @@
-https://annaglovyak.github.io/beetroot_academy/students/anna_glovyak/lesson-12/task1/index.html
+https://annaglovyak.github.io/beetroot_academy/students/anna_glovyak/lesson-13/task2/index.html
