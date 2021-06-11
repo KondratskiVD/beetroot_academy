@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'MuseoSansRounded';
+	src: url('fonts/MuseoSansRounded300.eot');
+	src: local('☺'), url('fonts/MuseoSansRounded300.woff') format('woff'), url('fonts/MuseoSansRounded300.ttf') format('truetype'), url('fonts/MuseoSansRounded300.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MuseoSansRounded-100';
+	src: url('fonts/MuseoSansRounded-100.eot');
+	src: local('☺'), url('fonts/MuseoSansRounded-100.woff') format('woff'), url('fonts/MuseoSansRounded-100.ttf') format('truetype'), url('fonts/MuseoSansRounded-100.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+.page {
+    font-family: 'MuseoSansRounded-100';
+    background-image: url('image/main_bg.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page__card {
+    width: 686px;
+    height: 391px;
+    background: #111a28;
+    border-radius: 10px;
+    box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+}
+.page__card {
+    padding: 20px;
+}
+.slider__dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+}
+.dots__elem {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: white;
+}
+.dots__elem_color-red {
+    background: #ed3333;
+}
+.dots__elem_color-blue {
+    background: #29e3ea;
+}
+.dots__elem_color-grey {
+    background: #1f273f;
+}
+.dots__elem_active {
+    width: 15px;
+    height: 15px;
+    border:solid 2px #7e838b;
+}
+.card__main {
+    display: flex;
+    height: 316px;
+}
+.main__slider {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    flex-direction: column;
+    align-items: center;
+} 
+.slider__slades {
+    padding-left: 15px;
+}
+.article__title_color {
+    color: #e1e1e1;
+}
+.article__description_color {
+    color: #49505a;
+}
+.article__title_size {
+    font-size: 24px;
+}
+.article__description_size {
+    font-size: 14px;
+    margin-top: 16px;
+}
+.main__product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 184px;
+    align-items: flex-start;
+}
+.main__product_position {
+    margin-left:80px;
+    margin-bottom: 55px;
+    margin-top: 27px;
+}
+.order__button_add-to-cart {
+    width: 183px;
+    height: 38px;
+    border: 1px solid #4f5560;
+    background: #202835;
+    color: #80848b;
+    font-family: 'MuseoSansRounded-100';
+    font-size: 14px;
+    margin-top: 29px;
+}
+.order__select-size, .order__select-quantity {
+    width: 68px;
+    height: 30px;
+    color: #797d84;
+    background: #111a28;
+    font-family: 'MuseoSansRounded-100';
+    font-size: 14px;
+    border: 1px solid #4f5560;
+    padding: 7px;
+}
+.product__order {
+    position: relative;
+}
+.order__select-quantity {
+    position: absolute;
+    left: 72px;
+}
+.product__order_margin-top {
+    margin-top: 10px;
+}
+    
+
+
+
+  
