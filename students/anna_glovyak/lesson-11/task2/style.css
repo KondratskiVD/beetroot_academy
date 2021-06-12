@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Museo Sans Rounded';
+    src: url('MuseoSansRounded-100.eot');
+    src: local('Museo Sans Rounded 100'), local('MuseoSansRounded-100'),
+        url('MuseoSansRounded-100.eot?#iefix') format('embedded-opentype'),
+        url('MuseoSansRounded-100.woff2') format('woff2'),
+        url('MuseoSansRounded-100.woff') format('woff'),
+        url('MuseoSansRounded-100.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Museo Sans Rounded';
+    font-weight: normal;
+    font-style: normal;
+}
+.page {
+    background: url(img/bg-stripes.png), no-repeat;
+    background-size: 100%;
+    
+    width: 100%;
+    height: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 1286px;
+    height: 733px;
+    border-radius: 3%;
+    background-color: #111a28;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+}
+.card__picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card__logo {
+    width: 125px;
+    height: 70px;
+}
+.cad__image {
+    width: 610px;
+    height: 310px;
+}
+.bullets {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.bullets__bullet {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+.bullets__bullet--active {
+    width: 22px;
+    height: 22px;
+    background-color: #1f273f;
+    border: 2px solid rgba(225, 225, 225, 0.5);
+}
+.bullets__bullet--white {
+    background-color: white;
+}
+.bullets__bullet--red {
+    background-color: #ed3333;
+}
+.bullets__bullet--blue {
+    background-color: #29e3ea;
+}
+.card__description {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 75px 0;
+}
+.card__title {
+    font-size: 45px;
+    color: #e1e1e1;
+}
+.card__subtitle {
+    font-size: 26px;
+    color: rgba(225, 225, 225, 0.5);
+    padding-top: 35px;
+}
+.rating {
+    display: flex;
+    justify-content: flex-start;
+}
+.rating__star {
+    background: url(img/star.png), no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.rating__star--success {
+    background: url(img/star-choosen.png), no-repeat;
+    background-size: cover;
+}
+.select {
+    width: 130px;
+    height: 60px;
+    font-size: 26px;
+    color: rgba(225, 225, 225, 0.5);
+    border: 1 px solid rgba(225, 225, 225, 0.5);
+    background-color: transparent;
+    text-align-last: center;
+}
+.select:focus-visible {
+    outline: none;
+}
+.option {
+    background-color: #111a28;
+}
+.btn {
+    width: 345px;
+    height: 75px;
+    font-size: 26px;  
+}
+.card__btn {
+    color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(76, 82, 90, 0.26);
+    border: 1px solid rgba(225, 225, 225, 0.5) ;
+}
