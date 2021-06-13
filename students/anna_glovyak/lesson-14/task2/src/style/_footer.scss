@@ -1,0 +1,15 @@
+.footer {
+    background-color: $font-color-black;
+    height: $font-size-title;
+    color: $font-color-footer;
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__author span {
+        color: $font-color-pink;
+        font-weight: bold;
+    }
+}
