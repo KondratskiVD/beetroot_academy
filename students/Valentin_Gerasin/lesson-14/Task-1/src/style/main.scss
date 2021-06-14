@@ -1,0 +1,77 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import "_variables";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $font-default, sans-serif;
+}
+
+.page__section-team {
+    padding: 110px 15px 95px 15px;
+}
+
+.section-team {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    .header-team  {
+        height: 182px;
+        text-align: center;
+
+        &__description {
+            color: $color-grey;
+            font-size: $font-size-subtitle;
+            margin-bottom: 21px;
+        }
+
+        &__title {
+            color: $color-orange;
+            font-size: $font-size-title;
+            font-family: $font-title;
+        }
+    }
+}
+
+.slider-image {
+    position: relative;
+    width: 418px;
+    height: 418px;
+    padding: 14px;
+    border: 1px solid #FFCC00;
+    display: inline-block;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 105%;
+        height: 50%;
+        background-color: $color-white;
+        z-index: 1;
+        left: -1px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 105%;
+        background-color: $color-white;
+        z-index: 1;
+        left: 50%;
+        top: -1px;
+        transform: translateX(-50%);
+    }
+}
+
+.slider-image__photo {
+    position: relative;
+    border: 1px solid #FFCC00;
+    overflow: hidden;
+    z-index: 5;
+}
