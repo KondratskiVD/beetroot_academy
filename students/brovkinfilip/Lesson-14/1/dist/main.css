@@ -96,7 +96,7 @@ body {
 }
 
 .header-team__line::after {
-  content: url(/dist/img/bonfire_icon.png);
+  content: url(./dist/img/bonfire_icon.png);
   background-color: #fff;
   width: 30px;
   height: 19px;
