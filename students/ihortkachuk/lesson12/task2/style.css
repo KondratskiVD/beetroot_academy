@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    width: 400px;
+    height: 496px;
+    background-image: url(images/body.png);
+}
+
+.form {
+    background-size: cover;
+    padding: 30px 80px;
+    position: relative;
+}
+.form__choise {
+    display: flex;
+    justify-content: flex-start;
+    gap: 26px;
+    color: #fbf6e4;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form__choise-option {
+    border-bottom: 2px solid rgba(230, 106, 100, 0);
+}
+
+.form__choise-option:hover {
+    border-bottom: 2px solid rgba(230, 106, 100, 1);
+}
+
+.form__choise--marginbottom {
+    margin-bottom: 31px;
+}
+
+.form__input-field {
+    display: flex;
+    flex-direction: column;
+    color: #fbf6e4;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.form__input {
+    width: 261px;
+    height: 42px;
+    border: 2px solid rgba(191, 185, 204, 0.54);
+    background-color: transparent;
+    margin-top:11px;
+    line-height: 42px;
+    color: #fbf6e4;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+.form__input-field--margin {
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.form__btn-login {
+    display: block;
+    width: 261px;
+    height: 42px;
+    background-color: #23ae92;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fbf6e4;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form__checkbox {
+    display: none;
+} 
+
+.form__checkbox-label {
+    color: #fbf6e4;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.form__checkbox--style {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #23ae92;
+    color: #23ae92;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+    margin-bottom: 41px;
+}
+
+.form__checkbox:checked+.form__checkbox-label>.form__checkbox--style {
+    color: #fff;
+}
+
+.form__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__links--margin {
+    margin-top: 39px;
+}
+
+.links__external-links {
+    border-bottom: 1px solid #96c1da;
+    text-decoration: none;
+    color: #b9b9cc;
+    font-size: 13px;
+    font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
+} 
