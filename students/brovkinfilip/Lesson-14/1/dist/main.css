@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.page__section-team {
+  padding: 110px 15px 95px 15px;
+}
+
+.section-team {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-team {
+  height: 182px;
+  text-transform: uppercase;
+}
+
+.header-team__description {
+  color: #898f8f;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.header-team__title {
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  color: #ffcc00;
+  margin-bottom: 54px;
+}
+
+.header-team__line {
+  width: 450px;
+  height: 1px;
+  background-color: #ffcc00;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header-team__line::after {
+  content: url(/dist/img/bonfire_icon.png);
+  background-color: #fff;
+  width: 30px;
+  height: 19px;
+  position: absolute;
+  left: 50%;
+  top: -9px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.header-team__line::before {
+  content: "";
+  width: 1px;
+  height: 560px;
+  background-color: #ffcc00;
+  position: absolute;
+  left: 50%;
+  top: 47px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.slider-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider-content--margin {
+  margin-top: 90px;
+}
+
+.slider-left {
+  position: relative;
+  width: 50%;
+}
+
+.slider-left::after {
+  position: absolute;
+  content: url(/dist/img/angle_left_icon.png);
+  top: 50%;
+  left: 0;
+}
+
+.slider-info {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.slider-info::after {
+  position: absolute;
+  content: url(/dist/img/angle_right_icon.png);
+  top: 50%;
+  right: 0;
+}
+
+.slider-info__name {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #666666;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+
+.slider-info__name::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #ffcc00;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -34px;
+}
+
+.slider-info__position {
+  margin-top: 68px;
+  margin-bottom: 29px;
+  color: #666666;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.slider-info__description {
+  margin-top: 31px;
+  max-width: 71%;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 22px;
+}
+
+.slider-info__view-profile {
+  border: 1px solid #ffcc00;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 6px 13px;
+}
+
+.slider-info__dashed-line {
+  margin-bottom: 26px;
+}
+
+.dashed-line__element {
+  display: inline-block;
+  width: 10px;
+  height: 4px;
+  background-color: #ffcc00;
+}
+
+.dashed-line__element--long {
+  width: 20px;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.social-links__elem {
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.social-links__link {
+  color: #cccccc;
+}
+
+.slider-image {
+  position: relative;
+  padding: 14px;
+  border: 1px solid #ffcc00;
+  display: inline-block;
+}
+
+.slider-image::before {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 50%;
+  background-color: #fff;
+  z-index: 1;
+  left: -1px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.slider-image::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 105%;
+  background-color: #fff;
+  z-index: 1;
+  left: 50%;
+  top: -1px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.slider-image__photo {
+  position: relative;
+  border: 1px solid #ffcc00;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.slider-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 9px;
+  padding-top: 100px;
+}
+
+.slider-dots__elem {
+  width: 10px;
+  height: 10px;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.slider-dots__elem--marked {
+  border: 1px solid #ffcc00;
+  background-color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
