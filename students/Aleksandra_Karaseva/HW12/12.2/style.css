@@ -1,4 +1,4 @@
-.form__sign {
+.form {
   font-family: "Quicksand", sans-serif;
   height: 100%;
   width: 100%;
@@ -6,7 +6,7 @@
   justify-content: center;
   margin-top: 50px;
 }
-.form {
+.user {
   background: url(img/bg.png) no-repeat center center;
   position: relative;
   width: 400px;
@@ -57,12 +57,12 @@ input[type="password"] {
   height: 40px;
   background: transparent;
 }
-.checkbox__block {
+.user__checkbox-block {
   padding-top: 20px;
   color: white;
   letter-spacing: 1px;
 }
-.submit__button {
+.user__submit-button {
   padding-top: 40px;
 }
 .submit__button_green {
@@ -73,15 +73,15 @@ input[type="password"] {
   letter-spacing: 1px;
   font-size: 15px;
 }
-.help__links {
+.user__help-links {
   padding-top: 35px;
   display: flex;
   justify-content: space-between;
   padding-left: 70px;
   padding-right: 70px;
 }
-.help__password > a,
-.help__account > a {
+.user__help-password,
+.user__help-account {
   color: #786fbc;
   font-size: 12px;
   justify-content: space-between;
