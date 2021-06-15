@@ -21,11 +21,11 @@
                         </li>
                         <li class="menu__item"><a href="#about" class="menu__link">ABOUT</a>
                         </li>
-                        <li class="menu__item"><a href="" class="menu__link">SERVICES</a>
+                        <li class="menu__item"><a href="#services" class="menu__link">SERVICES</a>
                         </li>
-                        <li class="menu__item"><a href="" class="menu__link">GALLERY</a>
+                        <li class="menu__item"><a href="#gallery" class="menu__link">GALLERY</a>
                         </li>
-                        <li class="menu__item"><a href="" class="menu__link">BLOG</a>
+                        <li class="menu__item"><a href="#blog" class="menu__link">BLOG</a>
                         </li>
                         <li class="menu__item"><a href="#contact" class="menu__link">CONTACT</a>
                         </li>
@@ -41,7 +41,7 @@
             </div>
         </div>
     </header>
-    <article class="about">
+    <section class="about">
         <div class="about__content">
             <img src="./img/raspberries.png" alt="cup with raspberries" class="about__image">
             <div class="about__info" id="about">
@@ -51,8 +51,120 @@
 Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
             </div>
         </div>
-    </article>
-    <article class="contact">
+    </section>
+    <section class="services">
+        <div class="services__content" id="services">
+            <ul class="services__list">
+                <li class="services__item services__item--margin">
+                    <p class="services__description">Online Shopping</p> <span class="services__icon"></span>
+                </li>
+                <li class="services__item services__item--margin">
+                    <p class="services__description">Quality Product</p> <span class="services__icon"></span>
+                </li>
+                <li class="services__item services__item--margin">
+                    <p class="services__description  services__description--margin">Domestic & International Delivery</p> <span class="services__icon"></span>
+                </li>
+                <li class="services__item">
+                    <p class="services__description">Well Organized</p> <span class="services__icon"></span>
+                </li>
+            </ul>
+            <div class="services__visualisation">
+                <h2 class="section-title services__title">Our Services</h2>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery__content" id="gallery">
+            <h2 class="section-title gallery__title">Gallery</h2>
+            <p class="simple-text about__text about__text--white-space gallery__text--margin">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="gallery__images-one images-one">
+                    <div class="images-one__left gallery__images--margin gallery__images--shadow"><img src="./img/peaches.png" alt="peaches" class="images__img"></div>
+                        <div class="images-one__right">
+                            <div class="images-one__top gallery__images--margin gallery__images--shadow"><img src="./img/blueberries.png" alt="blueberries" class="images__img"></div>
+                            <div class="images-one__bottom gallery__images--margin gallery__images--shadow"><img src="./img/blackberry.png" alt="blackberry" class="images__img"></div>
+                        </div>
+                </div>
+                
+            </ul>
+           <ul class="gallery__images-two images-two">
+               <li class="images-two gallery__images--margin gallery__images--shadow"><img src="./img/blueberry_milk.png" alt="blueberry_milk" class="images__img"></li>
+               <li class="images-two gallery__images--margin gallery__images--shadow"><img src="./img/kaki.png" alt="kaki" class="images__img"></li>
+           </ul>
+           <button class="gallery__btn more-btn more-btn--blue more-btn--margin">VIEW MORE</button>
+         </div>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__content">
+            <h3 class="subscribe__title">Subscribe To Us</h3>
+            <p class="subscribe__text simple-text about__text about__text--white-space">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <form action="" method="GET" class="subscribe__form">
+                <input type="email" class="subscribe__email" placeholder="Your email address...">
+                <button class="subscribe-btn " type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="blog__content" id="blog">
+            <h2 class="section-title blog__title">
+                Blog
+            </h2>
+            <p class="section__description">
+                Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+            </p>
+            <ul class="section__posts">
+                <li class="section__posts-post post">
+                        <img class="post__image" src="./img/post_20NOV.png" alt="Green Smoothie">
+                    <div class="post__date">
+                        20 <span class="post__month">NOV</span>
+                    </div>
+                    <div class="post__info">
+                        <h3 class="post__topic">
+                        Green Smoothies: Too Much of a Good Thing?
+                    </h3>
+                    <p class="post__author">
+                        By Auskteez - 2 hours ago
+                    </p>
+                </div>
+                </li>
+                <li class="section__posts-post post">
+                        <img class="post__image" src="./img/post_14NOV.png" alt="Pea Soup">
+                    <div class="post__date">
+                        14 <span class="post__month">NOV</span>
+                    </div>
+                    <div class="post__info">
+                        <h3 class="post__topic">
+                        Green Smoothies: Too Much of a Good Thing?
+                    </h3>
+                    <p class="post__author">
+                        By Auskteez - 6 days ago
+                    </p>
+                </div>
+                </li>
+                <li class="section__posts-post post">
+                        <img class="post__image" src="./img/post_10NOV.png" alt="Boxes of Raspberries">
+                    <div class="post__date">
+                        10 <span class="post__month">NOV</span>
+                    </div>
+                    <div class="post__info">
+                            <h3 class="post__topic">
+                            Green Smoothies: Too Much of a Good Thing?
+                        </h3>
+                        <p class="post__author">
+                            By Auskteez - 10 days ago
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <button class="more-btn more-btn--margin more-btn--red">
+                VIEW MORE
+            </button>
+        </div>
+    </section>
+    <section class="contact">
         <div class="contact__content">
             <div class="contact-header" id="contact">
                 <h2 class="section-title contact-header__title contact-header__title--margin-bottom">Contact</h2>
@@ -81,7 +193,7 @@ Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptat
                 </ul>
             </div>
         </div>
-    </article>
+    </section>
     <footer class="footer">
         <div class="footer__content">
             <p class="footer__info">&copy; 2015 Company. All right reserved.</p>
