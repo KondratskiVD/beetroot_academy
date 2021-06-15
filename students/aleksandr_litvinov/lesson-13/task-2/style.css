@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    max-width: 920px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+fieldset{
+    border: 2px solid #000;
+    padding-top: 65px;
+}
+
+.legend{
+    text-align: center;
+    padding-left: 103px;
+    padding-right: 108px;
+    font-size: 56px;
+    color: #3c3c3c;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.header{
+    background-image: url(images/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+
+.header__inner{
+    padding-top: 285px;
+    padding-bottom: 115px;    
+    text-align: center;
+    color: #fff;
+    height: 100%;
+}
+
+.logo{
+    margin-bottom: 94px;
+}
+
+.header__title{
+    max-width: 590px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 54px;;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 8px;
+}
+
+.header__title-span{
+    display: block;
+}
+
+.header__subtitle{
+    max-width: 590px;
+    margin-bottom: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    line-height: 1.933;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us__inner{
+    padding-top: 145px;
+    padding-bottom: 160px;
+}
+
+.about-us__text{
+    font-size: 16px;
+    color: #3c3c3c;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.about-us__text-1{
+    max-width: 552px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.about-us__text-2{
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.services{
+    background-image: url(images/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;   
+}
+
+.services__inner{
+    padding-top: 115px;
+    padding-bottom: 108px;
+}
+
+.services__fieldset{
+    border: 2px solid #fff;
+}
+
+.services__legend{
+    color: #fff;
+}
+
+.services__text{
+    font-size: 16px;
+    font-family: "Lato";
+    color: #fff;
+    line-height: 1.618;
+    font-weight: 300;
+
+}
+
+.services__text-1{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services__text-2{
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.works__inner{
+    padding-top: 104px;
+    padding-bottom: 113px;
+}
+
+.works__fieldset{
+    padding-top: 112px;
+    padding-bottom: 90px;
+}
+
+.works__items{
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.woks-item{
+    text-align: center;
+}
+
+.woks-item-1{
+    margin-bottom: 110px;
+}
+
+.woks-item-2{
+    margin-bottom: 95px;
+}
+
+.works__img{
+    margin-bottom: 40px;
+}
+
+.works__title{
+    font-size: 33px;
+    color: #3c3c3c;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.works__description{
+    font-size: 14px;
+    color: #3c3c3c;
+    line-height: 1.849;
+    font-weight: 300;
+}
+
+.gallery__items {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.gallery__item {
+    width: calc(29% - 10px);
+    margin: 5px 5px;
+    position: relative;
+}
+
+.gallery__item-2, .gallery__item-5 {
+    width: calc(42% - 10px);
+    
+}
+
+.gallery__item-text {
+    font-size: 34px;
+    font-family: "Lato";
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 35px;
+    left: 43px;
+}
+
+.gallery__item-img{
+    width: 100%;
+}
+
+.contact__inner{
+    padding-top: 134px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+
+.contact__fieldset{
+    padding-top: 56px;
+    padding-bottom: 48px;
+}
+
+.contact__text{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3c3c3c;
+    line-height: 1.618;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.contact__button{
+    width: 395px;
+    height: 60px;
+    background-color: #3c3c3c;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.footer__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 65px;
+}
+
+.footer__logo{
+    margin-right: 35px;
+}
