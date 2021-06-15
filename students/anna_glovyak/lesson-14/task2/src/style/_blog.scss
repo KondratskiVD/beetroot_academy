@@ -1,0 +1,118 @@
+.blog {
+    width: 100%;
+    height: 645px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color: #b07cf7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-weight: bold;
+        font-size: $font-size-title;
+        text-align: center;
+        color: $font-color-white;
+    }
+
+    &__description {
+        font-size: $font-size-defoult;
+        font-weight: 300;
+        width: 570px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 25px;
+        color: $font-color-white;
+    }
+
+    &__content {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__button {
+        display: block;
+        margin: 0 auto;
+        background-color: $font-color-pink;
+        color: $font-color-white;
+    }
+
+    &__link {
+        color: $font-color-white;
+        font-family: $font-family-defoult;
+    }
+    
+}
+
+.article {
+    position: relative;
+    
+    &__date {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+        background-color: rgba($font-color-black, 50%);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        color: $font-color-white;;
+    }
+
+    &__info {
+        position: absolute;
+        top: 210px;
+        left: 20px;
+        font-weight: bold;
+        color: $font-color-white;
+    }
+
+    &__name {
+        font-size: $font-size-btn;
+        font-weight: bold;
+    }
+
+    &__image::before {
+        content: '';   
+        width: 378px; 
+        height: 318px;  
+        position: absolute;
+        top: 0;      
+        left: 0;   
+        background: transparent;
+        background-image: linear-gradient(to top, black 0%, black 10%, transparent 50%, transparent 100%);
+        opacity: 0.8;    
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);  
+    }
+
+    &__image:hover {
+        transform: scale(1.03);
+        transition-duration: 0.5s;
+    }
+
+    &__author, &__time {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 25px;
+    }
+}
+
+.data {
+
+    &__month {
+        font-size: 21px;
+    }
+
+    &__day {
+        font-size: 32px;
+    }
+}
+

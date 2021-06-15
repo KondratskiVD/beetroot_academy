@@ -1,0 +1,24 @@
+@import "reset";
+@import "variable";
+@import "home";
+@import "about";
+@import "services";
+@import "gallery";
+@import "subscribe";
+@import "blog";
+@import "contact";
+@import "footer";
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    width: 200px;
+    height: 55px;
+    font-size: $font-size-btn;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: $box-shadow-main;
+    font-family: $font-family-defoult;
+}
