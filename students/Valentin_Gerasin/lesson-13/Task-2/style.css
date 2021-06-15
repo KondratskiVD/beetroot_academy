@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -45,11 +46,14 @@ body {
 }
 
 .section-first {
-    margin: 0 auto;
-    margin-top: 160px;
     width: 902px;
     height: 471px;
     text-align: center;
+}
+
+.section-first-position {
+    margin: 0 auto;
+    margin-top: 160px;
 }
 
 .section-first__div-border {
@@ -123,12 +127,12 @@ body {
     top: -18px;
 }
 
-.fake-box {
+.div-border__custom-top {
     display: flex;
     justify-content: space-between;
 }
 
-.section-second__title-fake {
+.section-second__title-invisible {
     display: flex;
     font-weight: 700;
     font-size: 34px;
@@ -137,7 +141,7 @@ body {
     opacity: 0;
 }
 
-.title-fake__left-line {
+.title-invisible__left-line {
     height: 2px;
     width: 237px;
     background-color: #FFFFFF;
@@ -145,7 +149,7 @@ body {
     margin-bottom: 32px; 
 }
 
-.title-fake__right-line {
+.title-invisible__right-line {
     height: 2px;
     width: 237px;
     background-color: #FFFFFF;
@@ -172,11 +176,14 @@ body {
 }
 
 .section-third {
-    margin: 0 auto;
-    margin-top: 119px;
     width: 902px;
     height: 1414px;
     text-align: center;
+}
+
+.section-third-position {
+    margin: 0 auto;
+    margin-top: 119px;
 }
 
 .section-third__div-border {
@@ -209,91 +216,76 @@ body {
 }
 
 .section-fourth {
-    width: 1920px;
+    max-width: 1920px;
     height: 483px;
 }
 
 .works {
-    display: flex;
-    width: 1920px;
-    height: 483px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    max-width: 1920px;
+    height: 483px; 
+    box-sizing: border-box;
 }
 
-.works__title {
-    display: block;
-    font-weight: 700;
-    font-size: 34px;
-    color: #FFFFFF;
+.works__section-first {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.works__section-second {
+    display: flex;
+}
+
+.works-div {
+    display: flex;
     width: 548px;
     height: 237px;
     box-sizing: border-box;
-    margin-bottom: 11px;
-    padding-left: 47px;
-    padding-top: 165px;
-    letter-spacing: 6px;
+    margin-right: 10px;
 }
 
-.works__title-uniq {
-    display: block;
-    font-weight: 700;
-    font-size: 34px;
-    color: #FFFFFF;
+.works-div-uniq {
+    display: flex;
     width: 802px;
     height: 237px;
     box-sizing: border-box;
-    padding-left: 47px;
-    padding-top: 165px;
+    margin-right: 10px;
+}
+
+.works__title {
+    display: flex;
+    position: absolute;
+    font-weight: 700;
+    font-size: 34px;
+    color: #ffffff;
     letter-spacing: 6px;
+    padding-top: 169px;
+    padding-left: 46px;
 }
 
-.works__title:nth-child(1) {
-    background-image: url(images/4-img-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.works__title-uniq:nth-child(2) {
-    background-image: url(images/4-img-2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.works__title:nth-child(3) {
-    background-image: url(images/4-img-3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.works__title:nth-child(4) {
-    background-image: url(images/4-img-4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.works__title-uniq:nth-child(5) {
-    background-image: url(images/4-img-5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.works__title:nth-child(6) {
-    background-image: url(images/4-img-6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.works__title-uniq {
+    display: flex;
+    position: absolute;
+    font-weight: 700;
+    font-size: 34px;
+    color: #ffffff;
+    letter-spacing: 6px;
+    padding-top: 169px;
+    padding-left: 46px;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     width: 1920px;
     height: 597px;
     text-align: center;
+}
+
+.footer-position {
     margin-top: 138px;
 }
 
 .footer__div-border {
-    margin: 0 auto;
     width: 898px;
     height: 293px;
     border: 2px solid #000000;
@@ -316,20 +308,11 @@ body {
     margin-left: 243px;
 }
 
-.footer__title-fake {
-    display: flex;
-    font-weight: 700;
-    font-size: 34px;
-    color: orange;
-    letter-spacing: 6px;
-    opacity: 0;
-}
-
 .footer__text-first {
     font-weight: 300;
     font-size: 16px;
     width: 554px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 175px;
     line-height: 24px;
 }
