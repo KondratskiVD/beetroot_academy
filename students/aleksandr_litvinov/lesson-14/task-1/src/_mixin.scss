@@ -1,0 +1,7 @@
+@mixin above {
+    z-index: 2;
+}
+
+@mixin default {
+    z-index: 1;
+}
