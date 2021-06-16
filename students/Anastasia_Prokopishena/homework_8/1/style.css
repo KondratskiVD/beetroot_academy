@@ -5,22 +5,20 @@ body {
     background-color: #b07cf7;
         
 }
-.title {
+.article {
     color: white;
     text-align: center;
     max-width: 1500px;
-    margin-top: 102px;
+    margin-top: 95px;
     font-family: "Raleway";
     
 }
-.title_text {
+.title {
     font-size: 90px;
     font-weight: bold;
     margin-bottom: 30px;
-    /*position: absolute;
-    left:648px ;*/
 }
-.title_describtion {
+.describtion {
     font-size: 17px;
     text-align: center;
     width: calc(100% - 60%);
@@ -36,8 +34,9 @@ body {
     display: inline-block;
     margin-top: 45px ;
     position: relative;
+    font-family: "Raleway";
 } 
-.food img {
+.food_image {
     width: 370px;
     height: 310px; 
     
@@ -58,23 +57,21 @@ body {
     border-radius: 10px;
     position: absolute;
     top: 30px;
+   
 }
 .date_number {
     font-size: 32px;
-    font-family: "Raleway";
     color: white;
     font-weight: bold;
 }
 .date_month {
     font-size: 21px;
-    font-family: "Raleway";
     color: white;
     font-weight: bold;
     text-transform: uppercase;
 }
 .food_title {
     font-size: 20px;
-    font-family: "Raleway";
     color: white;
     margin-left: 20px;
     font-weight: bold;
@@ -83,7 +80,6 @@ body {
 }
 .food_describtion {
     font-size: 13px;
-    font-family: "Raleway";
     color: white;
     margin-left: 20px;
     position: absolute;
