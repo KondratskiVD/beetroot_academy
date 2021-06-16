@@ -105,6 +105,22 @@ body {
   margin-bottom: 65px;
   letter-spacing: 9px;
 }
+.services__title::before {
+  content: "";
+  width: 245px;
+  border-top: 2px solid white;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+}
+.services__title::after {
+  content: "";
+  width: 245px;
+  border-top: 2px solid white;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
 .services__description {
   width: 570px;
   text-align: center;
