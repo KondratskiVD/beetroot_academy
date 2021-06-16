@@ -1,0 +1,151 @@
+body {
+    max-width:1500px ;
+    width:100% ;
+    height: 864px;
+    background-color: #b07cf7;
+        
+}
+.title {
+    color: white;
+    text-align: center;
+    max-width: 1500px;
+    margin-top: 102px;
+    font-family: "Raleway";
+    
+}
+.title_text {
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    /*position: absolute;
+    left:648px ;*/
+}
+.title_describtion {
+    font-size: 17px;
+    text-align: center;
+    width: calc(100% - 60%);
+    margin-left: 460px;
+ }    
+.center {
+    width: 1170px;
+    margin-left: 165px;
+    margin-right: 165px;
+    
+}  
+.food {
+    display: inline-block;
+    margin-top: 45px ;
+    position: relative;
+} 
+.food img {
+    width: 370px;
+    height: 310px; 
+    
+}
+.food:first-child {
+    margin-right: 25px;
+}
+.food:last-child {
+    margin-left: 25px;
+}
+.date {
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+    width: 62px;
+    height: 60px;
+    margin-left: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+}
+.date_number {
+    font-size: 32px;
+    font-family: "Raleway";
+    color: white;
+    font-weight: bold;
+}
+.date_month {
+    font-size: 21px;
+    font-family: "Raleway";
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.food_title {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 208px;
+}
+.food_describtion {
+    font-size: 13px;
+    font-family: "Raleway";
+    color: white;
+    margin-left: 20px;
+    position: absolute;
+    top: 275px;
+}
+.view {
+    background: #f72b3b ;
+    width: 200px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway";
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 50px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+    
+    
+    
+    /*.
+}
+.button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1500px;
+  height: 864px;
+  z-index: 7;
+}
+.VIEW_MORE {
+  font-size: 20px;
+  
+  color: rgb(255, 255, 255);
+  line-height: 1.25;
+  position: absolute;
+  left: 692.937px;
+  top: 704px;
+  z-index: 6;
+}
+.bg {
+  background-color: rgb(247, 43, 59);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 650px;
+  top: 689px;
+  width: 200px;
+  height: 55px;
+  z-index: 5;
+}
+.bg {
+  background-color: rgb(176, 124, 247);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1500px;
+  height: 864px;
+  z-index: 3;
+}
+*/
+      
+}
