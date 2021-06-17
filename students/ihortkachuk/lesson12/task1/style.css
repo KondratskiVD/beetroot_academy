@@ -41,7 +41,6 @@ body {
 .username, .email, .telephone, .message {
     width: 500px;
     height: 50px;
-    margin-bottom: 15px;
     background-color:rgb(0, 196, 196);
     opacity: .502;
     border: none;
@@ -49,9 +48,15 @@ body {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+}
+.form-input__username, .form-input__email, .form-input__telephone, .form-input__message {
+    margin-bottom: 15px;
     padding: 0 0 0 20px;
 }
-.username-active {
+.username, .email, .telephone, .message:focus {
+    outline: none;
+}
+.form-input__username_active {
     background-color: rgb(0, 196, 196);
     opacity: 1;
     font-family: 'Raleway', sans-serif;
@@ -76,11 +81,11 @@ input::-webkit-input-placeholder {
     width: 560px;
     line-height: 1.47;
 }
-h4 {
+.contacts-address {
     font-size: 17px;
     font-weight: 700;
 }
-.contacts>p {
+.cityname {
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 8px;
@@ -91,17 +96,17 @@ h4 {
     align-items: center;
     height: 89px;
     background-color: #262626;
+    font-weight: 300;
+    color: white;
+}
+.footer_margin {
     margin-top: -11px;
 }
 .footer-reserved {
-    color: white;
     font-size: 16px;
-    font-weight: 300;
 }
 .footer-made {
     font-size: 15px;
-    font-weight: 300;
-    color: white;
 }
 span {
     color: #ff2b58;
