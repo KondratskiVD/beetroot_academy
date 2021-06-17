@@ -356,6 +356,7 @@ body {
 .contact__info-text::placeholder {
   color: white;
   font-size: 15px;
+  padding-left: 20px;
 }
 .contact__info-user:hover,
 .contact__info-text:hover {
