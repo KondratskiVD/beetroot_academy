@@ -110,6 +110,7 @@ body {
   position: relative;
   background-image: url(img/tomato.png);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .services__options {
   height: 460px;
@@ -215,13 +216,16 @@ body {
   opacity: 0.7;
 }
 .subscribe {
-  padding-top: 150px;
-  padding-left: 165px;
   font-family: "Raleway", sans-serif;
   width: 100%;
+  background-size: cover;
   height: 500px;
   background-image: url(img/blueberry_wrap.png);
   background-repeat: no-repeat;
+}
+.subscribe__position {
+  padding-top: 150px;
+  padding-left: 165px;
 }
 .subscribe__title {
   font-size: 2.5rem;
@@ -264,14 +268,13 @@ body {
   font-size: 5.62rem;
   color: #ffff;
   text-align: center;
-  margin-top: 100px;
   font-weight: 700;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .blog__subtitle {
   font-size: 1.06rem;
   color: #ffff;
-  margin-top: 50px;
+  padding-top: 50px;
   width: 37.67%;
   padding-left: 470px;
   text-align: center;
