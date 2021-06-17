@@ -15,9 +15,11 @@
     <section class="home">
         <div class="header home__header">
             <div class="header__logo">
-                <img src="img/logo.png" alt="logo">
+                <img class="logo" src="img/logo.png" alt="logo">
             </div>
             <nav class="menu header__menu">
+                <input class="burger-menu" type="checkbox" id="burger-menu">
+                <label class="burger-menu__label" for="burger-menu"><i class="fas fa-bars burger-menu__img"></i></label>
                 <ul class="navigation menu_navigation">
                     <li class="navigation__item"><a class="navigation__link navigation__link--active" href="#">Home</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#">About</a></li>
@@ -37,9 +39,7 @@
     </section>
     <section class="about">
         <div class="about__content">
-            <div class="about__img">
-                <img src="img/cup.png" alt="cup">
-            </div>
+            <img class="about__img" src="img/cup.png" alt="cup">
             <div class="about__info">
                 <h2 class="about__title">About us</h2>
                 <p class="about__description">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
@@ -84,35 +84,26 @@
             </div>
         </div>
         <div class="gallery__content">
-            <div class="gallery__image">
-                <img src="img/gallery-item1.png" alt="item1">
+            <img class="gallery__image gallery__image--first" src="img/gallery-item1.png" alt="item1">
+            <div class="gallery__column-right">
+                <img class="gallery__image gallery__image--column-right" src="img/gallery-item2.png" alt="item2">
+                <img class="gallery__image gallery__image--column-right" src="img/gallery-item3.png" alt="item3">   
             </div>
-            <div class="gallery__column2">
-                <div class="gallery__image">
-                    <img src="img/gallery-item2.png" alt="item2">
-                </div>
-                <div class="gallery__image">
-                    <img src="img/gallery-item3.png" alt="item3">
-                </div>
-            </div>
-            <div class="gallery__image">
-                <img src="img/gallery-item4.png" alt="item4">
-            </div>
-            <div class="gallery__image">
-                <img src="img/gallery-item5.png" alt="item5">
-            </div>
+            <img class="gallery__image" src="img/gallery-item4.png" alt="item4">
+            <img class="gallery__image" src="img/gallery-item5.png" alt="item5">
+            
         </div>
         <button class="btn gallery__button"><a class="gallery__link" href="#">View more</a></button>
     </section>
     <section class="subscribe">
-        <div class="subscribe__contant">
+        <div class="subscribe__content">
             <div class="subscribe__title">
                 Subscribe To Us
             </div>
             <div class="subscribe__description">
                 <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <form action="submit" method="GET" class="form subscribe__form">
+            <form action="submit" method="GET" class="subscribe__form">
                 <input class="subscribe__input" type="email" placeholder="Your email adress..." required>
                 <button class="btn subscribe__button">Subscribe</button>
             </form>
@@ -124,7 +115,7 @@
         <div class="blog__content">   
             <div class="article">
                 <div class="article__image">
-                    <img src="img/green-smoothies.png" alt="">
+                    <img class="image" src="img/green-smoothies.png" alt="">
                     <div class="article__date">
                         <p class="data__day">20</p>
                         <p class="data__month">nov</p>
@@ -138,7 +129,7 @@
             </div>
             <div class="article">
                 <div class="article__image">
-                    <img src="img/growing-food.png" alt="">
+                    <img class="image" src="img/growing-food.png" alt="">
                     <div class="article__date">
                         <p class="data__day">14</p>
                         <p class="data__month">nov</p>
@@ -152,7 +143,7 @@
             </div>
             <div class="article">
                 <div class="article__image">
-                    <img src="img/pesticides-food.png" alt="">
+                    <img class="image" src="img/pesticides-food.png" alt="">
                     <div class="article__date">
                         <p class="data__day">8</p>
                         <p class="data__month">nov</p>
@@ -168,33 +159,35 @@
         <button class="btn blog__button"><a class="blog__link" href="#">view more</a></button>
     </section>
     <section class="contact">
-        <div class="contact__heading">
-            <h1 class="contact__title">Contact</h1>
-            <p class="contact__subtitle">For new projects, ideas, business or anything
-            you'd like to discuss, contact with me!</p>
-        </div>
-        <div class="contact__block">
-            <div class="form contact__form">
-                <input class="form__input" type="text" placeholder="Your name...">
-                <input class="form__input" type="email" name="email" id="" placeholder="Your email...">
-                <input class="form__input" type="phome" name="phome" id="" placeholder="Your phone number...">
-                <textarea class="form__input form__textarea" name="" id="" cols="30" rows="10"placeholder="Your message..."></textarea>
+        <div class="wrapp contact__wrapp">
+            <div class="contact__heading">
+                <h1 class="contact__title">Contact</h1>
+                <p class="contact__subtitle">For new projects, ideas, business or anything
+                you'd like to discuss, contact with me!</p>
             </div>
-            <div class="contact__info">
-                <div class="info info-paragraf">
-                    <h2 class="info__title">ADDRESS</h2>
-                    <p class="info__description">123 City name, Street, City, Country</p>
+            <div class="contact__block">
+                <div class="form contact__form">
+                    <input class="form__input" type="text" placeholder="Your name...">
+                    <input class="form__input" type="email" name="email" id="" placeholder="Your email...">
+                    <input class="form__input" type="phome" name="phome" id="" placeholder="Your phone number...">
+                    <textarea class="form__input form__textarea" name="" id="" cols="30" rows="10"placeholder="Your message..."></textarea>
                 </div>
-                <div class="info info-paragraf">
-                    <h2 class="info__title">EMAIL</h2>
-                    <p class="info__description">cahee@domain.com</p>
+                <div class="contact__info">
+                    <div class="info info-paragraf">
+                        <h2 class="info__title">ADDRESS</h2>
+                        <p class="info__description">123 City name, Street, City, Country</p>
+                    </div>
+                    <div class="info info-paragraf">
+                        <h2 class="info__title">EMAIL</h2>
+                        <p class="info__description">cahee@domain.com</p>
+                    </div>
+                    <div class="info info-paragraf">
+                        <h2 class="info__title">PHONE</h2>
+                        <p class="info__description">+012 345 6789</p>
+                    </div>   
                 </div>
-                <div class="info info-paragraf">
-                    <h2 class="info__title">PHONE</h2>
-                    <p class="info__description">+012 345 6789</p>
-                </div>   
-            </div>
-        </div>   
+            </div>   
+        </div>    
     </section>
     <footer class="footer">
         <div class="footer__copyright">&copy; 2015 Company. All right reserved.</div>

@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: $font-size-defoult;
 
     &__author span {
         color: $font-color-pink;

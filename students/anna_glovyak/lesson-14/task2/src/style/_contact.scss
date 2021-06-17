@@ -1,12 +1,9 @@
 .contact {
     background: url(img/background.png), no-repeat;
-    background-size: 100%;
-    margin: 0 auto;
-    width: 100%;
+    background-size: cover;
     height: 864px;
 
     &__heading {
-        padding-top: 103px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -19,10 +16,11 @@
     }
 
     &__subtitle {
-        padding-top: 50px;
-        width: 350px;
+        padding-top: 5.7%;
+        max-width: 350px;
+        width: 100%;
         font-size: $font-size-defoult;
-        line-height: 25px;
+        line-height: 2.5rem;
         text-align: center;
     }
 
@@ -37,46 +35,59 @@
         flex-direction: column;
         justify-content: space-between;
         height: 445px;
+        width: 44.4%;
     }
+
+    &__info {
+        width: 27.3%;
+    }
+}
+.wrapp {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.contact__wrapp {
+    padding-top: 5%;
 }
 
 .form {
 
     &__input {
-        width: 495px;
+        width: 95.19%;
         background-color: rgba(0, 196, 196, 0.5);
         border: none;
         color: $font-color-white;
-        padding: 20px 0;
-        padding-left: 20px;
-        margin-top: 15px;
-        border-left: 5px solid transparent;
-        font-size: 15px;
+        padding: 3.85% 0;
+        padding-left: 3.85%;
+        margin-top: 2.88%;
+        border-left: 0.5rem solid transparent;
+        font-size: 1.5rem;
     }
 
     &__input:focus-visible {
         border: none;
-        border-left: 5px solid #355b82;
+        border-left: 0.5rem solid #355b82;
         background-color: rgba(0, 196, 196, 1);
-        width: 495px;
+        width: 95.19%;
         outline: none;
     }
 
     &__textarea {
-        height: 250px;
+        height: 56.17%;
         font-family: 'Raleway', sans-serif;
-        padding-top: 20px;
+        padding-top: 2rem;
     }
 
     &__input::placeholder {
         color: white;
-        font-size: 15px;
+        font-size: 1.5rem;
         font-family: 'Raleway', sans-serif;
     }
 }
 
 .info-paragraf:not(:first-child) {
-    padding-top: 20px;
+    padding-top: 6.5%;
 }
 .info {
     
@@ -88,5 +99,44 @@
     &__description {
         font-size: $font-size-services-item-title;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapp {
+        max-width: 540px;
+    }
+    .contact {
+        height: 1000px;
+
+        &__block {
+            flex-direction: column;
+            justify-content: space-around;
+            height: 700px;
+            padding-top: 20px;
+        }
+
+        &__form {
+            width: 100%;
+        }
+
+        &__info {
+            width: 100%;
+            color: $font-color-white;
+            text-align: center;
+            padding-top: 20px;
+            
+        }
+    }
+    .info {
+    
+        &__title {
+            font-size: 2rem;
+        }
+    
+        &__description {
+            font-size: 3rem;
+        }
+    }
+
 }
 
