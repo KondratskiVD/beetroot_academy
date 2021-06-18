@@ -14,10 +14,10 @@
     <header class="header">
         <div class="header__content wrapper">
             <nav class="header__menu menu">
-                <div class="logo header-logo"><a class="logo__link" href="#">Cahee</a>
+                <div class="logo header-logo"><a class="logo__link" href="">Cahee</a>
                 </div>
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">HOME</a>
+                        <li class="menu__item"><a href="" class="menu__link">HOME</a>
                         </li>
                         <li class="menu__item"><a href="#about" class="menu__link">ABOUT</a>
                         </li>
@@ -27,7 +27,7 @@
                         </li>
                         <li class="menu__item"><a href="#blog" class="menu__link">BLOG</a>
                         </li>
-                        <li class="menu__item"><a href="#contact" class="menu__link">CONTACT</a>
+                        <li class="menu__item menu__item--nomargin"><a href="#contact" class="menu__link">CONTACT</a>
                         </li>
                     </ul>
             </nav>
@@ -37,7 +37,7 @@
                   <span></span>
                 </label>
                 <ul class="burger-menu__box">
-                    <li class="menu__item"><a href="#" class="menu__link">HOME</a>
+                    <li class="menu__item"><a href="" class="menu__link">HOME</a>
                     </li>
                     <li class="menu__item"><a href="#about" class="menu__link">ABOUT</a>
                     </li>
@@ -72,8 +72,8 @@ Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptat
             </div>
         </div>
     </section>
-    <section class="services">
-        <div class="services__content wrapper" id="services">
+    <section class="services" id="services">
+        <div class="services__content wrapper">
             <ul class="services__list">
                 <li class="services__item">
                     <p class="services__description">Online Shopping</p> <span class="services__icon"></span>
@@ -93,8 +93,8 @@ Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptat
             </div>
         </div>
     </section>
-    <section class="gallery">
-        <div class="gallery__content wrapper" id="gallery">
+    <section class="gallery" id="gallery">
+        <div class="gallery__content wrapper">
             <h2 class="section-title gallery__title">Gallery</h2>
             <p class="simple-text about__text about__text--white-space gallery__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -121,14 +121,14 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
             <h3 class="subscribe__title">Subscribe To Us</h3>
             <p class="subscribe__text simple-text about__text about__text--white-space">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <form action="" method="GET" class="subscribe__form">
+            <div class="subscribe__form">
                 <input type="email" class="subscribe__email" placeholder="Your email address...">
-                <button class="subscribe-btn " type="submit">SUBSCRIBE</button>
-            </form>
+                <button class="subscribe-btn ">SUBSCRIBE</button>
+            </div>
         </div>
     </section>
-    <section class="blog">
-        <div class="blog__content wrapper" id="blog">
+    <section class="blog" id="blog">
+        <div class="blog__content wrapper">
             <h2 class="section-title blog__title">
                 Blog
             </h2>
@@ -184,9 +184,9 @@ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </button>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact__content wrapper">
-            <div class="contact-header" id="contact">
+            <div class="contact-header">
                 <h2 class="section-title contact-header__title">Contact</h2>
                 <p class="simple-text contact-header__text--lineheight contact-header__text--color contact-header__text--width contact-header__text--position">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
             </div>
@@ -195,9 +195,9 @@ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 <input class="contact-form__input" type="text" name="fullname" placeholder="Your Name...">
                 <input class="contact-form__input" type="email" name="email" placeholder="Your email...">
                 <input class="contact-form__input" type="tel" name="phonenumber" placeholder="Your phone number...">
-                <textarea class="contact-form__input textarea--width" name="" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
+                <textarea class="contact-form__input textarea--width contact-form__input--nomargin" name="" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
                 </form>
-                <ul class="contact__our-info">
+                <ul class="contact__our-info our-info__block">
                     <li class="contact__our-address">
                         <h4 class="contact__title">ADDRESS</h4>
                         <p class="contact__info"><a class="contact__link" href="">123 City name, Street, City, Country</a></p>

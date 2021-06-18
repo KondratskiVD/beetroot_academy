@@ -38,11 +38,18 @@ html {
     padding: 0;
     list-style: none;
     display: flex;
-    gap: 40px;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 2.5rem;
     text-transform: uppercase;
+}
+
+.menu__item {
+    margin-right: 40px;
+}
+
+.menu__item--nomargin {
+    margin-right: 0%;
 }
 
 .menu__link {
@@ -64,6 +71,7 @@ html {
 
 #burger-menu__toggle {
     opacity: 0;
+    display: none;
 }
 
 .burger-menu__btn {
@@ -85,7 +93,7 @@ html {
   position: absolute;
   width: 100%;
   height: 4px;
-  background-color: #616161;
+  background-color: #262626;
 }
 .burger-menu__btn > span::before {
   content: '';
@@ -168,7 +176,10 @@ html {
 .header-article {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+}
+
+.header-article__text {
+    margin: 30px 0;
 }
 
 .header-article__title {
@@ -207,6 +218,11 @@ html {
     cursor: pointer;
 }
 
+.header-article__button:hover {
+    background-color: #fff;
+    color: #ff6033;
+}
+
 .scroll {
     margin: 0 auto;
 }
@@ -222,14 +238,12 @@ html {
     margin: 0 auto;
     max-width: 1170px;
     display: flex;
-    gap: 94px;
     align-items: center;
 }
 
 .about__info {
     display: flex;
     flex-direction: column;
-    gap: 34px;
 }
 
 .section-title {
@@ -240,6 +254,11 @@ html {
 
 .about__image {
     max-width: 48%;
+    margin-right: 94px;
+}
+
+.about__text {
+    margin-top: 34px;
 }
 
 .about__text--white-space {
@@ -357,7 +376,7 @@ html {
 
 .more-btn--blue {
     background-color: #5585a2;
-    border: 1px solid #5585a2;
+    border: none;
 }
 
 .more-btn--blue:hover {
@@ -367,7 +386,7 @@ html {
 
 .more-btn--red {
     background-color: #f72b3b;
-    border: 1px solid #f72b3b;
+    border: none;
 }
 
 .images__img {
@@ -416,6 +435,7 @@ html {
     height: 55px;
     border: 1px solid #262626;
     padding-left: 15px;
+    margin-right: 30px;
     opacity: 0.5;
     font-size: 1.5rem;
     font-weight: 300;
@@ -429,7 +449,6 @@ html {
 
 .subscribe__form {
     display: flex;
-    gap: 30px;
 }
 
 .subscribe-btn {
@@ -445,6 +464,11 @@ html {
     line-height: 2.7rem;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
+}
+
+.subscribe-btn:hover {
+    background-color: #ffffff;
+    color: #96b92c;
 }
 
 .blog {
@@ -482,7 +506,10 @@ html {
     display: flex;
     padding: 0;
     justify-content: center;
-    gap: 30px;
+}
+
+.section__posts-post {
+    margin: 15px;
 }
 
 .post {
@@ -631,18 +658,28 @@ html {
 .contact-main {
     padding-top: 46px;
     display: flex;
-    gap: 15%;
 }
 
 .contact-form {
     width: 43%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+}
+
+.contact-form__input {
+    margin-bottom: 15px;
+}
+
+.contact-form__input--nomargin {
+    margin-bottom: 0;
 }
 
 .contact__our-info {
     list-style: none;
+}
+
+.our-info__block {
+    margin-left: 15%;
 }
 
 .contact-form__input {
@@ -687,13 +724,13 @@ html {
 .contact__our-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .contact__info {
     font-size: 2rem;
     font-weight: 300;
     line-height: 2.5rem;
+    margin-bottom: 20px;
 }
 
 .contact__link {
@@ -805,7 +842,10 @@ html {
 }
 
 @media screen and (max-width:768px) {
-    
+    .our-info__block {
+        margin-left: 0;
+    }
+
     .scroll {
         display: none;
     }
@@ -821,6 +861,9 @@ html {
 
     .burger-menu {
         display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
     }
 
     .menu__item {
@@ -832,9 +875,11 @@ html {
         justify-content: center;
     }
     .header-article {
-        align-items: left;
         justify-content: center;
-        gap: 10%;
+    }
+
+    .header-article__text {
+        margin: 10% 0;
     }
 
     .header-logo {
@@ -853,6 +898,10 @@ html {
         top: 70%;
     }
     
+    .footer__info {
+        width: 40%;
+    }
+
     .footer__info--Vitalij-exclusive {
         text-align: right;
     }
@@ -959,6 +1008,11 @@ html {
     .services__icon {
         line-height: 8rem;
     }
+
+    .subscribe__email {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -984,11 +1038,14 @@ html {
     }
 
     .section__posts {
-        gap: 15px;
         margin-top: 15px;
     }
 
     .blog__button {
         margin-top: 15px;
+    }
+
+    .section__description {
+        max-width: 85%;
     }
 }
