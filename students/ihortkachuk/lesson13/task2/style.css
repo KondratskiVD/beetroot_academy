@@ -75,7 +75,7 @@ body {
 .services {
     width: 100%;
     height: 488px;
-    background-image: url(/image/services.jpg);
+    background-image: url(image/services.jpg);
 }
 .services_position {
     padding-top: 108px ;
