@@ -45,7 +45,7 @@
         padding: 0 2rem;
     }
 
-    &__link--active, &__link:hover {
+    &__link:hover {
         padding-top: 1rem;
         border-top: 0.3rem solid $font-color-orange;
     }
@@ -83,23 +83,15 @@
     padding-bottom: 7%;
 }
 
-
-.burger-menu {
-    max-height: 0;
-    overflow: hidden;
-    font-size: 0;
+.toggle-button, .toggle-label {
     display: none;
-
-    &__img {
-        color: $font-color-orange;
-        font-size: 0;
-    }
-    &__label {
-        cursor: pointer;
-        }
-
 }
-
+.fa-bars {
+    font-size: 35px !important;
+}
+.fa-times {
+    font-size: 0 !important;
+}
 
 @media screen and (min-width: 1200px) {
     .home {
@@ -146,24 +138,66 @@
     .logo{
         width: 100px;
     }
-    .burger-menu {
-        max-height: 100px;
-        font-size: 3rem;
-        position: relative;
 
-        &__label {
-        cursor: pointer;
-        position: absolute;
-        top: 10%;
-        right: 15%;
-        }
+    .toggle-label {
+        display: block;
     }
     .navigation {
-        max-height: 0;
-        font-size: 0;
-        overflow: hidden;
+        display: none;
+    }
+    .navigation__link {
+        color: $font-color-white;
+        font-size: 42px;
+    }
+    .navigation__item {
+        margin-bottom: 30px;
+    }
+    .toggle-button:checked ~ .navigation {
+        animation: fade;
+        transform-origin: top right;
+        animation-duration: .3s;
+        display: block;
+        position: absolute;
+        top: 200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: $font-color-black;
+        padding-top: 30px;
     }
 
+    .toggle-button:checked ~.fa-bars {
+        color: blue;
+    }
+    .toggle-button:checked ~.fa-times {
+        font-size: 35px !important;
+    }
+
+    @keyframes fade {
+        from {
+            transform: scaleX(0%);
+            display: block;
+            opacity: 0;
+        } to {
+            transform: scaleX(100%);
+            opacity: 1;
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+        .home__header, .home__content {
+            max-width: 300px;
+        }
+        .logo{
+            width: 80px;
+        }
+        .home {
+            height: 75vh;
+        }
+        .home__header {
+            min-height: 50px;
+        }
+    }
 }
 
 

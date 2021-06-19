@@ -137,6 +137,30 @@
             font-size: 3rem;
         }
     }
+}
+
+@media screen and (max-width: 540px) {
+    .wrapp {
+        max-width: 300px;
+    }
+    .contact {
+        height: 800px;
+
+        &__block {
+            height: 600px;
+            padding-top: 10px;
+        }
+    }
+    .info {
+    
+        &__title {
+            font-size: 1.5rem;
+        }
+    
+        &__description {
+            font-size: 2rem;
+        }
+    }
 
 }
 

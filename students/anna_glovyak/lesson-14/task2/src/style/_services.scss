@@ -125,3 +125,22 @@
         font-size: 6rem;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .services {
+       
+        &__content {
+            max-width: 300px;
+        }
+
+        &__img {
+            width: 300px;  
+            background-image: none;  
+            height: 200px;
+        }
+    }
+
+    .fas {
+        font-size: 5rem;
+    }
+}

@@ -44,3 +44,13 @@ body {
     }
 }
 
+@media screen and (max-width: 540px) {
+    .btn {
+        width: 300px;
+        font-size: 2rem;
+    }
+    html {
+        font-size: 8px;
+    }
+    $font-size-title: 7rem;
+}

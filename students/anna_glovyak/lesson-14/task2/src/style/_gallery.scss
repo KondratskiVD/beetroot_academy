@@ -116,7 +116,16 @@
     }
     .header__description {
         max-width: 540px;
+    } 
+}
+
+@media screen and (max-width: 540px) {
+    .gallery {
+        &__content {
+        max-width: 300px;
+        }
     }
-    
-    
+    .header__description {
+        max-width: 300px;
+    } 
 }
