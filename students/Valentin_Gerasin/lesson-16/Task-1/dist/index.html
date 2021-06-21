@@ -17,14 +17,28 @@
                     <div class="section-first__logo-container">
                         <img src="images/logo.png" class="section-first__logo" alt="">
                     </div>
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="#">HOME</a></li>
+                            <li><a class="menu__item" href="#about">ABOUT</a></li>
+                            <li><a class="menu__item" href="#services">SERVICES</a></li>
+                            <li><a class="menu__item" href="#gallery">GALLERY</a></li>
+                            <li><a class="menu__item" href="#blog">BLOG</a></li>
+                            <li><a class="menu__item" href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
                     <nav class="section-first__nav">
                         <ul class="section-first__list">
-                            <li class="section-first__list-item">HOME</li>
-                            <li class="section-first__list-item">ABOUT</li>
-                            <li class="section-first__list-item">SERVICES</li>
-                            <li class="section-first__list-item">GALLERY</li>
-                            <li class="section-first__list-item">BLOG</li>
-                            <li class="section-first__list-item">CONTACT</li>
+                            <li class="section-first__list-item"><a href="#" class="section-first__link">HOME</a></li>
+                            <li class="section-first__list-item"><a href="#about" class="section-first__link">ABOUT</a></li>
+                            <li class="section-first__list-item"><a href="#services" class="section-first__link">SERVICES</a></li>
+                            <li class="section-first__list-item"><a href="#gallery" class="section-first__link">GALLERY</a></li>
+                            <li class="section-first__list-item"><a href="#blog" class="section-first__link">BLOG</a></li>
+                            <li class="section-first__list-item"><a href="#contact" class="section-first__link">CONTACT</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -39,7 +53,7 @@
             </section>
             <section class="section-second">
                 <div class="section-second__container">
-                    <h2 class="section-second__title">About Us</h2>
+                    <h2 class="section-second__title" id="about">About Us</h2>
                     <p class="section-second__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
                         Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
                 </div>
@@ -65,11 +79,11 @@
                         <img src="images/icon-4.png" class="services-img" alt="">
                     </div>
                 </div>
-                <h2 class="section-third__title">Our Services</h2>
+                <h2 class="section-third__title" id="services">Our Services</h2>
             </div>
         </section>
         <section class="section-fourth">
-            <h2 class="section-fourth__title">Gallery</h2>
+            <h2 class="section-fourth__title" id="gallery">Gallery</h2>
             <p class="section-fourth__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="section-fourth__images">
                 <img src="images/img-4-1.png" class="section-fourth__image-1" alt="">
@@ -99,7 +113,7 @@
         </section>
         <section class="section-sixth">
             <div class="section-sixth__info">
-                <h2 class="section-sixth__title">Blog</h2>
+                <h2 class="section-sixth__title" id="blog">Blog</h2>
                 <p class="section-sixth__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
             </div>
             <div class="section-sixth__main">
@@ -137,7 +151,7 @@
         </section>
         <footer class="footer">
             <div class="footer-head">
-                <h2 class="footer-head__title">Contact</h2>
+                <h2 class="footer-head__title" id="contact">Contact</h2>
                 <p class="footer-head__text">For new projects, ideas, business or anything
                     you'd like to discuss, contact with me!</p>
             </div>
