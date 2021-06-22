@@ -141,43 +141,41 @@ table {
 .contact__info-text::-webkit-input-placeholder, .contact__info-user::-webkit-input-placeholder {
   color: #ffffff;
   font-size: 15px;
-  padding-left: 20px;
+  text-indent: 1.5em;
 }
 .contact__info-text::-moz-placeholder, .contact__info-user::-moz-placeholder {
   color: #ffffff;
   font-size: 15px;
-  padding-left: 20px;
+  text-indent: 1.5em;
 }
 .contact__info-text:-ms-input-placeholder, .contact__info-user:-ms-input-placeholder {
   color: #ffffff;
   font-size: 15px;
-  padding-left: 20px;
+  text-indent: 1.5em;
 }
 .contact__info-text::-ms-input-placeholder, .contact__info-user::-ms-input-placeholder {
   color: #ffffff;
   font-size: 15px;
-  padding-left: 20px;
+  text-indent: 1.5em;
 }
 .contact__info-text::placeholder, .contact__info-user::placeholder {
   color: #ffffff;
   font-size: 15px;
-  padding-left: 20px;
+  text-indent: 1.5em;
 }
 
 .contact__info-text:hover, .contact__info-user:hover {
   background-color: #00c4c4;
-  border-left: #355b82 5px;
   border: none;
-  border-left: 5px solid #355b82;
 }
 
 .contact__info-text:focus, .contact__info-user:focus {
   outline: none;
   background-color: #00c4c4;
-  border-left: #355b82 5px;
   border-left: 5px solid #355b82;
   font-weight: bold;
   color: white;
+  text-indent: 1.5em;
 }
 
 .contact__title, .blog__title, .gallery__title {
@@ -196,7 +194,7 @@ table {
 
 body {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
 
 .title {
@@ -204,6 +202,8 @@ body {
   height: 100vh;
   background-size: cover;
   position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .title__logo {
   position: absolute;
@@ -374,7 +374,7 @@ body {
   width: 100%;
 }
 .gallery__title {
-  padding-top: 120px;
+  padding-top: 7.81%;
   padding-left: 0;
 }
 .gallery__subtitle {
