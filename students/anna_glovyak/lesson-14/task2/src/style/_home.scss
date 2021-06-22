@@ -200,5 +200,16 @@
     }
 }
 
+@media screen and (max-width: 320px) and (min-resolution: 2dppx) {
+    .toggle-button:checked ~ .navigation {    
+        top: 110px;
+        padding-top: 10px;
+    }
+    .home {
+        height: 100vh;
+    }
+
+}
+
 
 

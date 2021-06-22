@@ -302,6 +302,16 @@ table {
     min-height: 50px;
   }
 }
+@media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 320px) and (min-resolution: 2dppx) {
+  .toggle-button:checked ~ .navigation {
+    top: 110px;
+    padding-top: 10px;
+  }
+
+  .home {
+    height: 100vh;
+  }
+}
 .about {
   width: 100%;
   min-height: 700px;
