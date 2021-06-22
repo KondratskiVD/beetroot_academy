@@ -100,18 +100,12 @@ Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptat
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div class="gallery__images-one images-one">
-                    <div class="images-one__left gallery__images"><img src="./img/peaches.png" alt="peaches" class="images__img"></div>
-                        <div class="images-one__right">
-                            <div class="images-one__top gallery__images"><img src="./img/blueberries.png" alt="blueberries" class="images__img"></div>
-                            <div class="images-one__bottom gallery__images"><img src="./img/blackberry.png" alt="blackberry" class="images__img"></div>
-                        </div>
-                </div>
-                
-            </ul>
-           <ul class="gallery__images-two images-two">
-               <li class="images-two gallery__images"><img src="./img/blueberry_milk.png" alt="blueberry_milk" class="images__img"></li>
-               <li class="images-two gallery__images"><img src="./img/kaki.png" alt="kaki" class="images__img"></li>
+           <ul class="gallery__images">
+               <li class="gallery__images-picture picture-1"><img src="./img/peaches.png" alt="peaches" class="images__img"></li>
+               <li class="gallery__images-picture picture-2"><img src="./img/blueberries.png" alt="blueberries" class="images__img"></li>
+               <li class="gallery__images-picture picture-3"><img src="./img/blackberry.png" alt="blackberry" class="images__img"></li>
+               <li class="gallery__images-picture picture-4"><img src="./img/blueberry_milk.png" alt="blueberry_milk" class="images__img"></li>
+               <li class="gallery__images-picture picture-5"><img src="./img/kaki.png" alt="kaki" class="images__img"></li>
            </ul>
            <button class="gallery__btn more-btn more-btn--blue">VIEW MORE</button>
          </div>
@@ -137,7 +131,12 @@ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </p>
             <ul class="section__posts">
                 <li class="section__posts-post post">
+                    <picture>
+                        <source media="(max-resolution: 2dppx) and (max-width: 375px)" srcset="./img/iphone7.jpg">
+                        <source  media="(min-resolution: 4dppx) and (max-width: 375px)" srcset="./img/GalaxyS10.jpg">
+                        <source media="(max-resolution: 4dppx)" srcset="./img/post_20NOV.png">
                         <img class="post__image" src="./img/post_20NOV.png" alt="Green Smoothie">
+                    </picture>
                     <div class="post__date">
                         20 <span class="post__month">NOV</span>
                     </div>
