@@ -16,21 +16,20 @@
 %placeholder {
   color: $color-wht;
   font-size: $f-z15;
-  padding-left: 20px;
+  text-indent: 1.5em;
+  font-size: calc(4px + 11 * (100vw / 1500));
 }
 %hover {
   background-color: #00c4c4;
-  border-left: #355b82 5px;
   border: none;
-  border-left: 5px solid #355b82;
 }
 %focus {
   outline: none;
   background-color: #00c4c4;
-  border-left: #355b82 5px;
   border-left: 5px solid #355b82;
   font-weight: bold;
   color: white;
+  text-indent: 1.5em;
 }
 %titl {
   font-weight: 700;
@@ -44,7 +43,6 @@
   font-family: "Raleway", sans-serif;
   text-align: center;
 }
-
 body {
   height: 100%;
   width: 100%;
@@ -109,7 +107,7 @@ body {
   &__scroll {
     position: absolute;
     left: 49%;
-    top: 85%;
+    top: 89%;
   }
 }
 .about {
@@ -199,13 +197,13 @@ body {
   max-width: 100%;
   &__title {
     @extend %titl;
-    @include pt_pl(7.8%, 0);
+    @include pt_pl(4%, 0);
     font-size: calc(12px + 78 * (100vw / 1500));
   }
   &__subtitle {
     @extend %subtitl;
-    @include pt_pl(3.25%, 0);
-    padding-bottom: 3.25%;
+    @include pt_pl(2%, 0);
+    padding-bottom: 2%;
     margin: 0 auto;
     width: 40%;
     line-height: 1.5;
@@ -213,48 +211,56 @@ body {
   }
   &__images {
     width: 78%;
-    margin-left: 11%;
-    margin-right: 11%;
-    max-height: 63.84%;
+    margin: 0 auto;
+    max-height: 980px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   }
   &__block {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    max-height: 980px;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
   }
   &__block-1 {
-    width: calc(100%-65.81%);
+    width: 34%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
   &__img-1 {
-    max-width: 100%;
+    width: 65%;
   }
   &__img-2 {
-    max-width: 100%;
+    width: 100%;
   }
   &__img-3 {
-    max-width: 100%;
+    width: 100%;
   }
   &__img-4 {
-    max-width: 100%;
+    width: 49.5%;
   }
   &__img-5 {
-    max-width: 100%;
+    width: 49.5%;
   }
   &__view {
-    margin-top: 3.33%;
+    padding-top: 3.33%;
     text-align: center;
+    padding-bottom: 1%;
   }
   &__button {
     @include font($font-Raleway, 300, 1.25rem);
     background-color: $color-g_btn;
-    width: 200px;
+    width: 17%;
     height: 55px;
     color: $color-wht;
     opacity: 1;
     border: none;
+    font-size: calc(4px + 16 * (100vw / 1500));
     &:hover {
       opacity: 0.7;
     }
@@ -262,39 +268,45 @@ body {
 }
 .subscribe {
   font-family: $font-Raleway;
-  width: 100%;
-  background-size: cover;
-  height: 500px;
-  background-image: url(img/blueberry_wrap.png);
-  background-repeat: no-repeat;
+  position: relative;
+  &__imgttl {
+    max-height: 500px;
+    width: 100%;
+  }
   &__position {
-    @include pt_pl(150px, 165px);
+    position: absolute;
+    top: 25%;
+    left: 13%;
   }
   &__title {
     @include font($font-Raleway, 700, 2.5rem);
-    padding-bottom: 35px;
+    padding-bottom: 2%;
+    font-size: calc(12px + 28 * (100vw / 1500));
   }
   &__text {
     @extend %subtitl;
-    width: 36%;
-    line-height: 25px;
-    padding-bottom: 25px;
+    width: 50%;
+    line-height: 1.5;
+    padding-bottom: 1.6%;
     text-align: left;
+    font-size: calc(3px + 13 * (100vw / 1500));
   }
   &__mail {
-    width: 560px;
-    height: 55px;
+    width: 50%;
+    height: 50px;
+    font-size: calc(3px + 14 * (100vw / 1500));
   }
   &__submit {
     @include font($font-Raleway, 300, 1.25rem);
-    width: 170px;
-    height: 55px;
+    width: 17%;
+    height: 50px;
     background-color: $color-sbscrb;
     color: $color-wht;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 5%;
     opacity: 1;
     border: none;
+    font-size: calc(4px + 16 * (100vw / 1500));
     &:hover {
       opacity: 0.7;
     }
@@ -302,23 +314,27 @@ body {
 }
 .blog {
   width: 100%;
-  height: 865px;
+  max-height: 865px;
   background-color: $color-blog;
   &__title {
     @extend %titl;
     color: $color-wht;
-    @include pt_pl(100px, 0);
+    @include pt_pl(5%, 0);
+    font-size: calc(12px + 78 * (100vw / 1500));
   }
   &__subtitle {
     @extend %subtitl;
     color: $color-wht;
-    @include pt_pl(50px, 0);
+    @include pt_pl(2%, 0);
     width: 37.67%;
     margin: 0 auto;
     line-height: 1.5;
-    padding-bottom: 45px;
+    padding-bottom: 2%;
+    font-size: calc(4px + 16 * (100vw / 1500));
   }
   &__images {
+    padding-left: 11%;
+    padding-right: 11%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -329,16 +345,18 @@ body {
     }
   }
   &__btn {
-    @include pt_pl(50px, 0);
+    @include pt_pl(2%, 0);
     text-align: center;
+    padding-bottom: 4%;
   }
   &__btn-1 {
     @include font($font-Raleway, 300, 1.25rem);
     background-color: $color-btn-blog;
-    width: 200px;
+    width: 17%;
     height: 57px;
     transition-duration: 0.5s;
     color: $color-wht;
+    font-size: calc(4px + 16 * (100vw / 1500));
     &:hover {
       background-color: $color-red;
       border: 2px solid $color-wht;
@@ -346,31 +364,41 @@ body {
   }
 }
 .contact {
-  background-size: 100%;
+  position: relative;
   font-family: $font-Raleway;
   width: 100%;
-  height: 955px;
-  background-image: url(img/contact__wr.png);
-  background-repeat: no-repeat;
-  position: relative;
+  max-height: 955px;
+  &__wrap {
+    max-height: 865px;
+    width: 100%;
+  }
   &__title {
-    @include pt_pl(100px, 0);
+    top: 6%;
+    left: 38%;
     @extend %titl;
+    font-size: calc(12px + 78 * (100vw / 1500));
+    position: absolute;
   }
   &__subtitle {
-    @include pt_pl(40px, 0);
+    position: absolute;
     @extend %subtitl;
-    width: 24%;
-    margin: 0 auto;
+    width: 28%;
+    top: 20%;
+    left: 36%;
+    font-size: calc(4px + 16 * (100vw / 1500));
+    padding-bottom: 0.5%;
   }
   &__info {
-    @include pt_pl(50px, 165px);
+    top: 32%;
+    left: 11%;
+    position: absolute;
+    width: 66%;
     &-user {
-      width: 33.33%;
+      width: 50%;
       height: 50px;
       background-color: $color-placeholder;
       border: none;
-      margin: 7.5px;
+      margin: 0.5%;
       opacity: 0.7;
       &::placeholder {
         @extend %placeholder;
@@ -384,10 +412,10 @@ body {
     }
     &-text {
       height: 250px;
-      width: 33.33%;
+      width: 50%;
       background-color: $color-placeholder;
       border: none;
-      margin: 7.5px;
+      margin: 0.5%;
       opacity: 0.7;
       &::placeholder {
         @extend %placeholder;
@@ -402,24 +430,25 @@ body {
   }
   &__about {
     position: absolute;
-    top: 335px;
-    left: 835px;
+    top: 33%;
+    left: 55%;
     z-index: 1;
     font-size: 1.06rem;
     line-height: 1.5;
     &-info {
       font-weight: 700;
+      font-size: calc(3px + 14 * (100vw / 1500));
     }
     &-description {
       font-weight: 300;
-      padding-bottom: 20px;
+      padding-bottom: 1%;
       margin-top: 0;
+      font-size: calc(4px + 16 * (100vw / 1500));
     }
   }
   &__rights {
     position: absolute;
-    z-index: 2;
-    height: 90px;
+    max-height: 90px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -427,10 +456,24 @@ body {
     color: $color-contact;
     align-items: center;
     font-size: $f-z16;
-    top: 865px;
+    font-size: calc(4px + 12 * (100vw / 1500));
+    bottom: 0;
   }
+  &__logo {
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+
   &__accent {
     color: $color-accent;
+  }
+}
+@media (max-width: 1495px) {
+  .contact__info-user {
+    height: 30px;
+  }
+  .contact__info-text {
+    height: 100px;
   }
 }
 @media (max-width: 1165px) {
@@ -441,10 +484,31 @@ body {
   .services__options {
     left: 8%;
   }
+  .subscribe__submit,
+  .subscribe__mail {
+    height: 35px;
+  }
+  .contact__info-user {
+    height: 20px;
+  }
+  .contact__info-text {
+    height: 50px;
+  }
 }
 @media (max-width: 925px) {
   .title__logo {
     width: 15%;
+  }
+  .blog__btn-1 {
+    height: 40px;
+  }
+  .gallery__button {
+    height: 30px;
+  }
+  .contact__logo {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    width: 70%;
   }
 }
 @media (max-width: 845px) {
@@ -454,12 +518,11 @@ body {
   .about__descr {
     line-height: 0.7rem;
   }
-
   .services__link {
     font-size: 15px;
   }
   .services__options {
-    top: 10%;
+    top: 25%;
     left: 8%;
   }
   .services__icon {
@@ -467,7 +530,8 @@ body {
   }
   .services__propose {
     right: 15%;
-    top: 5%;
+    top: 30%;
+    text-align: center;
   }
   .gallery__subtitle {
     width: 80%;
@@ -488,10 +552,23 @@ body {
   }
   .services__propose {
     right: 15%;
-    top: 10%;
+    top: 30%;
+    text-align: center;
+  }
+  .contact__subtitle {
+    width: 35%;
+  }
+  .contact__info-user {
+    height: 15px;
+  }
+  .contact__info-text {
+    height: 60px;
   }
 }
 @media (max-width: 610px) {
+  .title__scroll {
+    display: none;
+  }
   .about__descr {
     line-height: 0.5rem;
     width: 100%;
@@ -506,6 +583,7 @@ body {
   }
   .about__point {
     padding-bottom: 0;
+    padding-top: 0.5%;
   }
   .services__link {
     font-size: 10px;
@@ -514,11 +592,32 @@ body {
     display: none;
   }
   .services__options {
-    padding-top: 0.5%;
+    padding-top: 0.1%;
     padding-left: 2%;
-    width: 35%;
+    width: 55%;
   }
   .services__item {
     margin-top: 0.2rem;
+  }
+  .subscribe__submit,
+  .subscribe__mail {
+    height: 20px;
+  }
+  .blog__btn-1 {
+    height: 25px;
+  }
+  .gallery__button {
+    height: 20px;
+  }
+  .contact__info-user {
+    height: 7px;
+  }
+  .contact__info-text {
+    height: 30px;
+  }
+  .contact__logo {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    width: 40%;
   }
 }
