@@ -491,7 +491,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     border-left: 5px solid #355b82;
-    width: 495px;
+    width: 500px;
     padding-left: 20px;
 }
 .email_active:focus {
@@ -501,7 +501,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     border-left: 5px solid #355b82;
-    width: 495px;
     padding-left: 20px;
 }
 .telephone_active:focus {
@@ -511,7 +510,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     border-left: 5px solid #355b82;
-    width: 495px;
     padding-left: 20px;
 }
 .message_active:focus {
@@ -521,7 +519,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     border-left: 5px solid #355b82;
-    width: 495px;
     padding-left: 20px;
 }
 textarea::-webkit-input-placeholder { 
