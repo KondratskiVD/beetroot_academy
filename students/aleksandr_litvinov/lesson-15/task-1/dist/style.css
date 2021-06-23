@@ -1258,9 +1258,16 @@ body {
   .header__description {
     margin-bottom: 20px;
   }
+  .services {
+    max-width: 300px;
+    width: 100%;
+  }
   .services__item {
     width: 70%;
     height: 50%;
+  }
+  .services__link {
+    font-size: 16px;
   }
   .services__item::before {
     right: 80px;
