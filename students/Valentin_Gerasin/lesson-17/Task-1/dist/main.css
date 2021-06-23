@@ -797,7 +797,7 @@ table {
 }
 
 .footer-section-first__form-group-sup {
-  opacity: 0;
+  display: none;
 }
 
 .footer-section-first__form-group__input--scale {
@@ -1202,7 +1202,7 @@ table {
   }
   .menu__item {
     display: block;
-    padding: 12px 24px;
+    padding: 12px 0;
     color: #333;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1315,22 +1315,17 @@ table {
   .section-second {
     min-height: 450px;
   }
+  .footer {
+    min-height: 0px;
+  }
   .footer-section-first__form-group-main {
-    opacity: 0;
-    position: absolute;
+    display: none;
   }
   .footer-section-first__form-group-sup {
-    opacity: 1;
+    display: block;
   }
   .footer-section-first {
-    height: 245px;
-  }
-  .footer-section-second {
-    margin-top: -150px;
-  }
-  .footer-end {
-    margin-top: 100px;
-    flex-direction: column;
+    min-height: 245px;
   }
 }
 
