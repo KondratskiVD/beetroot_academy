@@ -68,7 +68,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1920px;
-  min-height: 1072px;
+  height: 100vh;
   padding-top: 185px;
 }
 
@@ -493,6 +493,15 @@ body {
   }
   .footer__title {
     max-width: 312px;
+  }
+  .header__title {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header__logo {
+    margin-bottom: 0;
   }
 }
 
