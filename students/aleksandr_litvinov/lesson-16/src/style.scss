@@ -30,6 +30,10 @@ body {
     height: 100vh;
     position: relative;
 
+    &__inner{
+        padding-bottom: 70px;
+    }
+
     &__top{
         display: flex;
         justify-content: space-between;
@@ -131,7 +135,7 @@ body {
     }
 
     &__scroll{
-        margin-top: 170px;
+        margin-top: 295px;
         margin-left: auto;
         margin-right: auto;
         width: 24px;
@@ -535,13 +539,14 @@ body {
     max-width: 985px;
 
     &__input{
-        width: 500px;
+        max-width: 500px;
         width: 100%;
-        height: 50px;
+        min-height: 50px;
+        font-size: 15px;
         background-color: #54c9d0;
         margin-bottom: 15px;
         border: none;
-        padding: 18px 20px;
+        padding: 0px 20px;
         outline: none;
         border-left: 5px solid transparent;
     }
@@ -818,7 +823,7 @@ body {
         .header__top .menu-button{
             display: flex;
             z-index: 2;
-            position: fixed;
+            // position: fixed;
         }
   
         .header__top .menu{
@@ -1070,6 +1075,10 @@ body {
           margin: 0 auto;
       }
 
+      .header__title{
+          margin-bottom: 60px;
+      }
+
       .services__item{
         width: 90%;
       }
@@ -1094,7 +1103,7 @@ body {
 
     .form__input{
         width: 100%;
-        padding: 10px 10px;          
+                 
     }
 
     .form__message{
