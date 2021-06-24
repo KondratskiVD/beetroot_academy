@@ -20,7 +20,7 @@
 .section-first {
     margin: 0 auto;
     max-width: 1500px ;
-    min-height: 1000px;
+    height: 100vh;
 }
 
 .hamburger-menu {
@@ -776,7 +776,7 @@
 }
 
 .footer-section-first__form-group__input:focus{
-    border-left: 5px solid #00C4C4; 
+    border-left: 5px solid #355B82; 
     background-color: #00C4C4;
     opacity: 1;
     font-weight: 700;
