@@ -1,23 +1,26 @@
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    height: 100%;
  }
 body {
-    width: 100%;
     font-family: 'Raleway', sans-serif;
+    height: 100%;
 }
 .fresh {
     max-width: 1500px;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(images/img-section-top.png);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center;
     margin: o auto;
     box-sizing: border-box;
-    padding-top: 58px;
-    padding-left: 166px;
-    padding-right: 166px;
-    padding-bottom: 58px;
+    padding-top: 5.8%;
+    padding-left: calc(166/1500*100%);
+    padding-right: calc(166/1500*100%);
+    padding-bottom: 5.8%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -86,14 +89,16 @@ body {
     box-shadow:5px 5px 10px #9a9a9c  ;
 }
 .article {
-    max-width: 1500px;
-    height: 700px;
+    min-height: 100vh;
     background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0 auto;
 }
-.article__description{
+.article__description {
+    max-width: 1500px;
     padding-left: 734px;
-    padding-top: 184px;
+    padding-top: 180px;
     padding-right: 165px;
     width: 500px;
 
@@ -112,9 +117,9 @@ body {
 }
 
 .services {
-    max-width: 1500px;
-    height: 790px;
+    min-height: 100vh;
     background-color: #70bfff;
+    background-size: 100%;
     box-sizing: border-box;
     margin: 0 auto;
     display: flex;
@@ -146,6 +151,7 @@ body {
     align-items: center;
 }
 .options {
+    max-width: 1500px;
     margin-top: 174px;
     margin-left: 240px;
     margin-right: 100px;
@@ -168,8 +174,9 @@ body {
 }
 .gallery {
     max-width: 1500px;
-    height: 1540px;
+    min-height: 1540px;
     background-color: #ffe92f;
+    background-size: 100%;
     margin: 0 auto;
 }
 .gallery-header {
@@ -260,7 +267,8 @@ body {
     max-width: 1500px;
     height: 502px;
     background-image: url(images/bg-subscribe.png);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
 }
@@ -301,6 +309,7 @@ body {
 .blog {
     font-family: 'Raleway', sans-serif;
     background-color: #b07cf7;
+    background-size: 100%;
     color: #ffffff;
     max-width: 1500px;
     height: 864px;
@@ -435,8 +444,10 @@ body {
 }
 .contact {
     max-width: 1500px;
-    height: 957;
+    height: 957px;
     background-image: url(images/img-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
 }
 .contact__header {

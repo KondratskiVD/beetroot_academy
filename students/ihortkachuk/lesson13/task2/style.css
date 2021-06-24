@@ -6,11 +6,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .working {
-    max-width: 1904px;
+    max-width: 1920px;
     height: 100vh;
     background-image: url(image/hero-bg.jpg.png);
-    background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,7 +41,7 @@ body {
     letter-spacing: 1px;
 }
 .aboutus {
-    width: 100%;
+    max-width: 1920px;
     height: 631px;
     color: #3c3c3c;
     margin: 0 auto;
@@ -76,9 +76,11 @@ body {
     padding: 0 103px;
 }
 .services {
-    width: 100%;
+    max-width: 1920px;
     height: 488px;
     background-image: url(image/services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .services_position {
     padding-top: 108px ;
@@ -113,7 +115,7 @@ body {
     padding: 0 103px;
 }
 .whatwedo {
-    width: 100%;
+    max-width: 1920px;
     height: 1416px;
     color: #3c3c3c;
 }
@@ -159,7 +161,7 @@ body {
     padding: 0 69px;
 }
 .topworkz {
-    width: 100%;
+    max-width: 1920px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -185,7 +187,7 @@ body {
 }
 .topworkz-title {
     position: absolute;
-    top: 169px;
+    top: calc(169/238*100%);
     left: 48px;
     font-size: 34px;
     font-weight: 700;
@@ -193,7 +195,7 @@ body {
     letter-spacing: 5px;
 }
 .contactus {
-    width: 100%;
+    max-width: 1920px;
     color: #3c3c3c;
 }
 .contactus_position {
