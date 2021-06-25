@@ -31,7 +31,8 @@ body {
     position: relative;
 
     &__inner{
-        padding-bottom: 70px;
+        padding-bottom: 30px;
+        position: relative;
     }
 
     &__top{
@@ -69,6 +70,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: fixed;
     }
 
     .toggle, .menu-button{
@@ -101,7 +103,9 @@ body {
 
 
     &__content{
+        padding-left: 35px;
         padding-top: 210px;
+
     }
 
     &__title{
@@ -117,6 +121,7 @@ body {
         font-weight: $weight-description;
         margin-bottom: 35px;
     }
+       
 
     &__button{
         max-width: 200px;
@@ -135,12 +140,15 @@ body {
     }
 
     &__scroll{
-        margin-top: 295px;
         margin-left: auto;
         margin-right: auto;
         width: 24px;
         height: 40px;
         display: block;
+        position: absolute;
+        bottom: 70px;
+        right: 50%;
+        transform: translateX(-50%);
     }
 }
 
@@ -542,7 +550,7 @@ body {
         max-width: 500px;
         width: 100%;
         min-height: 50px;
-        font-size: 15px;
+        font-size: 16px;
         background-color: #54c9d0;
         margin-bottom: 15px;
         border: none;
@@ -823,7 +831,7 @@ body {
         .header__top .menu-button{
             display: flex;
             z-index: 2;
-            // position: fixed;
+            position: fixed;
         }
   
         .header__top .menu{
@@ -858,6 +866,10 @@ body {
         .toggle:checked ~ .menu{
             transform: translateX(0%);  
             transition: all .5s;
+        }
+
+        .menu__link:active .menu{
+            transform: translateX(200%);
         }
 
         .menu-button span{
@@ -1083,6 +1095,63 @@ body {
         width: 90%;
       }
 
+      .header__nav .menu-button{
+        width: 5px;
+        height: 25px;
+        position: absolute;
+        top: 55px;
+        right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+
+       .header__nav .menu-button span{
+        display: block;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #000;
+    }
+
+       .header__nav .menu-button span::after,
+       .header__nav .menu-button span::before{
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #000;
+        position: absolute;
+    }
+
+    .menu-button span::before{
+        top: 0;
+    }
+
+    .menu-button span::after{
+        bottom: 0;
+    }
+
+    .toggle:checked ~ .menu-button span {
+        transform: none;     
+    }
+      
+    .toggle:checked ~ .menu-button span::before {
+        top: 0;
+        transform: none;
+    }
+    
+    .toggle:checked ~ .menu-button span::after {
+        transform: none; 
+        position: absolute;
+        top: 20px;
+    }
+
+    .header__content{
+        padding-left: inherit;
+    }
+
       .services__content{
         height: 100px;
 
@@ -1102,8 +1171,7 @@ body {
     }
 
     .form__input{
-        width: 100%;
-                 
+        width: 100%;         
     }
 
     .form__message{
@@ -1136,7 +1204,8 @@ body {
         margin: 0 auto;
     }
       .header__content{
-          padding-top: 50px;
+          padding-top: 0;
+          padding-left: inherit;
       }
 
       .header__description{
@@ -1164,6 +1233,16 @@ body {
       .services__icon{
           margin-left: 15px;
       }
+
+      .form__input{
+        width: 100%;
+        font-size: 15px;         
+    }
+
+    .form__message{
+        width: 100%;
+        font-size: 15px;
+    }
   }
 }
 

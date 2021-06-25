@@ -12,65 +12,63 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class=" container">
-            <div class="header__inner">
-                <div class="header__top">
-                    <div class="header__logo">
-                        <a class="header__logo-link" href="#">
-                            <img class="header__logo-img" src="images/logo-header.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="header__nav">
-                        <input class="toggle" type="checkbox" id="menu-button">
-                        <label class="menu-button" for="menu-button"><span></span></label>
-                        <ul class="menu">
-                            <li class="menu__item menu__item_active">
-                                <a class="menu__link" href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#about">
-                                    About
-                                </a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#our-services">
-                                    Services
-                                </a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#gallery">
-                                    Gallery
-                                </a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#blog">
-                                    Blog
-                                </a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#form-section">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="header__top">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo-img" src="images/logo-header.png" alt="logo">
+                    </a>
                 </div>
-                <div class="header__content">
-                    <h2 class="header__title">
-                        Fresh life
-                    </h2>
-                    <p class="header__description">
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco.
-                    </p>
-                    <a class="header__button" href="#">Get free now</a>
+                <div class="header__nav">
+                    <input class="toggle" type="checkbox" id="menu-button">
+                    <label class="menu-button" for="menu-button"><span></span></label>
+                    <ul class="menu">
+                        <li class="menu__item menu__item_active">
+                            <a class="menu__link" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#about">
+                                About
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#our-services">
+                                Services
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#gallery">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#blog">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#form-section">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="header__scroll">
-                    <img class="header__scroll-img" src="images/scroll.png" alt="scroll">
-                </div>
+            </div>
+            <div class="header__content">
+                <h2 class="header__title">
+                    Fresh life
+                </h2>
+                <p class="header__description">
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco.
+                </p>
+                <a class="header__button" href="#">Get free now</a>
+            </div>
+            <div class="header__scroll">
+                <img class="header__scroll-img" src="images/scroll.png" alt="scroll">
             </div>
         </div>
     </header>
@@ -254,7 +252,9 @@
                     <p>&copy; 2015 Company. All right reserved.</p>
                 </div>
                 <div class="footer__logo">
-                    <img src="images/footer-logo.png" alt="logo">
+                    <a class="logo__logo-link" href="#header">
+                        <img src="images/footer-logo.png" alt="logo">
+                    </a>
                 </div>
                 <div class="footer__about">
                     <p>Made with <span class="word-love">love</span> by Auskteez</p>

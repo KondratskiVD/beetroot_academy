@@ -1275,5 +1275,9 @@ body {
   .services__icon {
     margin-left: 15px;
   }
+  .form__input {
+    width: 100%;
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
