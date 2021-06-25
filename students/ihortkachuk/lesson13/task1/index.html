@@ -14,33 +14,29 @@
 
 <body>
     <section class="fresh">
+        <div class="fresh-header fresh__fresh-header">
 
 
-        <div class="logo fresh__logo">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128px"
-                height="70px">
-                <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="60px" x="0px" y="34.25px">
-                    <tspan font-size="50px" font-family="Pacifico" fill="#262626">Cahee</tspan>
-                </text>
-            </svg>
+            <div class="logo fresh-header__logo">
+                <img src="images/logo-fresh.png" alt="">
+            </div>
+            <nav class="navigation fresh__navigation">
+                <ul class="navi-list">
+                    <li class="navi-list__navi-elem_line">
+                        <div class="line-fresh"></div><a class="link-fresh" href="#">HOME</a>
+                    </li>
+                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">ABOUT</a></li>
+                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">SERVICES</a></li>
+                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">GALLERY</a></li>
+                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">BLOG</a></li>
+                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navigation fresh__navigation">
-            <ul class="navi-list">
-                <li class="navi-list__navi-elem_line">
-                    <div class="line-fresh"></div><a class="link-fresh" href="#">HOME</a>
-                </li>
-                <li class="navi-list__navi-elem"><a class="link-fresh" href="#">ABOUT</a></li>
-                <li class="navi-list__navi-elem"><a class="link-fresh" href="#">SERVICES</a></li>
-                <li class="navi-list__navi-elem"><a class="link-fresh" href="#">GALLERY</a></li>
-                <li class="navi-list__navi-elem"><a class="link-fresh" href="#">BLOG</a></li>
-                <li class="navi-list__navi-elem"><a class="link-fresh" href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-
         <div class="content fresh__content">
 
             <p class="content__title">Fresh Life</p>
-            <p class="content__fresh-text" >Lorem sit amet consectetur adipisicing ipsum dolor sit amet consectetur
+            <p class="content__fresh-text">Lorem sit amet consectetur adipisicing ipsum dolor sit amet consectetur
                 adipisicing elitsit amet consectetur adipisicing?</p>
             <button class="button-fresh content__button-fresh">GET FREE NOW</button>
 
@@ -54,10 +50,10 @@
         </div>
 
     </section>
-    <section class="article article_size">
+    <section class="article">
         <div class="description article__description">
-            <p class="title description__title_size">About Us</p>
-            <p class="text description__text-size">Lorem ipsum dolor sit amet consectetur distinctio voluptatibus.
+            <p class="title description__title">About Us</p>
+            <p class="text-article description__text-article">Lorem ipsum dolor sit amet consectetur distinctio voluptatibus.
                 Esse vel nostrum distinctio voluptatibus. Esse vel nostrum cumque quis. Ipsum fugiat amet
                 aspernaturcumque quis. Ipsum fugiat amet aspernaturadipisicing elit. Officia,
                 distinctio voluptatibus. Esse vel nostrum cumque quis. Ipsum fugiat amet aspernatur?</p>
@@ -68,7 +64,7 @@
         <div class="options">
             <div class="option">
                 <div class="option__item">
-                    <p>Online Shopping</p>
+                    <p class="option-name">Online Shopping</p>
                 </div>
                 <div class="option__icon">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47px"
@@ -78,9 +74,10 @@
                     </svg>
                 </div>
             </div>
+
             <div class="option">
                 <div class="option__item">
-                    <p>Quality Product</p>
+                    <p class="option-name">Quality Product</p>
                 </div>
 
                 <div class="option__icon">
@@ -91,9 +88,10 @@
                     </svg>
                 </div>
             </div>
+
             <div class="option">
                 <div class="option__item">
-                    <p>Domestic & International Delivery</p>
+                    <p class="option-name">Domestic & International Delivery</p>
                 </div>
                 <div class="option__icon">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54px"
@@ -106,7 +104,7 @@
 
             <div class="option">
                 <div class="option__item">
-                    <p>Well Organized</p>
+                    <p class="option-name">Well Organized</p>
                 </div>
                 <div class="option__icon">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55px"
@@ -229,12 +227,12 @@
         <div class="main contact__main">
             <div class="form main__form">
                 <form class="form-input form__form-input" action="#" method="GET">
-                    <input class="username username__active" type="text" name="username" value="Auskteez Tran"
+                    <input class="username username_active" type="text" name="username" value="Auskteez Tran"
                         placeholder="Username...">
-                    <input class="email" type="email" name="email" value="" placeholder="Your email..." required>
-                    <input class="telephone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                    <input class="email email_active" type="email" name="email" value="" placeholder="Your email..." required>
+                    <input class="telephone telephone_active" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
                         placeholder="Your phone number...">
-                    <textarea class="message" name="message" cols="30" rows="10"
+                    <textarea class="message message_active" name="message" cols="30" rows="10"
                         placeholder="Your message..."></textarea>
                 </form>
             </div>
