@@ -9,6 +9,10 @@
 @import "contact";
 @import "footer";
 
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -21,4 +25,32 @@ body {
     border: none;
     box-shadow: $box-shadow-main;
     font-family: $font-family-defoult;
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        width: 540px;
+        font-size: 3rem;
+    }
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .btn {
+        width: 300px;
+        font-size: 2rem;
+    }
+    html {
+        font-size: 8px;
+    }
+    $font-size-title: 7rem;
 }

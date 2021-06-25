@@ -1,9 +1,9 @@
 .blog {
     width: 100%;
-    height: 645px;
+    min-height: 645px;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 120px;
+    padding-top: 7%;
+    padding-bottom: 9%;
     background-color: #b07cf7;
     display: flex;
     flex-direction: column;
@@ -20,10 +20,11 @@
     &__description {
         font-size: $font-size-defoult;
         font-weight: 300;
-        width: 570px;
+        max-width: 570px;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
-        line-height: 25px;
+        line-height: 2.5rem;
         color: $font-color-white;
     }
 
@@ -51,13 +52,14 @@
 
 .article {
     position: relative;
+    width: 30%;
     
     &__date {
         position: absolute;
-        top: 30px;
-        left: 30px;
-        width: 60px;
-        height: 60px;
+        top: 8.5%;
+        left: 8.5%;
+        width: 6rem;
+        height: 6rem;
         border-radius: 10%;
         background-color: rgba($font-color-black, 50%);
         font-weight: bold;
@@ -68,8 +70,8 @@
 
     &__info {
         position: absolute;
-        top: 210px;
-        left: 20px;
+        top: 59.83%;
+        left: 5.67%;
         font-weight: bold;
         color: $font-color-white;
     }
@@ -79,17 +81,22 @@
         font-weight: bold;
     }
 
+    &__image {
+        width: 100%;
+        object-fit: cover;
+    }
+
     &__image::before {
         content: '';   
-        width: 378px; 
-        height: 318px;  
+        width: 100%; 
+        height: 100%;  
         position: absolute;
         top: 0;      
         left: 0;   
         background: transparent;
         background-image: linear-gradient(to top, black 0%, black 10%, transparent 50%, transparent 100%);
         opacity: 0.8;    
-        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);  
+        box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.5);  
     }
 
     &__image:hover {
@@ -99,20 +106,73 @@
 
     &__author, &__time {
         display: inline-block;
-        font-size: 13px;
+        font-size: 1.3rem;
         font-weight: 300;
-        margin-top: 25px;
+        margin-top: 8.4%;
     }
+}
+.image {
+    width: 100%;
+    object-fit: cover;
 }
 
 .data {
 
     &__month {
-        font-size: 21px;
+        font-size: 2.1rem;
     }
 
     &__day {
-        font-size: 32px;
+        font-size: 3.2rem;
     }
 }
 
+@media screen and (max-width: 1199px) {
+    .blog__content {
+        max-width:  900px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog__content {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog {
+        height: 1700px;
+        
+        &__content {
+                max-width: 540px;
+                flex-direction: column;
+                height: 1400px;
+            }
+
+            &__description {
+                max-width: 540px;
+            }
+    }
+    .article {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .blog {
+        height: 1100px;
+        
+        &__content {
+                max-width: 300px;
+                flex-direction: column;
+                height: 800px;
+            }
+
+            &__description {
+                max-width: 300px;
+            }
+    }
+    .article {
+        width: 100%;
+    }
+}

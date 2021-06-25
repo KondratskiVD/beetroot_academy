@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
 
-    &__contant {
+    &__content {
         max-width: 1170px;
         width: 100%;
         height: 200px;
@@ -24,24 +24,116 @@
     }
 
     &__description {
-        width: 545px;
+        max-width: 545px;
+        width: 100%;
         line-height: 27px;
+        font-size: $font-size-defoult;
+    }
+    &__form {
+        max-width: 1170px;
+        width: 100%;
     }
 
     &__input {
-        width: calc(700px - 20px);
+        width: calc(59.8% - 20px);
         padding-left: 18px;
         height: calc(55px - 2px);
         border: 1px solid $font-color-black;
     }
 
     &__input::placeholder {
+        font-size: $font-size-defoult;
         opacity: 0.5;
     }
 
     &__button {
         background-color: #96b92c;
         color: $font-color-white;
-        margin-left: 30px;
+        margin-left: 2.56%;
     }
+}
+
+@media screen and (max-width: 1199px) {
+    .subscribe {
+        &__content {
+        max-width:  900px;
+        }
+        &__form {
+            max-width: 900px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .subscribe {
+        &__content {
+        max-width:  720px;
+        }
+        &__form {
+            max-width: 720px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe {
+        &__content {
+        max-width:  540px;
+        height: 400px;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 200px;
+        }
+
+        &__input {
+            max-width: calc(540px - 20px);;
+            width: 100%;
+        }
+
+        &__button {
+            margin-left: 0;
+            max-width: 540px;
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 8rem;
+            text-align: center;
+        }
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .subscribe {
+        &__content {
+        max-width:  300px;
+        max-height: 400px;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+        &__input {
+            max-width: calc(300px - 20px);;
+            width: 100%;
+        }
+
+        &__button {
+            margin-left: 0;
+            max-width: 300px;
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 6rem;
+            text-align: center;
+        }
+    }
+
 }
