@@ -3,48 +3,67 @@
     min-height: 1320px;
     height: 100%;
     background-color: #ffe92f;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
     padding-top: 8.3%;
     padding-bottom: 10%;
+    
     
     &__content {
         max-width: 1170px;
         width: 100%;
         min-height: 980px;
         height: 100%;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-around;
-        align-content: space-around;
-        flex-wrap: wrap;
+        margin: 0 auto;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: minmax(260px, auto);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
     }
 
-    &__image {
-        box-shadow: $box-shadow-main;
-        width: 48.7%;
-        flex-shrink: 1;
-    }
     &__image--first {
-        width: 65.82%;
-        flex-shrink: 2;
-    }
-    &__image--column-right {
-        width: 100%;
-    }
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        overflow: hidden;
 
-    &__column-right {
-        display: flex;
-        flex-direction: column;
-        width: calc(100% - 65.82% - 2.3%);
-        justify-content: space-between;
+    }
+    &__image--second {
+        grid-column-start: 9;
+        grid-column-end: 13;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        overflow: hidden;
+    }
+    &__image--third {
+        grid-column-start: 9;
+        grid-column-end: 13;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        overflow: hidden;
+    }
+    &__image--fouth {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        overflow: hidden;
+    }
+    &__image--fifth {
+        grid-column-start: 7;
+        grid-column-end: 13;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        overflow: hidden;
     }
 
     &__button {
         background-color: #5585a2;
         color: $font-color-white;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
     }
 
     &__link {
@@ -67,7 +86,10 @@
         text-align: center;
         line-height: 2.7rem;
         padding-top: 50px;
+        padding-bottom: 50px;
         font-size: $font-size-defoult;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -96,17 +118,52 @@
 }
 
 @media screen and (max-width: 768px) {
+   
     .gallery {
         &__content {
-        flex-direction: column;
         max-width: 540px;
         }
-        &__image, &__image--first {
+        
+        &__image {
             width: 100%;
-            margin: 2% auto;
+            height: auto;
         }
-        &__column-right {
-            width: 100%;
+
+        &__image--first {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            overflow: hidden;
+    
+        }
+        &__image--second {
+            grid-column-start:1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            overflow: hidden;
+        }
+        &__image--third {
+            grid-column-start:1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            overflow: hidden;
+        }
+        &__image--fouth {
+            grid-column-start:1;
+            grid-column-end: 2;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            overflow: hidden;
+        }
+        &__image--fifth {
+            grid-column-start:1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            overflow: hidden;
         }
 
         &__button {
@@ -123,6 +180,9 @@
     .gallery {
         &__content {
         max-width: 300px;
+        grid-auto-rows: 200px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
         }
     }
     .header__description {
