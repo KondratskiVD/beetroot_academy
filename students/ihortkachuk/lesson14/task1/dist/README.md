@@ -1,1 +1,1 @@
-https://ihor-tkachuk.github.io/beetroot_academy/students/ihortkachuk/lesson13/task1/dist/index.html
+https://ihor-tkachuk.github.io/beetroot_academy/students/ihortkachuk/lesson14/task1/dist/index.html
