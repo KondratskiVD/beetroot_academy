@@ -121,7 +121,7 @@ input::-webkit-input-placeholder {
     width: 560px;
     line-height: $line-height-contacts;
 
-    &__citynaame {
+    &__contact-data {
         margin-bottom: 8px;
     }
 }
@@ -129,7 +129,7 @@ input::-webkit-input-placeholder {
     font-size: $font-size-contact-address;
     font-weight: $font-weight-contact-address;
 }
-.cityname {
+.contact-data {
     font-size: $font-size-cityname;
     font-weight: $font-weight-cityname;
 }

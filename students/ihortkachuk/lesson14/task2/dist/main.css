@@ -808,7 +808,7 @@ input::-webkit-input-placeholder {
   width: 560px;
   line-height: 1.47;
 }
-.contacts__citynaame {
+.contacts__contact-data {
   margin-bottom: 8px;
 }
 
@@ -817,7 +817,7 @@ input::-webkit-input-placeholder {
   font-weight: 700;
 }
 
-.cityname {
+.contact-data {
   font-size: 20px;
   font-weight: 300;
 }
