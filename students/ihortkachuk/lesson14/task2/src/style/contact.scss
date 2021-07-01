@@ -1,0 +1,160 @@
+.contact {
+    max-width: 1500px;
+    height: 957px;
+    background-image: url(images/img-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__contact-main {
+        margin-bottom: 105px;
+    }
+}
+.page__contact {
+    margin: 0 auto;
+}
+.contact__header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}    
+.header-h1 {
+    font-weight: $font-weight-contact-header;
+    font-size: $font-size-contact-header;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+.header-text {
+    font-size: $font-size-contact-header-text;
+    font-weight: $font-weight-contact-header-text;
+    color: $color-black;
+    width: 346px;
+    line-height: $line-height-contact-header-text;
+    padding-bottom: 45px;
+}
+.header {
+    &__header-text {
+        margin: 0 auto;
+    }
+}
+.contact-main {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__username, &__email ,&__telephone, &__message {
+        margin-bottom: 15px;
+    }
+}
+
+.username, .email, .telephone, .message {
+    width: 500px;
+    height: 50px;
+    background-color:$color-bleu-two;
+    opacity: .502;
+    border: none;
+    color: $color-white;
+    font-size: $font-size-form-input;
+    font-family: $font-family-default;
+    font-weight: $font-weight-form-input;
+    padding: 0 0 0 25px;
+}
+.username_active:focus {
+    outline: none;
+    background-color: $color-bleu-two;
+    opacity: 1;
+    font-family: $font-family-default;
+    font-weight: $font-weight-form-input-active;
+    border-left: 5px solid $color-bleu-three;
+    width: 500px;
+    padding-left: 20px;
+}
+.email_active:focus {
+    outline: none;
+    background-color: $color-bleu-two;
+    opacity: 1;
+    font-family: $font-family-default;
+    font-weight: $font-weight-form-input-active;
+    border-left: 5px solid $color-bleu-three;
+    width: 500px;
+    padding-left: 20px;
+}
+.telephone_active:focus {
+    outline: none;
+    background-color: $color-bleu-two;
+    opacity: 1;
+    font-family: $font-family-default;
+    font-weight: $font-weight-form-input-active;
+    border-left: 5px solid $color-bleu-three;
+    width: 500px;
+    padding-left: 20px;
+}
+.message_active:focus {
+    outline: none;
+    background-color: $color-bleu-two;
+    opacity: 1;
+    font-family: $font-family-default;
+    font-weight: $font-weight-form-input-active;
+    border-left: 5px solid $color-bleu-three;
+    width: 500px;
+    padding-left: 20px;
+}
+textarea::-webkit-input-placeholder { 
+    color: $color-white; 
+}
+input::-webkit-input-placeholder { 
+    color: $color-white; 
+}
+.message {
+    height: 250px;
+    padding-top: 17px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 560px;
+    line-height: $line-height-contacts;
+
+    &__citynaame {
+        margin-bottom: 8px;
+    }
+}
+.contact-address {
+    font-size: $font-size-contact-address;
+    font-weight: $font-weight-contact-address;
+}
+.cityname {
+    font-size: $font-size-cityname;
+    font-weight: $font-weight-cityname;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 89px;
+    background-color: $color-black;
+}
+.footer-reserved {
+    color: $color-white;
+    font-size: $font-size-footer-reserved;
+    font-weight: $font-weight-footer-reserved;
+}
+.footer-made {
+    font-size: $font-size-footer-made;
+    font-weight: $font-weight-footer-made;
+    color: $color-white;
+}
+.red-love {
+    color: $color-red-two;
+}
+
+ 
+
+
+
