@@ -11,41 +11,42 @@
 
 <body class="page">
     <section class="fresh page__fresh">
-        <div class="fresh-header fresh__fresh-header">
+        <div class="fresh-wrapper fresh__fresh-wrapper">
+            <div class="fresh-header fresh-wrapper__fresh-header">
 
 
-            <div class="logo fresh-header__logo">
-                <img src="images/logo-fresh.png" alt="">
+                <div class="logo fresh-header__logo">
+                    <img src="images/logo-fresh.png" alt="">
+                </div>
+                <nav class="navigation fresh-header__navigation">
+                    <ul class="navi-list">
+                        <li class="navi-list__navi-elem navi-list__navi-elem_line">
+                            <div class="line-fresh navi-list__line-fresh"></div><a class="navi-list__link-fresh" href="#">HOME</a>
+                        </li>
+                        <li class="navi-list__navi-elem"><a class="navi-list__link-fresh" href="#">ABOUT</a></li>
+                        <li class="navi-list__navi-elem"><a class="navi-list__link-fresh" href="#">SERVICES</a></li>
+                        <li class="navi-list__navi-elem"><a class="navi-list__link-fresh" href="#">GALLERY</a></li>
+                        <li class="navi-list__navi-elem"><a class="navi-list__link-fresh" href="#">BLOG</a></li>
+                        <li class="navi-list__navi-elem"><a class="navi-list__link-fresh" href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="navigation fresh__navigation">
-                <ul class="navi-list">
-                    <li class="navi-list__navi-elem_line">
-                        <div class="line-fresh navi-list__line-fresh"></div><a class="link-fresh" href="#">HOME</a>
-                    </li>
-                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">ABOUT</a></li>
-                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">SERVICES</a></li>
-                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">GALLERY</a></li>
-                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">BLOG</a></li>
-                    <li class="navi-list__navi-elem"><a class="link-fresh" href="#">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="content fresh__content">
+            <div class="content fresh-wrapper__content">
 
-            <p class="content__title">Fresh Life</p>
-            <p class="content__fresh-text">Lorem sit amet consectetur adipisicing ipsum dolor sit amet consectetur
-                adipisicing elitsit amet consectetur adipisicing?</p>
-            <button class="button-fresh content__button-fresh">GET FREE NOW</button>
+                <p class="content__title">Fresh Life</p>
+                <p class="content__fresh-text">Lorem sit amet consectetur adipisicing ipsum dolor sit amet consectetur
+                    adipisicing elitsit amet consectetur adipisicing?</p>
+                <button class="button-fresh content__button-fresh">GET FREE NOW</button>
 
+            </div>
+            <div class="scroll fresh-wrapper__scroll">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                    height="40px">
+                    <image x="0px" y="0px" width="24px" height="40px"
+                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAoCAQAAABOBPLeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflBg4UCwVtc4TqAAADD0lEQVQ4y2WVQWhcVRiFv/PyZurSVCdQmICELpLOYKDgLtiiVDsuxUVRaIJd1UVX7cJVaDcurAu7UBFaamtB0E03TqsoBTeCSCiNpIuSTaLFJjpFusnMMMfFfe/dO5M7izf33v/+/zn/Ofc9tTACwChjnjf8mtq8YPiHdX7WDzz0CIQB0BEEYbKos17mOeFiWxj2dN2f6z7xQDHOsMosaNffa4OnhudZoEMDtOWLXA1hOSHTh7pE7qd87G+05UFYpcYsp3yBWX3BjD8CmGogeF+fUON3vc139DQCIYxG9PyL7vAKTV7VX6wJtaDtLk3W9I43A31qdIy6HhAYzvEtR9lWx+uZ6z5HUz2W2QSH3wq3dZuVIhxtskxPTc6pnnFYp8GX9SD0BUBLBrxE0T+jdV02Ps3hjDc5wI5uFeQRgqEAhiTDt9jhgE9mOg7q+nHRZcDY4KLxlaiP6Qodz2kbNtR3Ub4MIAoa1vraMGrnboB6ntj2eHCY9YAXc9UC2jRYlTXiuvBQUMtirmgwZwG+xysAJiszxi3BHgCDoItI2eXp+erfNR1jxLUwL30bYnIVWZwA4zcWywpKEgqTl8WqfofNgRLyJTsjspRQuSgmR4Scl/crpT0eloJyIJ2WLZWIgTF7wWG/xulcyYECEhWoSfymuntVisz7UDoBMlm9UDrtd1ph3FlhZNGbJVGRVtWYywpIaRdSl06CU4A0STINGL9QQemBUB7vsysbRJiOHR1k2jWejkGThkv4TAO7mR+AFqinuWID4tx1zRuvZ7oHPsmh+BJQxYFESB3yW6B7GXe1xwzvjXvH+568qwZ7vpPxyDeEz6tNkjvJHB4tzhvd1KPMfa6wrWl/5bnoJSeaC81xk4Ns+1P3pxrwhP/oqMkSv+rvcW+C4GW+1lEGXOCuwvdBaww5RlOnPKU/9UyjInNNL/ksX2rOQ1a5Aio/WcJnWGVW+Im6fqh/DQeZV8czwBYXdbW4AK0oz6I/0IrrE17tc92f6X71TjlSucQoY4ETfl0tGsAOf/CTf9QGo6j4/9LFcW6whRTBAAAAAElFTkSuQmCC" />
+                </svg>
+            </div>
         </div>
-        <div class="scroll fresh__scroll">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
-                height="40px">
-                <image x="0px" y="0px" width="24px" height="40px"
-                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAoCAQAAABOBPLeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflBg4UCwVtc4TqAAADD0lEQVQ4y2WVQWhcVRiFv/PyZurSVCdQmICELpLOYKDgLtiiVDsuxUVRaIJd1UVX7cJVaDcurAu7UBFaamtB0E03TqsoBTeCSCiNpIuSTaLFJjpFusnMMMfFfe/dO5M7izf33v/+/zn/Ofc9tTACwChjnjf8mtq8YPiHdX7WDzz0CIQB0BEEYbKos17mOeFiWxj2dN2f6z7xQDHOsMosaNffa4OnhudZoEMDtOWLXA1hOSHTh7pE7qd87G+05UFYpcYsp3yBWX3BjD8CmGogeF+fUON3vc139DQCIYxG9PyL7vAKTV7VX6wJtaDtLk3W9I43A31qdIy6HhAYzvEtR9lWx+uZ6z5HUz2W2QSH3wq3dZuVIhxtskxPTc6pnnFYp8GX9SD0BUBLBrxE0T+jdV02Ps3hjDc5wI5uFeQRgqEAhiTDt9jhgE9mOg7q+nHRZcDY4KLxlaiP6Qodz2kbNtR3Ub4MIAoa1vraMGrnboB6ntj2eHCY9YAXc9UC2jRYlTXiuvBQUMtirmgwZwG+xysAJiszxi3BHgCDoItI2eXp+erfNR1jxLUwL30bYnIVWZwA4zcWywpKEgqTl8WqfofNgRLyJTsjspRQuSgmR4Scl/crpT0eloJyIJ2WLZWIgTF7wWG/xulcyYECEhWoSfymuntVisz7UDoBMlm9UDrtd1ph3FlhZNGbJVGRVtWYywpIaRdSl06CU4A0STINGL9QQemBUB7vsysbRJiOHR1k2jWejkGThkv4TAO7mR+AFqinuWID4tx1zRuvZ7oHPsmh+BJQxYFESB3yW6B7GXe1xwzvjXvH+568qwZ7vpPxyDeEz6tNkjvJHB4tzhvd1KPMfa6wrWl/5bnoJSeaC81xk4Ns+1P3pxrwhP/oqMkSv+rvcW+C4GW+1lEGXOCuwvdBaww5RlOnPKU/9UyjInNNL/ksX2rOQ1a5Aio/WcJnWGVW+Im6fqh/DQeZV8czwBYXdbW4AK0oz6I/0IrrE17tc92f6X71TjlSucQoY4ETfl0tGsAOf/CTf9QGo6j4/9LFcW6whRTBAAAAAElFTkSuQmCC" />
-            </svg>
-        </div>
-
     </section>
     <section class="article page__article">
         <div class="description article__description">
@@ -122,7 +123,8 @@
     <section class="gallery page__gallery">
         <div class="gallery-header gallery__gallery-header">
             <h2 class="gallery-title  gallery-header__gallery-title">Gallery</h2>
-            <p class="gallery-text gallery-header__gallery-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam labore
+            <p class="gallery-text gallery-header__gallery-text">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Aliquam labore
                 exercitationem dignissimos ratione nobis vero hic deleniti quo culpa soluta amet consectetur adipisicing
                 .</p>
         </div>
@@ -149,11 +151,13 @@
     <section class="subscribe page__subscribe">
         <div class="subscribe-text subscribe__subscribe-text">
             <h2 class="subscribe-title subscribe-text__subscribe-title">Subscribe To Us</h2>
-            <p class="subscribe-description subscribe-text__subscribe-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+            <p class="subscribe-description subscribe-text__subscribe-description">Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Officia
                 dolores qui non facilis quos labore laboriosam dolorem quaerat deserunt.</p>
         </div>
         <form class="subscribe-form" action="" method="GET">
-            <input class="subscribe-email subscribe-form__subscribe-email" type="email" name="email" required placeholder="Your email address...">
+            <input class="subscribe-email subscribe-form__subscribe-email" type="email" name="email" required
+                placeholder="Your email address...">
             <button class="subscribe-button subscribe-form__subscribe-button">SUBSCRIBE</button>
         </form>
     </section>
@@ -161,7 +165,7 @@
     <section class="blog page__blog">
         <div class="wrapper blog__wrapper">
             <div class="header-h1 wrapper__header-h1">
-                <h1 class="header" >
+                <h1 class="header">
                     Blog
                 </h1>
             </div>
@@ -221,18 +225,19 @@
     <section class="contact page__contact">
         <div class=" header contact__header">
             <h1 class="header-h1">Contact</h1>
-            <p class="header-text header__header-text">For new projects, ideas, businessor anything you'd like to discuss, contact
+            <p class="header-text header__header-text">For new projects, ideas, businessor anything you'd like to
+                discuss, contact
                 with me!</p>
         </div>
         <div class="contact-main contact__contact-main">
             <div class="contact-form contact-main__contact-form">
                 <form class="form-input contact-form__form-input" action="#" method="GET">
-                    <input class="username form-input__username username_active" type="text" name="username" value="Auskteez Tran"
-                        placeholder="Username...">
-                    <input class="email form-input__email email_active" type="email" name="email" value="" placeholder="Your email..."
-                        required>
-                    <input class="telephone form-input__telephone telephone_active" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
-                        placeholder="Your phone number...">
+                    <input class="username form-input__username username_active" type="text" name="username"
+                        value="Auskteez Tran" placeholder="Username...">
+                    <input class="email form-input__email email_active" type="email" name="email" value=""
+                        placeholder="Your email..." required>
+                    <input class="telephone form-input__telephone telephone_active" type="tel"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Your phone number...">
                     <textarea class="message form-input__message message_active" name="message" cols="30" rows="10"
                         placeholder="Your message..."></textarea>
                 </form>
@@ -246,7 +251,7 @@
                 <p class="contact-data">+012 345 6789</p>
             </div>
         </div>
-        <div class="footer"> 
+        <div class="footer">
             <div class="footer-reserved">
                 <p>&#169; 2015 Company. All right reserved</p>
             </div>
@@ -259,13 +264,6 @@
         </div>
 
     </section>
-</body>
-
-</html>
-</head>
-
-<body>
-
 </body>
 
 </html>

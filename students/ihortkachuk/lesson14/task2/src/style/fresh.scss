@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     height: 26px;
-    align-items:flex-end ;
+    align-items: flex-end ;
 
     &__line-fresh {
         margin-bottom: 9px;
@@ -80,5 +80,5 @@
     height: 56px;
     background: $color-orange;
     border: none;
-    box-shadow:5px 5px 10px $color-grey  ;
+    box-shadow: 5px 5px 10px $color-grey ;
 }
