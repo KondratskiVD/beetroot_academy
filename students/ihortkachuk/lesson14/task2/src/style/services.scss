@@ -1,0 +1,71 @@
+.services {
+    min-height: 100vh;
+    max-width: 1500px;
+    background-color: $color-bleu;
+    background-size: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+    &__options {
+        margin-top: 74px;
+        margin-right: 100px;
+
+    }
+
+    &__our-services {
+        margin-left: 30px;
+        position: relative;
+    }
+}
+.page__services {
+    margin: 0 auto;
+    padding-left: calc(264/1500*100%);
+    padding-right: calc(164/1500*100%);
+    padding-bottom: 130px;
+    padding-top: 105px;
+}
+.option {
+    max-width: 402px;
+    max-height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-white;
+    box-shadow:3px 5px 5px $color-grey;
+}
+.option-name {
+    text-align: center;
+    width: 302px;
+    font-weight: $font-weight-services-option;
+    font-size: $font-size-option;
+}
+.option__icon {
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid $color-light-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options {
+
+    &__option {
+        margin-bottom: 20px;
+    }
+}
+.our-services {
+    &__title-services {
+        position: absolute;
+        left: 200px;
+        top: 261px;
+        transform: translate(-50%, -50%);
+        }
+}
+.title-services {
+    font-size: $font-size-services-title;
+    font-weight: $font-weight-services-title;
+    color: $color-white;
+    width: 545px;
+}

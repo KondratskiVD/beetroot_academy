@@ -1,0 +1,20 @@
+@import 'reset';
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap');
+@import 'article';
+@import 'services';
+@import 'gallery';
+@import 'subscribe';
+@import 'blog';
+@import 'contact';
+@import 'fresh';
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+ }
+body {
+    font-family: $font-family-default;
+    height: 100%;
+}

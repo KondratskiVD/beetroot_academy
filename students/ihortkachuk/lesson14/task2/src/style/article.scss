@@ -1,0 +1,30 @@
+.article {
+    min-height: 100vh;
+    max-width: 1500px;
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page__article {
+    margin: 0 auto;
+    padding-left: calc(834/1500*100%);
+    padding-top: calc(180/1500*100%);
+    padding-right: calc(165/1500*100%);
+}
+.description {
+    max-width: 500px;
+    color: $color-white;
+
+    &__text-article {
+        margin-top: 15px;
+    }
+}
+.title-article {
+    font-size: $font-size-article-title;
+    font-weight: $font-weight-article-title;
+}
+.text-article {
+    font-size: $font-size-article-text;
+    font-weight: $font-weight-article-text;
+    line-height: $line-height-article-text;
+}

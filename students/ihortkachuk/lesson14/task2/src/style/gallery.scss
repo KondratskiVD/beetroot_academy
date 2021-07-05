@@ -1,0 +1,111 @@
+.gallery {
+    max-width: 1500px;
+    min-height: 1540px;
+    background-color: $color-yellow;
+    background-size: 100%;
+
+    &__gallery-header {
+        padding-top: 101px;
+    }
+
+    &__gallery-images {
+        margin: 0 auto;
+    }
+
+    &__button-view-more {
+        margin: 52px auto;
+    }
+}
+.page__gallery {
+    margin: 0 auto;
+}
+.gallery-header {
+    text-align: center;
+    color: $color-black;
+
+    &__gallery-title {
+        margin-bottom: 50px;
+    }
+
+    &__gallery-text {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+.gallery-title {
+    font-size: $font-size-gallery-title;
+    font-weight: $font-weight-gallery-title;
+}
+.gallery-text {
+    width: 578px;
+    display: inline-block;
+    font-size: $font-size-gallery-text;
+    font-weight: $font-weight-gallery-text;
+    line-height: $line-height-gallery-text;
+}
+.gallery-images {
+    width: 1173px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    &__gallery-image-big, &__gallery-image-small, &__gallery-image-middle {
+        padding: 0;
+        margin: 0;
+    }
+}
+.gallery-image-big {
+    width: 770px;
+    height: 550px;
+
+    &__img-big {
+        padding: 0;
+    margin: 0;
+    }
+}
+.img-big {
+    width: 770px;
+    height: 550px;
+}
+.gallery-image-small {
+    width: 371px;
+    height: 550px; 
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__gallery-image-small-bottom {
+        margin-bottom: 9px;
+    } 
+}
+.gallery-image-middle {
+    width: 571px;
+    height: 401px;
+
+    &__img-middle {
+        margin-top: 13px;
+    }
+}
+.img-middle {
+    width: 571px;
+    height: 401px;
+}
+.button-view-more {
+    width: 200px;
+    height: 57px;
+    background-color: $color-dark-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 5px $color-light-grey;
+}
+.link-view-more {
+    color: $color-white;
+    text-decoration: none;
+    font-size: font-size-gallery-link;
+    font-weight: $font-weight-gallery-link;
+}
+.button-view-more:hover {
+    background-color: $color-marin;
+}
