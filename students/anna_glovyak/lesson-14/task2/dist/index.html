@@ -85,14 +85,34 @@
             </div>
         </div>
         <div class="gallery__content">
-            <img class="gallery__image gallery__image--first" src="img/gallery-item1.png" alt="item1">
-            <div class="gallery__column-right">
-                <img class="gallery__image gallery__image--column-right" src="img/gallery-item2.png" alt="item2">
-                <img class="gallery__image gallery__image--column-right" src="img/gallery-item3.png" alt="item3">   
+            <div class="gallery__image--first">
+                <picture>
+                    <source media="(max-resolution: 1dppx)" srcset="img/gallery-item1.png">
+                    <source media="(max-resolution: 2dppx)" srcset="img/gallery-item1@2x.png">
+                    <img class="gallery__image" src="img/gallery-item1.png" alt="item1">
+                </picture> 
+            </div> 
+            <div class="gallery__image--second gallery__image--column-right">
+                <img class="gallery__image" src="img/gallery-item2.png" alt="item2">
             </div>
-            <img class="gallery__image" src="img/gallery-item4.png" alt="item4">
-            <img class="gallery__image" src="img/gallery-item5.png" alt="item5">
-            
+            <div class="gallery__image--third gallery__image--column-right">
+                <img class="gallery__image" src="img/gallery-item3.png" alt="item3">
+            </div>
+            <div class="gallery__image--fouth">
+                <picture>
+                    <source media="(max-resolution: 1dppx)" srcset="img/gallery-item4.png">
+                    <source media="(max-resolution: 2dppx)" srcset="img/gallery-item4@2x.png">
+                    <img class="gallery__image" src="img/gallery-item4.png" alt="item4">
+                </picture> 
+            </div>
+             <div class="gallery__image--fifth">
+                <picture>
+                    <source media="(max-resolution: 1dppx)" srcset="img/gallery-item5.png">
+                    <source media="(max-resolution: 2dppx)" srcset="img/gallery-item5@2x.png">
+                    <img class="gallery__image" src="img/gallery-item5.png" alt="item5">
+                </picture> 
+                 
+             </div>
         </div>
         <button class="btn gallery__button"><a class="gallery__link" href="#">View more</a></button>
     </section>
