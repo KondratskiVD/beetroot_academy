@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    max-width: 1400px;
+    position: relative;
+}
+.header {
+    font-size: 42px;
+    font-family: "PlayfairDisplay";
+    position: absolute;
+    top: 75px;
+    left: 120px;
+}
+.section {
+    font-size: 18px;
+    font-family: "Lato";
+    position: absolute;
+    margin-top: 130px;
+    left: 120px;
+    line-height: 1.5;
+}
+.section__text_1:first-letter {
+    font-size: 3em ;
+    float: left;
+}
+.section__text_2 {
+    margin-top: 50px ;
+}
+.section__text_3 {
+    margin-top: 50px ;
+}
+.section__text_4 {
+    margin-top: 30px ;
+    font-style: oblique;
+}
+
+.section__button {
+    font-size: 18px;
+    font-family: "Lato";
+    color: #eaa258;
+    background: white;
+    border: 1px solid #eaa258;
+    margin-top: 40px;
+    width: 265px;
+    height: 65px;
+}
